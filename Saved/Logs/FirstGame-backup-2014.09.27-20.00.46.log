@@ -1,0 +1,1235 @@
+Log file open, 09/27/14 18:22:40
+LogInit:Display: Running engine for game: FirstGame
+LogInit: Version: 4.4.3-2296771+++depot+UE4-Releases+4.4
+LogInit: API Version: 2255576
+LogInit: Compiled (64-bit): Sep 13 2014 22:30:58
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++depot+UE4-Releases+4.4
+LogInit: Command line:  
+LogInit: Base directory: D:/Programme/Unreal Engine/4.4/Engine/Binaries/Win64/
+LogInit: Rocket: 1
+[2014.09.27-16.22.40:071][  0]LogTaskGraph: Started task graph with 3 named threads and 4 total threads.
+[2014.09.27-16.22.40:095][  0]LogOnline:Warning: No default platform service specified for OnlineSubsystem
+[2014.09.27-16.22.40:321][  0]LogInit: Presizing for 0 objects not considered by GC, pre-allocating 0 bytes.
+[2014.09.27-16.22.40:326][  0]LogInit: Object subsystem initialized
+[2014.09.27-16.22.40:328][  0]LogInit: Selected Device Profile: [Windows]
+[2014.09.27-16.22.40:328][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2014.09.27-16.22.40:445][  0]LogInit: Computer: MASTERPC
+[2014.09.27-16.22.40:445][  0]LogInit: User: Endero
+[2014.09.27-16.22.40:447][  0]LogInit: CPU Page size=4096, Cores=4
+[2014.09.27-16.22.40:447][  0]LogInit: High frequency timer resolution =3.513603 MHz
+[2014.09.27-16.22.40:447][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx) Virtual=8192.0GB
+[2014.09.27-16.22.40:447][  0]LogMemory: Platform Memory Stats for Windows
+[2014.09.27-16.22.40:447][  0]LogMemory: Process Physical Memory: 62.59 MB used, 62.59 MB peak
+[2014.09.27-16.22.40:447][  0]LogMemory: Process Virtual Memory: 38.35 MB used, 38.35 MB peak
+[2014.09.27-16.22.40:447][  0]LogMemory: Physical Memory: 7820.16 MB used, 16321.48 MB total
+[2014.09.27-16.22.40:447][  0]LogMemory: Virtual Memory: 261.26 MB used, 8388608.00 MB total
+[2014.09.27-16.22.40:472][  0]LogD3D11RHI: Found D3D11 adapter 0: AMD Radeon R9 200 Series (Feature Level 11_0)
+[2014.09.27-16.22.40:472][  0]LogD3D11RHI: Adapter has 2022MB of dedicated video memory, 0MB of dedicated system memory, and 7904MB of shared system memory, 2 output[s]
+[2014.09.27-16.22.40:472][  0]LogD3D11RHI: Chosen D3D11 Adapter Id = 0
+[2014.09.27-16.22.40:476][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2014.09.27-16.22.40:480][  0]LogD3D11RHI: Async texture creation disabled: no driver support
+[2014.09.27-16.22.41:415][  0]LogTextLocalizationManager:Warning: The selected culture 'de_CH' is not available; falling back to 'en'
+[2014.09.27-16.22.42:411][  0]LogContentStreaming: Texture pool size is 0.000000MB
+[2014.09.27-16.22.52:798][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2014.09.27-16.22.54:345][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2014.09.27-16.22.54:576][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2014.09.27-16.22.54:731][  0]LogDerivedDataCache: Loaded boot cache 0.15s 39MB C:/Users/Endero/AppData/Local/UnrealEngine/4.4/DerivedDataCache/Boot.ddc.
+[2014.09.27-16.22.54:731][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/Endero/AppData/Local/UnrealEngine/4.4/DerivedDataCache/Boot.ddc
+[2014.09.27-16.22.54:731][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Github/UnrealEngine/First-Game/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2014.09.27-16.22.54:731][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2014.09.27-16.22.54:861][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/DDC.ddp.
+[2014.09.27-16.22.54:872][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Endero/AppData/Local/UnrealEngine/4.4/DerivedDataCache: Writable
+[2014.09.27-16.23.01:662][  0]LogMeshUtilities: No automatic mesh reduction module available
+[2014.09.27-16.23.01:662][  0]LogMeshUtilities: No automatic mesh merging module available
+[2014.09.27-16.23.02:213][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2014.09.27-16.23.11:173][  0]LogStats:Warning: MetaData mismatch. Did you assign a stat to two groups? New //STATGROUP_Threads//FMonitoredProcess///Thread_274c_0///////STATCAT_Advanced//// old //STATGROUP_Threads//FMonitoredProcess///Thread_37ac_0///////STATCAT_Advanced////
+[2014.09.27-16.23.11:173][  0]UdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2014.09.27-16.23.11:584][  0]SourceControl: Info Source control is disabled
+[2014.09.27-16.23.11:584][  0]SourceControl: Info Source control is disabled
+[2014.09.27-16.23.11:587][  0]SourceControl: Info Source control is disabled
+[2014.09.27-16.23.12:437][  0]BlueprintLog: New page: Editor Load
+[2014.09.27-16.23.12:758][  0]LogObj: 21438 objects as part of root set at end of initial load.
+[2014.09.27-16.23.12:758][  0]LogUObjectAllocator: 4218656 out of 0 bytes used by permanent object pool.
+[2014.09.27-16.23.13:104][  0]LogEngine: Initializing Engine...
+[2014.09.27-16.23.13:170][  0]LogInit: XAudio2 using 'Lautsprecher (2- Wireless Stereo Headset)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2014.09.27-16.23.13:176][  0]LogInit: FAudioDevice initialized.
+[2014.09.27-16.23.13:206][  0]LogAIModule: Creating AISystem for world NewWorld
+[2014.09.27-16.23.13:226][  0]LogDerivedDataCache: Saved boot cache 0.02s 39MB C:/Users/Endero/AppData/Local/UnrealEngine/4.4/DerivedDataCache/Boot.ddc.
+[2014.09.27-16.23.13:230][  0]LogInit: Texture streaming: Enabled
+[2014.09.27-16.23.13:375][  0]LogInit: Transaction tracking system initialized
+[2014.09.27-16.23.14:017][  0]LogAssetRegistry: FAssetRegistry took 0.0094 seconds to start up
+[2014.09.27-16.23.15:020][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2014.09.27-16.23.15:271][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2014.09.27-16.23.16:279][  0]LogConsoleResponse:Display: 
+[2014.09.27-16.23.16:970][  0]LogStats:Warning: MetaData mismatch. Did you assign a stat to two groups? New //STATGROUP_Threads//FMonitoredProcess///Thread_2c98_0///////STATCAT_Advanced//// old //STATGROUP_Threads//FMonitoredProcess///Thread_37ac_0///////STATCAT_Advanced////
+[2014.09.27-16.23.16:970][  0]LogStats:Warning: MetaData mismatch. Did you assign a stat to two groups? New //STATGROUP_Threads//FMonitoredProcess///Thread_19a8_0///////STATCAT_Advanced//// old //STATGROUP_Threads//FMonitoredProcess///Thread_37ac_0///////STATCAT_Advanced////
+[2014.09.27-16.23.16:970][  0]SourceControl: Info Source control is disabled
+[2014.09.27-16.23.16:970][  0]Cmd: MAP LOAD FILE="../../../../../../Github/UnrealEngine/First-Game/Content/Maps/Example_Map.umap" TEMPLATE=0 SHOWPROGRESS=1
+[2014.09.27-16.23.16:971][  0]LightingResults: New page: Lighting Build
+[2014.09.27-16.23.16:975][  0]MapCheck: New page: Map Check
+[2014.09.27-16.23.16:975][  0]LightingResults: New page: Lighting Build
+[2014.09.27-16.23.16:985][  0]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000000F140680
+[2014.09.27-16.23.17:826][  0]BlueprintLog:Warning: Warning Blueprint MyGame has been migrated and requires re-saving to avoid import errors
+[2014.09.27-16.23.17:826][  0]BlueprintLog:Warning: Warning Blueprint MyHUD has been migrated and requires re-saving to avoid import errors
+[2014.09.27-16.23.17:850][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2014.09.27-16.23.17:850][  0]LogAIModule: Creating AISystem for world Example_Map
+[2014.09.27-16.23.17:851][  0]Cmd: MAP CHECKDEP
+[2014.09.27-16.23.17:851][  0]MapCheck: New page: Example_Map - Sep 27, 2014, 8:23:17 PM
+[2014.09.27-16.23.17:887][  0]MapCheck: Info ========== Map Check: 0 Error(s), 0 Warning(s), [36.136ms] ==========
+[2014.09.27-16.23.17:887][  0]LogFileHelpers: Loading map 'Example_Map' took 0.917
+[2014.09.27-16.23.18:026][  0]LogCollectionManager: Loaded 0 collections in 0.000772 seconds
+[2014.09.27-16.23.18:491][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2014.09.27-16.23.18:536][  0]LogLoad: Full Startup: 43.49 seconds (BP compile: 0.10 seconds)
+[2014.09.27-16.23.18:551][  0]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Blueprints'
+[2014.09.27-16.23.18:717][  0]LogRenderer:Warning: Reallocating scene render targets to support 960x912.
+[2014.09.27-16.23.18:959][  2]LogAssetRegistry: Asset discovery search completed in 4.9523 seconds
+[2014.09.27-16.23.35:073][320]LogRenderer:Warning: Reallocating scene render targets to support 1392x936.
+[2014.09.27-16.23.51:216][339]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_0) Not registered. Aborting.
+[2014.09.27-16.23.52:139][397]BlueprintLog: New page: Compile MyCharacter
+[2014.09.27-16.23.52:228][397]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_1) Not registered. Aborting.
+[2014.09.27-16.23.52:290][397]BlueprintEditorCompileResults: Info [0077.13] Compile of MyCharacter successful! [in 30 ms]
+[2014.09.27-16.23.55:299][588]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_2) Not registered. Aborting.
+[2014.09.27-16.23.58:973][814]BlueprintLog: New page: Compile MyCharacter
+[2014.09.27-16.23.59:045][814]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_3) Not registered. Aborting.
+[2014.09.27-16.23.59:093][814]BlueprintEditorCompileResults: Info [0083.96] Compile of MyCharacter successful! [in 28 ms]
+[2014.09.27-16.23.59:473][837]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/MyCharacter" FILE="../../../../../../Github/UnrealEngine/First-Game/Content/Blueprints/MyCharacter.uasset" SILENT=true
+[2014.09.27-16.23.59:828][837]LogSavePackage: Save=340.389893ms
+[2014.09.27-16.23.59:828][837]LogSavePackage: Moving '../../../../../../Github/UnrealEngine/First-Game/Saved/MyCharacterEB0D00C14617F38CDCF92F9EFFE9DBB6.tmp' to '../../../../../../Github/UnrealEngine/First-Game/Content/Blueprints/MyCharacter.uasset'
+[2014.09.27-16.24.04:765][138]LogPlayLevel: PIE:  No blueprints needed recompiling
+[2014.09.27-16.24.04:765][138]PIE: New page: PIE session: Example_Map (Sep 27, 2014, 8:24:04 PM)
+[2014.09.27-16.24.04:787][138]LogPlayLevel: PIE: StaticDuplicateObject took: (0.022055s)
+[2014.09.27-16.24.04:788][138]LogPlayLevel: PIE: World Init took: (0.000890s)
+[2014.09.27-16.24.04:788][138]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Example_Map.Example_Map to /Game/Maps/UEDPIE_0_Example_Map.Example_Map (0.023194s)
+[2014.09.27-16.24.04:829][138]LogWorld: Game class is 'MyGame_C'
+[2014.09.27-16.24.04:830][138]LogAIModule: Creating AISystem for world Example_Map
+[2014.09.27-16.24.04:831][138]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Example_Map.Example_Map up for play (max tick rate 0) at 2014.09.27-18.24.04
+[2014.09.27-16.24.04:831][138]LogWorld: Bringing up level for play took: 0.001320
+[2014.09.27-16.24.04:833][138]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_Example_Map 0.028
+[2014.09.27-16.24.13:221][ 38]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_4) Not registered. Aborting.
+[2014.09.27-16.24.13:234][ 38]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000016D1E8E0
+[2014.09.27-16.24.15:911][202]BlueprintLog: New page: Pre-PIE auto-recompile
+[2014.09.27-16.24.15:942][202]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_5) Not registered. Aborting.
+[2014.09.27-16.24.15:942][202]LogPlayLevel: [PIE] Compiling MyCharacter before PIE...
+[2014.09.27-16.24.16:059][202]LogPlayLevel: PIE:  Blueprint regeneration took 147 ms (1 blueprints)
+[2014.09.27-16.24.16:059][202]PIE: New page: PIE session: Example_Map (Sep 27, 2014, 8:24:16 PM)
+[2014.09.27-16.24.16:077][202]LogPlayLevel: PIE: StaticDuplicateObject took: (0.017991s)
+[2014.09.27-16.24.16:078][202]LogPlayLevel: PIE: World Init took: (0.000817s)
+[2014.09.27-16.24.16:078][202]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Example_Map.Example_Map to /Game/Maps/UEDPIE_0_Example_Map.Example_Map (0.019074s)
+[2014.09.27-16.24.16:109][202]LogWorld: Game class is 'MyGame_C'
+[2014.09.27-16.24.16:110][202]LogAIModule: Creating AISystem for world Example_Map
+[2014.09.27-16.24.16:111][202]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Example_Map.Example_Map up for play (max tick rate 0) at 2014.09.27-18.24.16
+[2014.09.27-16.24.16:111][202]LogWorld: Bringing up level for play took: 0.001347
+[2014.09.27-16.24.16:113][202]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_Example_Map -0.691
+[2014.09.27-16.24.19:404][540]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_6) Not registered. Aborting.
+[2014.09.27-16.24.19:433][541]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000000268D8E00
+[2014.09.27-16.24.23:364][786]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_7) Not registered. Aborting.
+[2014.09.27-16.24.26:275][965]BlueprintLog: New page: Compile MyCharacter
+[2014.09.27-16.24.26:367][965]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_8) Not registered. Aborting.
+[2014.09.27-16.24.26:408][965]BlueprintEditorCompileResults: Info [0111.29] Compile of MyCharacter successful! [in 51 ms]
+[2014.09.27-16.24.42:732][588]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_9) Not registered. Aborting.
+[2014.09.27-16.24.51:331][105]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_10) Not registered. Aborting.
+[2014.09.27-16.24.56:681][512]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_11) Not registered. Aborting.
+[2014.09.27-16.25.00:357][729]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_12) Not registered. Aborting.
+[2014.09.27-16.25.02:197][873]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_13) Not registered. Aborting.
+[2014.09.27-16.25.19:101][967]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_14) Not registered. Aborting.
+[2014.09.27-16.25.21:307][123]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_15) Not registered. Aborting.
+[2014.09.27-16.25.34:616][  3]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_16) Not registered. Aborting.
+[2014.09.27-16.25.54:777][239]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_17) Not registered. Aborting.
+[2014.09.27-16.25.58:624][474]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_18) Not registered. Aborting.
+[2014.09.27-16.26.01:309][638]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_19) Not registered. Aborting.
+[2014.09.27-16.26.02:170][690]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_20) Not registered. Aborting.
+[2014.09.27-16.26.05:399][884]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_21) Not registered. Aborting.
+[2014.09.27-16.26.06:970][977]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_22) Not registered. Aborting.
+[2014.09.27-16.26.07:013][981]BlueprintLog: New page: Compile MyCharacter
+[2014.09.27-16.26.07:089][981]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_23) Not registered. Aborting.
+[2014.09.27-16.26.07:139][981]BlueprintEditorCompileResults: Info [0212.00] Compile of MyCharacter successful! [in 30 ms]
+[2014.09.27-16.26.07:927][ 28]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/MyCharacter" FILE="../../../../../../Github/UnrealEngine/First-Game/Content/Blueprints/MyCharacter.uasset" SILENT=true
+[2014.09.27-16.26.08:239][ 28]LogSavePackage: Save=283.236603ms
+[2014.09.27-16.26.08:239][ 28]LogSavePackage: Moving '../../../../../../Github/UnrealEngine/First-Game/Saved/MyCharacterCD125609490C5FF00735379A2AC9F90F.tmp' to '../../../../../../Github/UnrealEngine/First-Game/Content/Blueprints/MyCharacter.uasset'
+[2014.09.27-16.26.09:121][ 82]LogPlayLevel: PIE:  No blueprints needed recompiling
+[2014.09.27-16.26.09:121][ 82]PIE: New page: PIE session: Example_Map (Sep 27, 2014, 8:26:09 PM)
+[2014.09.27-16.26.09:142][ 82]LogPlayLevel: PIE: StaticDuplicateObject took: (0.020731s)
+[2014.09.27-16.26.09:143][ 82]LogPlayLevel: PIE: World Init took: (0.000827s)
+[2014.09.27-16.26.09:143][ 82]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Example_Map.Example_Map to /Game/Maps/UEDPIE_0_Example_Map.Example_Map (0.021818s)
+[2014.09.27-16.26.09:170][ 82]LogWorld: Game class is 'MyGame_C'
+[2014.09.27-16.26.09:171][ 82]LogAIModule: Creating AISystem for world Example_Map
+[2014.09.27-16.26.09:173][ 82]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Example_Map.Example_Map up for play (max tick rate 0) at 2014.09.27-18.26.09
+[2014.09.27-16.26.09:173][ 82]LogWorld: Bringing up level for play took: 0.001417
+[2014.09.27-16.26.09:174][ 82]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_Example_Map 0.369
+[2014.09.27-16.26.40:961][452]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_24) Not registered. Aborting.
+[2014.09.27-16.26.40:975][452]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000001AEE9BC0
+[2014.09.27-16.27.29:705][404]BlueprintLog: New page: Compile MyCharacter
+[2014.09.27-16.27.29:799][404]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_25) Not registered. Aborting.
+[2014.09.27-16.27.29:841][404]BlueprintEditorCompileResults: Info [0294.71] Compile of MyCharacter successful! [in 51 ms]
+[2014.09.27-16.27.34:672][790]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_26) Not registered. Aborting.
+[2014.09.27-16.27.38:670][ 28]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_27) Not registered. Aborting.
+[2014.09.27-16.27.41:112][206]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_28) Not registered. Aborting.
+[2014.09.27-16.27.52:328][161]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_29) Not registered. Aborting.
+[2014.09.27-16.27.55:292][404]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_30) Not registered. Aborting.
+[2014.09.27-16.28.03:433][913]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_31) Not registered. Aborting.
+[2014.09.27-16.28.05:203][ 13]LogSlate:Warning: Prevented a slow task dialog from being summoned while a context menu was open
+[2014.09.27-16.28.10:596][592]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_32) Not registered. Aborting.
+[2014.09.27-16.28.39:762][487]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_33) Not registered. Aborting.
+[2014.09.27-16.29.12:430][527]BlueprintLog: New page: Compile MyCharacter
+[2014.09.27-16.29.12:504][527]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_34) Not registered. Aborting.
+[2014.09.27-16.29.12:553][527]BlueprintEditorCompileResults: Info [0397.42] Compile of MyCharacter successful! [in 26 ms]
+[2014.09.27-16.29.16:329][753]LogSlate:Warning: Prevented a slow task dialog from being summoned while a context menu was open
+[2014.09.27-16.29.17:527][879]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_35) Not registered. Aborting.
+[2014.09.27-16.29.18:990][962]BlueprintLog: New page: Compile MyCharacter
+[2014.09.27-16.29.19:077][962]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_36) Not registered. Aborting.
+[2014.09.27-16.29.19:120][962]BlueprintEditorCompileResults: Info [0403.99] Compile of MyCharacter successful! [in 43 ms]
+[2014.09.27-16.29.19:483][985]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/MyCharacter" FILE="../../../../../../Github/UnrealEngine/First-Game/Content/Blueprints/MyCharacter.uasset" SILENT=true
+[2014.09.27-16.29.19:787][985]LogSavePackage: Save=286.448425ms
+[2014.09.27-16.29.19:787][985]LogSavePackage: Moving '../../../../../../Github/UnrealEngine/First-Game/Saved/MyCharacterB212A1164506EA5CD072DC8F58FC739C.tmp' to '../../../../../../Github/UnrealEngine/First-Game/Content/Blueprints/MyCharacter.uasset'
+[2014.09.27-16.29.35:906][  6]BlueprintLog: New page: Compile MyCharacter
+[2014.09.27-16.29.35:976][  6]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_37) Not registered. Aborting.
+[2014.09.27-16.29.36:024][  6]BlueprintEditorCompileResults: Info [0420.89] Compile of MyCharacter successful! [in 26 ms]
+[2014.09.27-16.29.36:484][ 35]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/MyCharacter" FILE="../../../../../../Github/UnrealEngine/First-Game/Content/Blueprints/MyCharacter.uasset" SILENT=true
+[2014.09.27-16.29.36:777][ 35]LogSavePackage: Save=282.195801ms
+[2014.09.27-16.29.36:777][ 35]LogSavePackage: Moving '../../../../../../Github/UnrealEngine/First-Game/Saved/MyCharacter6BE026404C62BCDE5AB827BD9419AC4B.tmp' to '../../../../../../Github/UnrealEngine/First-Game/Content/Blueprints/MyCharacter.uasset'
+[2014.09.27-16.29.38:389][156]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (BP_Sky_Sphere)
+[2014.09.27-16.29.38:938][214]LogPlayLevel: PIE:  No blueprints needed recompiling
+[2014.09.27-16.29.38:938][214]PIE: New page: PIE session: Example_Map (Sep 27, 2014, 8:29:38 PM)
+[2014.09.27-16.29.38:958][214]LogPlayLevel: PIE: StaticDuplicateObject took: (0.019921s)
+[2014.09.27-16.29.38:959][214]LogPlayLevel: PIE: World Init took: (0.000692s)
+[2014.09.27-16.29.38:959][214]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Example_Map.Example_Map to /Game/Maps/UEDPIE_0_Example_Map.Example_Map (0.020788s)
+[2014.09.27-16.29.38:987][214]LogWorld: Game class is 'MyGame_C'
+[2014.09.27-16.29.38:989][214]LogAIModule: Creating AISystem for world Example_Map
+[2014.09.27-16.29.38:990][214]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Example_Map.Example_Map up for play (max tick rate 0) at 2014.09.27-18.29.38
+[2014.09.27-16.29.38:990][214]LogWorld: Bringing up level for play took: 0.001514
+[2014.09.27-16.29.38:991][214]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_Example_Map 0.186
+[2014.09.27-16.29.41:777][538]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_38) Not registered. Aborting.
+[2014.09.27-16.29.41:790][538]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000000E42AF20
+[2014.09.27-16.29.41:790][538]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000026230C20
+[2014.09.27-16.30.03:294][826]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.09.27-16.30.03:294][826]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.09.27-16.30.03:294][826]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.09.27-16.30.03:294][826]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.09.27-16.30.03:294][826]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.09.27-16.30.03:294][826]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.09.27-16.30.03:294][826]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.09.27-16.30.03:294][826]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.09.27-16.30.03:294][826]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.09.27-16.30.03:294][826]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.09.27-16.30.03:294][826]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.09.27-16.30.03:294][826]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.09.27-16.30.03:294][826]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.09.27-16.30.03:294][826]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.09.27-16.30.03:294][826]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.09.27-16.30.03:294][826]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.09.27-16.30.03:295][826]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.09.27-16.30.03:295][826]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.09.27-16.30.20:839][174]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.09.27-16.30.20:840][174]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.09.27-16.30.20:840][174]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.09.27-16.30.20:840][174]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.09.27-16.30.20:840][174]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.09.27-16.30.20:840][174]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.09.27-16.30.20:840][174]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.09.27-16.31.20:896][797]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.09.27-16.31.20:896][797]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.09.27-16.31.29:265][420]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.09.27-16.31.29:265][420]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.09.27-16.33.00:572][452]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.09.27-16.33.00:572][452]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.09.27-16.33.00:572][452]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.09.27-16.33.22:611][ 16]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_39) Not registered. Aborting.
+[2014.09.27-16.33.25:899][227]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
+[2014.09.27-16.33.25:916][227]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
+[2014.09.27-16.33.25:916][227]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
+[2014.09.27-16.33.25:954][227]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_40) Not registered. Aborting.
+[2014.09.27-16.33.32:975][658]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_41) Not registered. Aborting.
+[2014.09.27-16.33.34:959][783]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_42) Not registered. Aborting.
+[2014.09.27-16.33.40:260][213]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_43) Not registered. Aborting.
+[2014.09.27-16.33.44:034][442]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_44) Not registered. Aborting.
+[2014.09.27-16.33.46:476][607]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_45) Not registered. Aborting.
+[2014.09.27-16.33.48:598][737]LogSlate:Warning: Prevented a slow task dialog from being summoned while a context menu was open
+[2014.09.27-16.34.05:082][162]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_46) Not registered. Aborting.
+[2014.09.27-16.34.07:618][335]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_47) Not registered. Aborting.
+[2014.09.27-16.34.08:331][373]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_48) Not registered. Aborting.
+[2014.09.27-16.34.08:358][373]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/Example_Map' took 0.028
+[2014.09.27-16.34.08:375][373]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Blueprints/MyCharacter] ([1] browsable assets)...
+[2014.09.27-16.34.08:394][373]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/Blueprints/MyCharacter.MyCharacter]
+[2014.09.27-16.34.08:394][373]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/MyCharacter]
+[2014.09.27-16.34.08:397][373]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/MyCharacter" FILE="../../../../../../Github/UnrealEngine/First-Game/Saved/Autosaves/Game/Blueprints/MyCharacter_Auto1.uasset" SILENT=false AUTOSAVING=true
+[2014.09.27-16.34.08:713][373]LogSavePackage: Save=284.815033ms
+[2014.09.27-16.34.08:713][373]LogSavePackage: Moving '../../../../../../Github/UnrealEngine/First-Game/Saved/MyCharacter_Auto131C4B65643067DE142083BADE7567D99.tmp' to '../../../../../../Github/UnrealEngine/First-Game/Saved/Autosaves/Game/Blueprints/MyCharacter_Auto1.uasset'
+[2014.09.27-16.34.08:717][373]LogFileHelpers: Auto-saving content packages took 0.358
+[2014.09.27-16.34.10:433][471]BlueprintLog: New page: Compile MyCharacter
+[2014.09.27-16.34.10:512][471]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_49) Not registered. Aborting.
+[2014.09.27-16.34.10:562][471]BlueprintEditorCompileResults: Info [0695.42] Compile of MyCharacter successful! [in 28 ms]
+[2014.09.27-16.34.21:787][164]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_50) Not registered. Aborting.
+[2014.09.27-16.34.24:474][331]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_51) Not registered. Aborting.
+[2014.09.27-16.34.25:656][403]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_52) Not registered. Aborting.
+[2014.09.27-16.34.26:456][452]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_53) Not registered. Aborting.
+[2014.09.27-16.34.33:099][859]BlueprintLog: New page: Compile MyCharacter
+[2014.09.27-16.34.33:176][859]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_54) Not registered. Aborting.
+[2014.09.27-16.34.33:226][859]BlueprintEditorCompileResults: Info [0718.09] Compile of MyCharacter successful! [in 29 ms]
+[2014.09.27-16.34.33:875][898]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/MyCharacter" FILE="../../../../../../Github/UnrealEngine/First-Game/Content/Blueprints/MyCharacter.uasset" SILENT=true
+[2014.09.27-16.34.34:223][898]LogSavePackage: Save=333.965149ms
+[2014.09.27-16.34.34:223][898]LogSavePackage: Moving '../../../../../../Github/UnrealEngine/First-Game/Saved/MyCharacterC344D9E74578B19380CCE08668E9159C.tmp' to '../../../../../../Github/UnrealEngine/First-Game/Content/Blueprints/MyCharacter.uasset'
+[2014.09.27-16.35.13:353][716]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.09.27-16.35.28:495][774]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
+[2014.09.27-16.35.55:018][510]BlueprintLog: New page: Compile MyCharacter
+[2014.09.27-16.35.55:101][510]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_55) Not registered. Aborting.
+[2014.09.27-16.35.55:159][510]BlueprintEditorCompileResults: Info [0800.01] Compile of MyCharacter successful! [in 28 ms]
+[2014.09.27-16.35.55:511][518]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/MyCharacter" FILE="../../../../../../Github/UnrealEngine/First-Game/Content/Blueprints/MyCharacter.uasset" SILENT=true
+[2014.09.27-16.35.55:861][518]LogSavePackage: Save=288.438965ms
+[2014.09.27-16.35.55:861][518]LogSavePackage: Moving '../../../../../../Github/UnrealEngine/First-Game/Saved/MyCharacter3F6E92D84751959722D7B8B9B760BC60.tmp' to '../../../../../../Github/UnrealEngine/First-Game/Content/Blueprints/MyCharacter.uasset'
+[2014.09.27-16.36.21:770][350]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_56) Not registered. Aborting.
+[2014.09.27-16.36.46:865][ 89]BlueprintLog: New page: Compile MyCharacter
+[2014.09.27-16.36.46:939][ 89]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_57) Not registered. Aborting.
+[2014.09.27-16.36.46:989][ 89]BlueprintEditorCompileResults: Info [0851.85] Compile of MyCharacter successful! [in 28 ms]
+[2014.09.27-16.36.47:246][ 90]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/MyCharacter" FILE="../../../../../../Github/UnrealEngine/First-Game/Content/Blueprints/MyCharacter.uasset" SILENT=true
+[2014.09.27-16.36.47:553][ 90]LogSavePackage: Save=294.746155ms
+[2014.09.27-16.36.47:553][ 90]LogSavePackage: Moving '../../../../../../Github/UnrealEngine/First-Game/Saved/MyCharacterA22A093C495C494E8C540E9CD0EA7F51.tmp' to '../../../../../../Github/UnrealEngine/First-Game/Content/Blueprints/MyCharacter.uasset'
+[2014.09.27-16.37.13:433][823]BlueprintLog: New page: Compile MyCharacter
+[2014.09.27-16.37.13:511][823]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_58) Not registered. Aborting.
+[2014.09.27-16.37.13:560][823]BlueprintEditorCompileResults: Info [0878.43] Compile of MyCharacter successful! [in 28 ms]
+[2014.09.27-16.37.13:814][824]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/MyCharacter" FILE="../../../../../../Github/UnrealEngine/First-Game/Content/Blueprints/MyCharacter.uasset" SILENT=true
+[2014.09.27-16.37.14:110][824]LogSavePackage: Save=283.756592ms
+[2014.09.27-16.37.14:110][824]LogSavePackage: Moving '../../../../../../Github/UnrealEngine/First-Game/Saved/MyCharacter41F967A9426B48C5E978149D5E39BE25.tmp' to '../../../../../../Github/UnrealEngine/First-Game/Content/Blueprints/MyCharacter.uasset'
+[2014.09.27-16.37.16:890][ 19]LogPlayLevel: PIE:  No blueprints needed recompiling
+[2014.09.27-16.37.16:890][ 19]PIE: New page: PIE session: Example_Map (Sep 27, 2014, 8:37:16 PM)
+[2014.09.27-16.37.16:911][ 19]LogPlayLevel: PIE: StaticDuplicateObject took: (0.020729s)
+[2014.09.27-16.37.16:912][ 19]LogPlayLevel: PIE: World Init took: (0.000757s)
+[2014.09.27-16.37.16:912][ 19]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Example_Map.Example_Map to /Game/Maps/UEDPIE_0_Example_Map.Example_Map (0.021680s)
+[2014.09.27-16.37.16:939][ 19]LogWorld: Game class is 'MyGame_C'
+[2014.09.27-16.37.16:940][ 19]LogAIModule: Creating AISystem for world Example_Map
+[2014.09.27-16.37.16:941][ 19]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Example_Map.Example_Map up for play (max tick rate 0) at 2014.09.27-18.37.16
+[2014.09.27-16.37.16:942][ 19]LogWorld: Bringing up level for play took: 0.001535
+[2014.09.27-16.37.16:943][ 19]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_Example_Map 0.135
+[2014.09.27-16.37.19:005][261]Set new viewmode: Unlit
+[2014.09.27-16.37.19:617][334]Set new viewmode: Unlit
+[2014.09.27-16.37.20:492][439]Set new viewmode: Unlit
+[2014.09.27-16.37.21:025][503]Set new viewmode: Unlit
+[2014.09.27-16.37.22:235][648]Set new viewmode: Unlit
+[2014.09.27-16.37.22:977][737]Set new viewmode: Unlit
+[2014.09.27-16.37.23:377][785]Set new viewmode: Unlit
+[2014.09.27-16.37.23:802][836]Set new viewmode: Unlit
+[2014.09.27-16.37.24:111][873]Set new viewmode: Unlit
+[2014.09.27-16.37.24:386][906]Set new viewmode: Unlit
+[2014.09.27-16.37.24:720][946]Set new viewmode: Unlit
+[2014.09.27-16.37.25:279][  7]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_59) Not registered. Aborting.
+[2014.09.27-16.37.25:295][  7]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000002B34AF20
+[2014.09.27-16.37.25:295][  7]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000001649EF20
+[2014.09.27-16.37.25:296][  7]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000000305874C0
+[2014.09.27-16.37.36:801][737]BlueprintLog: New page: Compile MyCharacter
+[2014.09.27-16.37.36:871][737]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_60) Not registered. Aborting.
+[2014.09.27-16.37.36:921][737]BlueprintEditorCompileResults: Info [0901.79] Compile of MyCharacter successful! [in 29 ms]
+[2014.09.27-16.37.40:896][996]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_61) Not registered. Aborting.
+[2014.09.27-16.37.41:691][ 51]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_62) Not registered. Aborting.
+[2014.09.27-16.37.54:724][980]LogSlate:Warning: Prevented a slow task dialog from being summoned while a context menu was open
+[2014.09.27-16.37.55:448][ 53]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_63) Not registered. Aborting.
+[2014.09.27-16.37.56:808][128]BlueprintLog: New page: Compile MyCharacter
+[2014.09.27-16.37.56:901][128]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_64) Not registered. Aborting.
+[2014.09.27-16.37.56:947][128]BlueprintEditorCompileResults: Info [0921.81] Compile of MyCharacter successful! [in 45 ms]
+[2014.09.27-16.37.57:997][193]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_65) Not registered. Aborting.
+[2014.09.27-16.37.58:933][254]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_66) Not registered. Aborting.
+[2014.09.27-16.38.04:376][748]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_67) Not registered. Aborting.
+[2014.09.27-16.38.13:238][287]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_68) Not registered. Aborting.
+[2014.09.27-16.38.15:231][424]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_69) Not registered. Aborting.
+[2014.09.27-16.38.25:283][102]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_70) Not registered. Aborting.
+[2014.09.27-16.39.01:947][515]BlueprintLog: New page: Compile MyCharacter
+[2014.09.27-16.39.02:020][515]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_71) Not registered. Aborting.
+[2014.09.27-16.39.02:083][515]BlueprintEditorCompileResults: Info [0986.93] Compile of MyCharacter successful! [in 28 ms]
+[2014.09.27-16.39.09:977][ 61]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_72) Not registered. Aborting.
+[2014.09.27-16.39.13:522][344]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_73) Not registered. Aborting.
+[2014.09.27-16.39.18:521][649]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_74) Not registered. Aborting.
+[2014.09.27-16.39.20:874][819]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_75) Not registered. Aborting.
+[2014.09.27-16.39.28:882][334]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_76) Not registered. Aborting.
+[2014.09.27-16.39.36:390][856]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_77) Not registered. Aborting.
+[2014.09.27-16.39.39:732][ 68]BlueprintLog: New page: Compile MyCharacter
+[2014.09.27-16.39.39:804][ 68]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_78) Not registered. Aborting.
+[2014.09.27-16.39.39:867][ 68]BlueprintEditorCompileResults: Info [1024.72] Compile of MyCharacter successful! [in 26 ms]
+[2014.09.27-16.39.43:108][273]LogSlate:Warning: Prevented a slow task dialog from being summoned while a context menu was open
+[2014.09.27-16.39.44:389][409]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_79) Not registered. Aborting.
+[2014.09.27-16.39.45:194][457]BlueprintLog: New page: Compile MyCharacter
+[2014.09.27-16.39.45:287][457]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_80) Not registered. Aborting.
+[2014.09.27-16.39.45:332][457]BlueprintEditorCompileResults: Info [1030.20] Compile of MyCharacter successful! [in 47 ms]
+[2014.09.27-16.39.45:585][474]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/MyCharacter" FILE="../../../../../../Github/UnrealEngine/First-Game/Content/Blueprints/MyCharacter.uasset" SILENT=true
+[2014.09.27-16.39.45:905][474]LogSavePackage: Save=297.735107ms
+[2014.09.27-16.39.45:906][474]LogSavePackage: Moving '../../../../../../Github/UnrealEngine/First-Game/Saved/MyCharacterF84D7733486670F0ABB843A2CCFB4D13.tmp' to '../../../../../../Github/UnrealEngine/First-Game/Content/Blueprints/MyCharacter.uasset'
+[2014.09.27-16.39.47:625][604]LogPlayLevel: PIE:  No blueprints needed recompiling
+[2014.09.27-16.39.47:625][604]PIE: New page: PIE session: Example_Map (Sep 27, 2014, 8:39:47 PM)
+[2014.09.27-16.39.47:644][604]LogPlayLevel: PIE: StaticDuplicateObject took: (0.019241s)
+[2014.09.27-16.39.47:645][604]LogPlayLevel: PIE: World Init took: (0.000695s)
+[2014.09.27-16.39.47:645][604]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Example_Map.Example_Map to /Game/Maps/UEDPIE_0_Example_Map.Example_Map (0.020121s)
+[2014.09.27-16.39.47:672][604]LogWorld: Game class is 'MyGame_C'
+[2014.09.27-16.39.47:673][604]LogAIModule: Creating AISystem for world Example_Map
+[2014.09.27-16.39.47:675][604]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Example_Map.Example_Map up for play (max tick rate 0) at 2014.09.27-18.39.47
+[2014.09.27-16.39.47:675][604]LogWorld: Bringing up level for play took: 0.001530
+[2014.09.27-16.39.47:676][604]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_Example_Map 0.868
+[2014.09.27-16.39.58:594][893]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_81) Not registered. Aborting.
+[2014.09.27-16.39.58:609][893]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000000326AAF20
+[2014.09.27-16.39.58:609][893]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000003DDEEDE0
+[2014.09.27-16.40.04:666][310]LogSlate:Warning: Prevented a slow task dialog from being summoned while a context menu was open
+[2014.09.27-16.40.05:469][394]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_82) Not registered. Aborting.
+[2014.09.27-16.40.06:763][466]BlueprintLog: New page: Compile MyCharacter
+[2014.09.27-16.40.06:856][466]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_83) Not registered. Aborting.
+[2014.09.27-16.40.06:904][466]BlueprintEditorCompileResults: Info [1051.76] Compile of MyCharacter successful! [in 43 ms]
+[2014.09.27-16.40.21:101][329]BlueprintLog: New page: Compile MyCharacter
+[2014.09.27-16.40.21:188][329]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_84) Not registered. Aborting.
+[2014.09.27-16.40.21:263][329]BlueprintEditorCompileResults: Info [1066.09] Compile of MyCharacter successful! [in 30 ms]
+[2014.09.27-16.40.21:803][362]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/MyCharacter" FILE="../../../../../../Github/UnrealEngine/First-Game/Content/Blueprints/MyCharacter.uasset" SILENT=true
+[2014.09.27-16.40.22:099][362]LogSavePackage: Save=284.446472ms
+[2014.09.27-16.40.22:099][362]LogSavePackage: Moving '../../../../../../Github/UnrealEngine/First-Game/Saved/MyCharacter3C64B51E410C680971F97CB74A759413.tmp' to '../../../../../../Github/UnrealEngine/First-Game/Content/Blueprints/MyCharacter.uasset'
+[2014.09.27-16.40.23:034][419]LogPlayLevel: PIE:  No blueprints needed recompiling
+[2014.09.27-16.40.23:034][419]PIE: New page: PIE session: Example_Map (Sep 27, 2014, 8:40:23 PM)
+[2014.09.27-16.40.23:055][419]LogPlayLevel: PIE: StaticDuplicateObject took: (0.021052s)
+[2014.09.27-16.40.23:056][419]LogPlayLevel: PIE: World Init took: (0.000691s)
+[2014.09.27-16.40.23:056][419]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Example_Map.Example_Map to /Game/Maps/UEDPIE_0_Example_Map.Example_Map (0.021923s)
+[2014.09.27-16.40.23:083][419]LogWorld: Game class is 'MyGame_C'
+[2014.09.27-16.40.23:084][419]LogAIModule: Creating AISystem for world Example_Map
+[2014.09.27-16.40.23:085][419]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Example_Map.Example_Map up for play (max tick rate 0) at 2014.09.27-18.40.23
+[2014.09.27-16.40.23:086][419]LogWorld: Bringing up level for play took: 0.001461
+[2014.09.27-16.40.23:087][419]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_Example_Map 0.278
+[2014.09.27-16.40.27:910][844]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_85) Not registered. Aborting.
+[2014.09.27-16.40.27:924][844]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000002429C900
+[2014.09.27-16.40.31:710][ 59]LogSlate:Warning: Prevented a slow task dialog from being summoned while a context menu was open
+[2014.09.27-16.40.35:593][390]BlueprintLog: New page: Compile MyCharacter
+[2014.09.27-16.40.35:689][390]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_86) Not registered. Aborting.
+[2014.09.27-16.40.35:735][390]BlueprintEditorCompileResults: Info [1080.60] Compile of MyCharacter successful! [in 52 ms]
+[2014.09.27-16.40.36:153][413]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/MyCharacter" FILE="../../../../../../Github/UnrealEngine/First-Game/Content/Blueprints/MyCharacter.uasset" SILENT=true
+[2014.09.27-16.40.36:455][413]LogSavePackage: Save=288.948120ms
+[2014.09.27-16.40.36:455][413]LogSavePackage: Moving '../../../../../../Github/UnrealEngine/First-Game/Saved/MyCharacterDE1269F84338DF8216FAFAB277F6413F.tmp' to '../../../../../../Github/UnrealEngine/First-Game/Content/Blueprints/MyCharacter.uasset'
+[2014.09.27-16.40.37:782][487]LogPlayLevel: PIE:  No blueprints needed recompiling
+[2014.09.27-16.40.37:782][487]PIE: New page: PIE session: Example_Map (Sep 27, 2014, 8:40:37 PM)
+[2014.09.27-16.40.37:803][487]LogPlayLevel: PIE: StaticDuplicateObject took: (0.020453s)
+[2014.09.27-16.40.37:804][487]LogPlayLevel: PIE: World Init took: (0.000725s)
+[2014.09.27-16.40.37:804][487]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Example_Map.Example_Map to /Game/Maps/UEDPIE_0_Example_Map.Example_Map (0.021445s)
+[2014.09.27-16.40.37:832][487]LogWorld: Game class is 'MyGame_C'
+[2014.09.27-16.40.37:833][487]LogAIModule: Creating AISystem for world Example_Map
+[2014.09.27-16.40.37:835][487]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Example_Map.Example_Map up for play (max tick rate 0) at 2014.09.27-18.40.37
+[2014.09.27-16.40.37:835][487]LogWorld: Bringing up level for play took: 0.001328
+[2014.09.27-16.40.37:836][487]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_Example_Map 1.027
+[2014.09.27-16.40.52:322][180]Set new viewmode: Unlit
+[2014.09.27-16.40.53:297][295]Set new viewmode: Unlit
+[2014.09.27-16.40.53:697][342]Set new viewmode: Unlit
+[2014.09.27-16.40.54:100][389]Set new viewmode: Unlit
+[2014.09.27-16.41.01:535][269]Set new viewmode: Wireframe
+[2014.09.27-16.41.02:108][331]Set new viewmode: Unlit
+[2014.09.27-16.41.02:414][367]Set new viewmode: Lit
+[2014.09.27-16.41.37:754][473]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_87) Not registered. Aborting.
+[2014.09.27-16.41.39:360][653]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000003DFA6340
+[2014.09.27-16.45.35:630][293]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_88) Not registered. Aborting.
+[2014.09.27-16.45.35:644][293]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000003D19F060
+[2014.09.27-16.45.35:646][293]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/Example_Map' took 0.016
+[2014.09.27-16.45.35:661][293]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Blueprints/MyCharacter] ([1] browsable assets)...
+[2014.09.27-16.45.35:664][293]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/MyCharacter]
+[2014.09.27-16.45.35:667][293]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/MyCharacter" FILE="../../../../../../Github/UnrealEngine/First-Game/Saved/Autosaves/Game/Blueprints/MyCharacter_Auto2.uasset" SILENT=false AUTOSAVING=true
+[2014.09.27-16.45.35:713][293]LogSavePackage: Save=20.192947ms
+[2014.09.27-16.45.35:713][293]LogSavePackage: Moving '../../../../../../Github/UnrealEngine/First-Game/Saved/MyCharacter_Auto21D90DD1744BF9E7E8DC6FA87A2DC072D.tmp' to '../../../../../../Github/UnrealEngine/First-Game/Saved/Autosaves/Game/Blueprints/MyCharacter_Auto2.uasset'
+[2014.09.27-16.45.35:717][293]LogFileHelpers: Auto-saving content packages took 0.071
+[2014.09.27-17.11.02:122][194]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_89) Not registered. Aborting.
+[2014.09.27-17.11.02:180][194]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/MyCharacter" FILE="../../../../../../Github/UnrealEngine/First-Game/Content/Blueprints/MyCharacter.uasset" SILENT=true
+[2014.09.27-17.11.02:229][194]LogSavePackage: Save=34.655594ms
+[2014.09.27-17.11.02:229][194]LogSavePackage: Moving '../../../../../../Github/UnrealEngine/First-Game/Saved/MyCharacterEC12AE714C3A6D11A97469BD1ED82D6D.tmp' to '../../../../../../Github/UnrealEngine/First-Game/Content/Blueprints/MyCharacter.uasset'
+[2014.09.27-17.16.31:168][592]LogPlayLevel: PIE:  No blueprints needed recompiling
+[2014.09.27-17.16.31:169][592]PIE: New page: PIE session: Example_Map (Sep 27, 2014, 9:16:31 PM)
+[2014.09.27-17.16.31:205][592]LogPlayLevel: PIE: StaticDuplicateObject took: (0.036890s)
+[2014.09.27-17.16.31:206][592]LogPlayLevel: PIE: World Init took: (0.000530s)
+[2014.09.27-17.16.31:206][592]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Example_Map.Example_Map to /Game/Maps/UEDPIE_0_Example_Map.Example_Map (0.037560s)
+[2014.09.27-17.16.31:235][592]LogWorld: Game class is 'MyGame_C'
+[2014.09.27-17.16.31:237][592]LogAIModule: Creating AISystem for world Example_Map
+[2014.09.27-17.16.31:238][592]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Example_Map.Example_Map up for play (max tick rate 0) at 2014.09.27-19.16.31
+[2014.09.27-17.16.31:238][592]LogWorld: Bringing up level for play took: 0.001398
+[2014.09.27-17.16.31:240][592]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_Example_Map 0.423
+[2014.09.27-17.16.52:241][880]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_90) Not registered. Aborting.
+[2014.09.27-17.16.52:257][880]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000003DDEF9C0
+[2014.09.27-17.24.41:439][801]LogPlayLevel: PIE:  No blueprints needed recompiling
+[2014.09.27-17.24.41:439][801]PIE: New page: PIE session: Example_Map (Sep 27, 2014, 9:24:41 PM)
+[2014.09.27-17.24.41:462][801]LogPlayLevel: PIE: StaticDuplicateObject took: (0.022834s)
+[2014.09.27-17.24.41:463][801]LogPlayLevel: PIE: World Init took: (0.000611s)
+[2014.09.27-17.24.41:463][801]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Example_Map.Example_Map to /Game/Maps/UEDPIE_0_Example_Map.Example_Map (0.023591s)
+[2014.09.27-17.24.41:491][801]LogWorld: Game class is 'MyGame_C'
+[2014.09.27-17.24.41:492][801]LogAIModule: Creating AISystem for world Example_Map
+[2014.09.27-17.24.41:493][801]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Example_Map.Example_Map up for play (max tick rate 0) at 2014.09.27-19.24.41
+[2014.09.27-17.24.41:493][801]LogWorld: Bringing up level for play took: 0.001387
+[2014.09.27-17.24.41:495][801]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_Example_Map 0.675
+[2014.09.27-17.24.55:869][708]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000003D19F560
+[2014.09.27-17.25.02:659][978]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Animations'
+[2014.09.27-17.25.05:370][139]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Animations/Blueprints'
+[2014.09.27-17.25.07:483][161]LogSkeletalMesh: InitArticulated: Bodies already created (/Engine/Transient.DebugSkelMeshComponent_0) - call TermArticulated first.
+[2014.09.27-17.25.25:016][962]BlueprintLog: New page: Compile MyCharacterBP
+[2014.09.27-17.25.25:128][962]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_91) Not registered. Aborting.
+[2014.09.27-17.25.25:148][962]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000000324E3060
+[2014.09.27-17.25.25:157][962]BlueprintEditorCompileResults: Info [3770.00] Compile of MyCharacterBP successful! [in 8 ms]
+[2014.09.27-17.25.25:387][963]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Animations/Blueprints/MyCharacterBP" FILE="../../../../../../Github/UnrealEngine/First-Game/Content/Animations/Blueprints/MyCharacterBP.uasset" SILENT=true
+[2014.09.27-17.25.25:741][963]LogSavePackage: Save=339.015533ms
+[2014.09.27-17.25.25:741][963]LogSavePackage: Moving '../../../../../../Github/UnrealEngine/First-Game/Saved/MyCharacterBPADA7B13A4207D98EB98792B3DB702BC8.tmp' to '../../../../../../Github/UnrealEngine/First-Game/Content/Animations/Blueprints/MyCharacterBP.uasset'
+[2014.09.27-17.25.26:111][977]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (BP_Sky_Sphere)
+[2014.09.27-17.25.26:699][999]LogPlayLevel: PIE:  No blueprints needed recompiling
+[2014.09.27-17.25.26:699][999]PIE: New page: PIE session: Example_Map (Sep 27, 2014, 9:25:26 PM)
+[2014.09.27-17.25.26:719][999]LogPlayLevel: PIE: StaticDuplicateObject took: (0.020215s)
+[2014.09.27-17.25.26:720][999]LogPlayLevel: PIE: World Init took: (0.000968s)
+[2014.09.27-17.25.26:720][999]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Example_Map.Example_Map to /Game/Maps/UEDPIE_0_Example_Map.Example_Map (0.021432s)
+[2014.09.27-17.25.26:747][999]LogWorld: Game class is 'MyGame_C'
+[2014.09.27-17.25.26:748][999]LogAIModule: Creating AISystem for world Example_Map
+[2014.09.27-17.25.26:749][999]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Example_Map.Example_Map up for play (max tick rate 0) at 2014.09.27-19.25.26
+[2014.09.27-17.25.26:749][999]LogWorld: Bringing up level for play took: 0.001247
+[2014.09.27-17.25.26:750][999]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_Example_Map -0.069
+[2014.09.27-17.25.34:326][315]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000002C1E2700
+[2014.09.27-17.25.45:844][820]BlueprintLog: New page: Compile MyCharacterBP
+[2014.09.27-17.25.45:943][820]BlueprintEditorCompileResults: Info [3790.81] Compile of MyCharacterBP successful! [in 8 ms]
+[2014.09.27-17.25.46:254][830]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Animations/Blueprints/MyCharacterBP" FILE="../../../../../../Github/UnrealEngine/First-Game/Content/Animations/Blueprints/MyCharacterBP.uasset" SILENT=true
+[2014.09.27-17.25.46:583][830]LogSavePackage: Save=315.871765ms
+[2014.09.27-17.25.46:583][830]LogSavePackage: Moving '../../../../../../Github/UnrealEngine/First-Game/Saved/MyCharacterBP59F0CEC6425A48E11FA36ABEE3036274.tmp' to '../../../../../../Github/UnrealEngine/First-Game/Content/Animations/Blueprints/MyCharacterBP.uasset'
+[2014.09.27-17.25.47:641][871]LogPlayLevel: PIE:  No blueprints needed recompiling
+[2014.09.27-17.25.47:641][871]PIE: New page: PIE session: Example_Map (Sep 27, 2014, 9:25:47 PM)
+[2014.09.27-17.25.47:663][871]LogPlayLevel: PIE: StaticDuplicateObject took: (0.021822s)
+[2014.09.27-17.25.47:664][871]LogPlayLevel: PIE: World Init took: (0.000717s)
+[2014.09.27-17.25.47:664][871]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Example_Map.Example_Map to /Game/Maps/UEDPIE_0_Example_Map.Example_Map (0.022714s)
+[2014.09.27-17.25.47:693][871]LogWorld: Game class is 'MyGame_C'
+[2014.09.27-17.25.47:694][871]LogAIModule: Creating AISystem for world Example_Map
+[2014.09.27-17.25.47:695][871]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Example_Map.Example_Map up for play (max tick rate 0) at 2014.09.27-19.25.47
+[2014.09.27-17.25.47:695][871]LogWorld: Bringing up level for play took: 0.001371
+[2014.09.27-17.25.47:696][871]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_Example_Map 0.877
+[2014.09.27-17.26.42:551][191]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000016771B20
+[2014.09.27-17.28.04:428][714]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Textures'
+[2014.09.27-17.28.04:854][723]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Weapons'
+[2014.09.27-17.28.05:910][793]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Weapons/MilitaryWeapSilver'
+[2014.09.27-17.28.08:425][959]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Weapons/MilitaryWeapSilver/Weapons'
+[2014.09.27-17.28.19:457][481]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/Example_Map' took 0.013
+[2014.09.27-17.28.19:472][481]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Blueprints/MyCharacter] ([1] browsable assets)...
+[2014.09.27-17.28.19:477][481]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/MyCharacter]
+[2014.09.27-17.28.19:479][481]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/MyCharacter" FILE="../../../../../../Github/UnrealEngine/First-Game/Saved/Autosaves/Game/Blueprints/MyCharacter_Auto3.uasset" SILENT=false AUTOSAVING=true
+[2014.09.27-17.28.19:649][481]LogSavePackage: Save=22.011024ms
+[2014.09.27-17.28.19:649][481]LogSavePackage: Moving '../../../../../../Github/UnrealEngine/First-Game/Saved/MyCharacter_Auto3938BBD9F49C295C27BDFFAA2AE3E8187.tmp' to '../../../../../../Github/UnrealEngine/First-Game/Saved/Autosaves/Game/Blueprints/MyCharacter_Auto3.uasset'
+[2014.09.27-17.28.19:728][481]LogFileHelpers: Auto-saving content packages took 0.271
+[2014.09.27-17.32.05:377][568]LogSkeletalMesh: InitArticulated: Bodies already created (/Engine/Transient.DebugSkelMeshComponent_2) - call TermArticulated first.
+[2014.09.27-17.32.39:669][179]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Animations/Blueprints'
+[2014.09.27-17.32.40:709][271]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Animations/Mycharacter'
+[2014.09.27-17.32.41:057][289]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Architecture'
+[2014.09.27-17.32.44:468][584]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Blueprints'
+[2014.09.27-17.33.11:796][911]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_92) Not registered. Aborting.
+[2014.09.27-17.33.11:810][911]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000002B34BD80
+[2014.09.27-17.33.11:811][911]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000000289AC2C0
+[2014.09.27-17.33.11:823][911]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000000167723E0
+[2014.09.27-17.33.11:835][911]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/MyCharacter" FILE="../../../../../../Github/UnrealEngine/First-Game/Content/Blueprints/MyCharacter.uasset" SILENT=true
+[2014.09.27-17.33.11:862][911]LogSavePackage: Save=15.572049ms
+[2014.09.27-17.33.11:862][911]LogSavePackage: Moving '../../../../../../Github/UnrealEngine/First-Game/Saved/MyCharacterA71559354159A15999A0D086C46943E7.tmp' to '../../../../../../Github/UnrealEngine/First-Game/Content/Blueprints/MyCharacter.uasset'
+[2014.09.27-17.35.48:606][491]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Animations/Mycharacter'
+[2014.09.27-17.35.52:946][720]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Blueprints'
+[2014.09.27-17.36.10:124][136]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_93) Not registered. Aborting.
+[2014.09.27-17.36.15:066][434]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_94) Not registered. Aborting.
+[2014.09.27-17.36.17:389][601]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_95) Not registered. Aborting.
+[2014.09.27-17.36.24:547][ 59]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_96) Not registered. Aborting.
+[2014.09.27-17.36.29:050][337]BlueprintLog: New page: Compile MyCharacter
+[2014.09.27-17.36.29:134][337]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_97) Not registered. Aborting.
+[2014.09.27-17.36.29:193][337]BlueprintEditorCompileResults: Info [4434.02] Compile of MyCharacter successful! [in 30 ms]
+[2014.09.27-17.36.43:988][178]LogSlate:Warning: Prevented a slow task dialog from being summoned while a context menu was open
+[2014.09.27-17.36.45:149][298]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_98) Not registered. Aborting.
+[2014.09.27-17.36.46:677][382]BlueprintLog: New page: Compile MyCharacter
+[2014.09.27-17.36.46:775][382]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_99) Not registered. Aborting.
+[2014.09.27-17.36.46:817][382]BlueprintEditorCompileResults: Info [4451.67] Compile of MyCharacter successful! [in 52 ms]
+[2014.09.27-17.36.52:159][707]LogSlate:Warning: Prevented a slow task dialog from being summoned while a context menu was open
+[2014.09.27-17.36.55:127][ 17]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_100) Not registered. Aborting.
+[2014.09.27-17.37.01:436][462]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_101) Not registered. Aborting.
+[2014.09.27-17.37.31:816][285]BlueprintLog: New page: Compile MyCharacter
+[2014.09.27-17.37.31:889][285]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_102) Not registered. Aborting.
+[2014.09.27-17.37.31:939][285]BlueprintEditorCompileResults: Info [4496.79] Compile of MyCharacter successful! [in 26 ms]
+[2014.09.27-17.37.32:421][314]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/MyCharacter" FILE="../../../../../../Github/UnrealEngine/First-Game/Content/Blueprints/MyCharacter.uasset" SILENT=true
+[2014.09.27-17.37.32:716][314]LogSavePackage: Save=282.032440ms
+[2014.09.27-17.37.32:716][314]LogSavePackage: Moving '../../../../../../Github/UnrealEngine/First-Game/Saved/MyCharacterC3582A3846EB1BA68B12BDA4F5A5B556.tmp' to '../../../../../../Github/UnrealEngine/First-Game/Content/Blueprints/MyCharacter.uasset'
+[2014.09.27-17.37.38:414][665]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_103) Not registered. Aborting.
+[2014.09.27-17.37.58:044][983]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_104) Not registered. Aborting.
+[2014.09.27-17.38.03:050][282]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_105) Not registered. Aborting.
+[2014.09.27-17.38.05:028][433]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_106) Not registered. Aborting.
+[2014.09.27-17.38.11:325][827]LogSlate:Warning: Prevented a slow task dialog from being summoned while a context menu was open
+[2014.09.27-17.38.15:310][114]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_107) Not registered. Aborting.
+[2014.09.27-17.38.17:149][221]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_108) Not registered. Aborting.
+[2014.09.27-17.38.17:587][250]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_109) Not registered. Aborting.
+[2014.09.27-17.38.20:160][402]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_110) Not registered. Aborting.
+[2014.09.27-17.38.20:175][402]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/Example_Map' took 0.015
+[2014.09.27-17.38.20:190][402]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Blueprints/MyCharacter] ([1] browsable assets)...
+[2014.09.27-17.38.20:209][402]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/Blueprints/MyCharacter.MyCharacter]
+[2014.09.27-17.38.20:209][402]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/MyCharacter]
+[2014.09.27-17.38.20:212][402]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/MyCharacter" FILE="../../../../../../Github/UnrealEngine/First-Game/Saved/Autosaves/Game/Blueprints/MyCharacter_Auto4.uasset" SILENT=false AUTOSAVING=true
+[2014.09.27-17.38.20:551][402]LogSavePackage: Save=279.601868ms
+[2014.09.27-17.38.20:551][402]LogSavePackage: Moving '../../../../../../Github/UnrealEngine/First-Game/Saved/MyCharacter_Auto49EDFA6A4458090780B47E4BE5320AE60.tmp' to '../../../../../../Github/UnrealEngine/First-Game/Saved/Autosaves/Game/Blueprints/MyCharacter_Auto4.uasset'
+[2014.09.27-17.38.20:598][402]LogFileHelpers: Auto-saving content packages took 0.424
+[2014.09.27-17.38.34:473][292]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_111) Not registered. Aborting.
+[2014.09.27-17.38.35:830][370]BlueprintLog: New page: Compile MyCharacter
+[2014.09.27-17.38.35:922][370]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_112) Not registered. Aborting.
+[2014.09.27-17.38.35:967][370]BlueprintEditorCompileResults: Info [4560.82] Compile of MyCharacter successful! [in 46 ms]
+[2014.09.27-17.38.36:340][393]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/MyCharacter" FILE="../../../../../../Github/UnrealEngine/First-Game/Content/Blueprints/MyCharacter.uasset" SILENT=true
+[2014.09.27-17.38.36:637][393]LogSavePackage: Save=285.180756ms
+[2014.09.27-17.38.36:637][393]LogSavePackage: Moving '../../../../../../Github/UnrealEngine/First-Game/Saved/MyCharacter382D19124008EA448CF0658893B206B3.tmp' to '../../../../../../Github/UnrealEngine/First-Game/Content/Blueprints/MyCharacter.uasset'
+[2014.09.27-17.39.24:309][294]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_113) Not registered. Aborting.
+[2014.09.27-17.39.28:516][605]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_114) Not registered. Aborting.
+[2014.09.27-17.39.32:987][911]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_115) Not registered. Aborting.
+[2014.09.27-17.39.39:900][431]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_116) Not registered. Aborting.
+[2014.09.27-17.39.45:739][868]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_117) Not registered. Aborting.
+[2014.09.27-17.39.47:738][ 10]BlueprintLog: New page: Compile MyCharacter
+[2014.09.27-17.39.47:822][ 10]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_118) Not registered. Aborting.
+[2014.09.27-17.39.47:887][ 10]BlueprintEditorCompileResults: Info [4632.71] Compile of MyCharacter successful! [in 30 ms]
+[2014.09.27-17.39.51:706][269]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_119) Not registered. Aborting.
+[2014.09.27-17.39.53:691][392]BlueprintLog: New page: Compile MyCharacter
+[2014.09.27-17.39.53:777][392]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_120) Not registered. Aborting.
+[2014.09.27-17.39.53:841][392]BlueprintEditorCompileResults: Info [4638.67] Compile of MyCharacter successful! [in 32 ms]
+[2014.09.27-17.40.34:195][934]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_121) Not registered. Aborting.
+[2014.09.27-17.43.46:065][859]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_122) Not registered. Aborting.
+[2014.09.27-17.44.10:541][651]BlueprintLog: New page: Compile MyCharacter
+[2014.09.27-17.44.10:636][651]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_123) Not registered. Aborting.
+[2014.09.27-17.44.10:699][651]BlueprintEditorCompileResults: Info [4895.51] Compile of MyCharacter successful! [in 26 ms]
+[2014.09.27-17.44.10:966][655]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/MyCharacter" FILE="../../../../../../Github/UnrealEngine/First-Game/Content/Blueprints/MyCharacter.uasset" SILENT=true
+[2014.09.27-17.44.11:277][655]LogSavePackage: Save=284.921478ms
+[2014.09.27-17.44.11:277][655]LogSavePackage: Moving '../../../../../../Github/UnrealEngine/First-Game/Saved/MyCharacter27EF4BEB4BF161FA4C1E0787D4F14483.tmp' to '../../../../../../Github/UnrealEngine/First-Game/Content/Blueprints/MyCharacter.uasset'
+[2014.09.27-17.47.04:223][478]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
+[2014.09.27-17.47.30:289][134]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
+[2014.09.27-17.47.30:290][134]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
+[2014.09.27-17.47.30:290][134]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'"K2Node_VariableGet_1128.EdGraphPin_10767"''
+[2014.09.27-17.48.19:249][145]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_124) Not registered. Aborting.
+[2014.09.27-17.48.19:277][145]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/Example_Map' took 0.028
+[2014.09.27-17.48.19:295][145]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Blueprints/MyCharacter] ([1] browsable assets)...
+[2014.09.27-17.48.19:327][145]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/Blueprints/MyCharacter.MyCharacter]
+[2014.09.27-17.48.19:327][145]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/MyCharacter]
+[2014.09.27-17.48.19:330][145]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/MyCharacter" FILE="../../../../../../Github/UnrealEngine/First-Game/Saved/Autosaves/Game/Blueprints/MyCharacter_Auto5.uasset" SILENT=false AUTOSAVING=true
+[2014.09.27-17.48.19:665][145]LogSavePackage: Save=293.185669ms
+[2014.09.27-17.48.19:665][145]LogSavePackage: Moving '../../../../../../Github/UnrealEngine/First-Game/Saved/MyCharacter_Auto50A9B9FE347813B31185730BB1325ADB0.tmp' to '../../../../../../Github/UnrealEngine/First-Game/Saved/Autosaves/Game/Blueprints/MyCharacter_Auto5.uasset'
+[2014.09.27-17.48.19:669][145]LogFileHelpers: Auto-saving content packages took 0.392
+[2014.09.27-17.48.28:040][691]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_125) Not registered. Aborting.
+[2014.09.27-17.49.25:927][415]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_126) Not registered. Aborting.
+[2014.09.27-17.49.25:977][415]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/MyCharacter" FILE="../../../../../../Github/UnrealEngine/First-Game/Content/Blueprints/MyCharacter.uasset" SILENT=true
+[2014.09.27-17.49.26:280][415]LogSavePackage: Save=289.647125ms
+[2014.09.27-17.49.26:280][415]LogSavePackage: Moving '../../../../../../Github/UnrealEngine/First-Game/Saved/MyCharacterD4804788406AB52E948B4383F5430016.tmp' to '../../../../../../Github/UnrealEngine/First-Game/Content/Blueprints/MyCharacter.uasset'
+[2014.09.27-17.49.50:963][932]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_127) Not registered. Aborting.
+[2014.09.27-17.49.50:998][932]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/MyCharacter" FILE="../../../../../../Github/UnrealEngine/First-Game/Content/Blueprints/MyCharacter.uasset" SILENT=true
+[2014.09.27-17.49.51:033][932]LogSavePackage: Save=23.486717ms
+[2014.09.27-17.49.51:033][932]LogSavePackage: Moving '../../../../../../Github/UnrealEngine/First-Game/Saved/MyCharacterC3AAEA8C480427B8D954D7855052C3F3.tmp' to '../../../../../../Github/UnrealEngine/First-Game/Content/Blueprints/MyCharacter.uasset'
+[2014.09.27-17.49.52:658][ 35]BlueprintLog: New page: Compile MyCharacter
+[2014.09.27-17.49.52:793][ 35]BlueprintEditorCompileResults: Info [5237.64] Compile of MyCharacter successful! [in 32 ms]
+[2014.09.27-17.49.53:193][ 43]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/MyCharacter" FILE="../../../../../../Github/UnrealEngine/First-Game/Content/Blueprints/MyCharacter.uasset" SILENT=true
+[2014.09.27-17.49.53:495][ 43]LogSavePackage: Save=290.356354ms
+[2014.09.27-17.49.53:495][ 43]LogSavePackage: Moving '../../../../../../Github/UnrealEngine/First-Game/Saved/MyCharacter8447E85E46E9BAF08C704ABB9EFEC9E3.tmp' to '../../../../../../Github/UnrealEngine/First-Game/Content/Blueprints/MyCharacter.uasset'
+[2014.09.27-17.49.55:417][189]LogPlayLevel: PIE:  No blueprints needed recompiling
+[2014.09.27-17.49.55:417][189]PIE: New page: PIE session: Example_Map (Sep 27, 2014, 9:49:55 PM)
+[2014.09.27-17.49.55:441][189]LogPlayLevel: PIE: StaticDuplicateObject took: (0.023790s)
+[2014.09.27-17.49.55:442][189]LogPlayLevel: PIE: World Init took: (0.000614s)
+[2014.09.27-17.49.55:442][189]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Example_Map.Example_Map to /Game/Maps/UEDPIE_0_Example_Map.Example_Map (0.024540s)
+[2014.09.27-17.49.55:470][189]LogWorld: Game class is 'MyGame_C'
+[2014.09.27-17.49.55:471][189]LogAIModule: Creating AISystem for world Example_Map
+[2014.09.27-17.49.55:472][189]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Example_Map.Example_Map up for play (max tick rate 0) at 2014.09.27-19.49.55
+[2014.09.27-17.49.55:473][189]LogWorld: Bringing up level for play took: 0.001367
+[2014.09.27-17.49.55:474][189]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_Example_Map 0.65
+[2014.09.27-17.50.55:402][328]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_128) Not registered. Aborting.
+[2014.09.27-17.51.16:183][807]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000040670540
+[2014.09.27-17.51.34:226][453]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_129) Not registered. Aborting.
+[2014.09.27-17.51.38:085][808]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_130) Not registered. Aborting.
+[2014.09.27-17.51.40:512][ 32]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_131) Not registered. Aborting.
+[2014.09.27-17.51.47:956][744]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_132) Not registered. Aborting.
+[2014.09.27-17.51.49:491][894]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_133) Not registered. Aborting.
+[2014.09.27-17.51.51:409][ 77]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_134) Not registered. Aborting.
+[2014.09.27-17.51.52:548][179]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_135) Not registered. Aborting.
+[2014.09.27-17.51.53:123][232]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_136) Not registered. Aborting.
+[2014.09.27-17.51.54:047][310]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_137) Not registered. Aborting.
+[2014.09.27-17.51.55:287][424]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_138) Not registered. Aborting.
+[2014.09.27-17.51.57:835][671]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_139) Not registered. Aborting.
+[2014.09.27-17.52.00:530][900]LogSlate:Warning: Prevented a slow task dialog from being summoned while a context menu was open
+[2014.09.27-17.52.01:546][  1]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_140) Not registered. Aborting.
+[2014.09.27-17.52.02:407][ 65]BlueprintLog: New page: Compile MyCharacter
+[2014.09.27-17.52.02:511][ 65]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_141) Not registered. Aborting.
+[2014.09.27-17.52.02:557][ 65]BlueprintEditorCompileResults: Info [5367.41] Compile of MyCharacter successful! [in 52 ms]
+[2014.09.27-17.52.30:886][525]Cmd: MODE GRID=0
+[2014.09.27-17.52.38:192][193]Cmd: MODE GRID=1
+[2014.09.27-17.52.45:746][772]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_142) Not registered. Aborting.
+[2014.09.27-17.52.47:162][902]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_143) Not registered. Aborting.
+[2014.09.27-17.52.55:345][701]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_144) Not registered. Aborting.
+[2014.09.27-17.53.19:837][803]Cmd: MODE GRID=0
+[2014.09.27-17.53.23:584][154]Cmd: MODE GRID=1
+[2014.09.27-17.53.25:968][308]BlueprintLog: New page: Compile MyCharacter
+[2014.09.27-17.53.26:058][308]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_145) Not registered. Aborting.
+[2014.09.27-17.53.26:112][308]BlueprintEditorCompileResults: Info [5450.95] Compile of MyCharacter successful! [in 31 ms]
+[2014.09.27-17.53.38:631][482]BlueprintLog: New page: Compile MyCharacter
+[2014.09.27-17.53.38:711][482]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_146) Not registered. Aborting.
+[2014.09.27-17.53.38:760][482]BlueprintEditorCompileResults: Info [5463.60] Compile of MyCharacter successful! [in 27 ms]
+[2014.09.27-17.53.39:233][519]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/MyCharacter" FILE="../../../../../../Github/UnrealEngine/First-Game/Content/Blueprints/MyCharacter.uasset" SILENT=true
+[2014.09.27-17.53.39:582][519]LogSavePackage: Save=288.087463ms
+[2014.09.27-17.53.39:582][519]LogSavePackage: Moving '../../../../../../Github/UnrealEngine/First-Game/Saved/MyCharacterAE691EF8406BFFB7266D6F877CB01DBE.tmp' to '../../../../../../Github/UnrealEngine/First-Game/Content/Blueprints/MyCharacter.uasset'
+[2014.09.27-17.53.40:812][615]LogSlate:Warning: Prevented a slow task dialog from being summoned while a context menu was open
+[2014.09.27-17.53.42:417][774]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_147) Not registered. Aborting.
+[2014.09.27-17.53.43:293][846]BlueprintLog: New page: Compile MyCharacter
+[2014.09.27-17.53.43:396][846]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_148) Not registered. Aborting.
+[2014.09.27-17.53.43:445][846]BlueprintEditorCompileResults: Info [5468.29] Compile of MyCharacter successful! [in 49 ms]
+[2014.09.27-17.53.43:951][892]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/MyCharacter" FILE="../../../../../../Github/UnrealEngine/First-Game/Content/Blueprints/MyCharacter.uasset" SILENT=true
+[2014.09.27-17.53.44:257][892]LogSavePackage: Save=294.085876ms
+[2014.09.27-17.53.44:257][892]LogSavePackage: Moving '../../../../../../Github/UnrealEngine/First-Game/Saved/MyCharacter853400F6415B3A360C444ABAB894A5B5.tmp' to '../../../../../../Github/UnrealEngine/First-Game/Content/Blueprints/MyCharacter.uasset'
+[2014.09.27-17.53.46:314][ 94]LogPlayLevel: PIE:  No blueprints needed recompiling
+[2014.09.27-17.53.46:314][ 94]PIE: New page: PIE session: Example_Map (Sep 27, 2014, 9:53:46 PM)
+[2014.09.27-17.53.46:334][ 94]LogPlayLevel: PIE: StaticDuplicateObject took: (0.019863s)
+[2014.09.27-17.53.46:335][ 94]LogPlayLevel: PIE: World Init took: (0.000626s)
+[2014.09.27-17.53.46:335][ 94]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Example_Map.Example_Map to /Game/Maps/UEDPIE_0_Example_Map.Example_Map (0.020669s)
+[2014.09.27-17.53.46:362][ 94]LogWorld: Game class is 'MyGame_C'
+[2014.09.27-17.53.46:363][ 94]LogAIModule: Creating AISystem for world Example_Map
+[2014.09.27-17.53.46:364][ 94]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Example_Map.Example_Map up for play (max tick rate 0) at 2014.09.27-19.53.46
+[2014.09.27-17.53.46:364][ 94]LogWorld: Bringing up level for play took: 0.001518
+[2014.09.27-17.53.46:366][ 94]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_Example_Map -0.46
+[2014.09.27-17.54.46:292][226]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_149) Not registered. Aborting.
+[2014.09.27-17.55.25:512][900]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000043E27060
+[2014.09.27-17.55.25:512][900]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000057C20AE0
+[2014.09.27-17.55.52:179][701]LogSlate:Warning: Prevented a slow task dialog from being summoned while a context menu was open
+[2014.09.27-17.55.55:235][ 31]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_150) Not registered. Aborting.
+[2014.09.27-17.55.57:937][202]BlueprintLog: New page: Compile MyCharacter
+[2014.09.27-17.55.58:042][202]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_151) Not registered. Aborting.
+[2014.09.27-17.55.58:094][202]BlueprintEditorCompileResults: Info [5602.93] Compile of MyCharacter successful! [in 47 ms]
+[2014.09.27-17.56.10:106][965]BlueprintLog: New page: Compile MyCharacter
+[2014.09.27-17.56.10:186][965]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_152) Not registered. Aborting.
+[2014.09.27-17.56.10:235][965]BlueprintEditorCompileResults: Info [5615.08] Compile of MyCharacter successful! [in 28 ms]
+[2014.09.27-17.56.15:779][316]LogSlate:Warning: Prevented a slow task dialog from being summoned while a context menu was open
+[2014.09.27-17.56.16:629][403]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_153) Not registered. Aborting.
+[2014.09.27-17.56.18:634][561]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_154) Not registered. Aborting.
+[2014.09.27-17.56.20:027][640]BlueprintLog: New page: Compile MyCharacter
+[2014.09.27-17.56.20:123][640]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_155) Not registered. Aborting.
+[2014.09.27-17.56.20:169][640]BlueprintEditorCompileResults: Info [5625.02] Compile of MyCharacter successful! [in 46 ms]
+[2014.09.27-17.56.30:541][249]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_156) Not registered. Aborting.
+[2014.09.27-17.56.41:352][913]BlueprintLog: New page: Compile MyCharacter
+[2014.09.27-17.56.41:428][913]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_157) Not registered. Aborting.
+[2014.09.27-17.56.41:474][913]BlueprintEditorCompileResults: Info [5646.32] Compile of MyCharacter successful! [in 27 ms]
+[2014.09.27-17.56.41:956][942]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/MyCharacter" FILE="../../../../../../Github/UnrealEngine/First-Game/Content/Blueprints/MyCharacter.uasset" SILENT=true
+[2014.09.27-17.56.42:311][942]LogSavePackage: Save=289.338593ms
+[2014.09.27-17.56.42:311][942]LogSavePackage: Moving '../../../../../../Github/UnrealEngine/First-Game/Saved/MyCharacter7EDBF2C747C03D5CA2B736923054E254.tmp' to '../../../../../../Github/UnrealEngine/First-Game/Content/Blueprints/MyCharacter.uasset'
+[2014.09.27-17.56.44:054][ 55]LogPlayLevel: PIE:  No blueprints needed recompiling
+[2014.09.27-17.56.44:054][ 55]PIE: New page: PIE session: Example_Map (Sep 27, 2014, 9:56:44 PM)
+[2014.09.27-17.56.44:078][ 55]LogPlayLevel: PIE: StaticDuplicateObject took: (0.023209s)
+[2014.09.27-17.56.44:079][ 55]LogPlayLevel: PIE: World Init took: (0.000681s)
+[2014.09.27-17.56.44:079][ 55]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Example_Map.Example_Map to /Game/Maps/UEDPIE_0_Example_Map.Example_Map (0.024086s)
+[2014.09.27-17.56.44:105][ 55]LogWorld: Game class is 'MyGame_C'
+[2014.09.27-17.56.44:107][ 55]LogAIModule: Creating AISystem for world Example_Map
+[2014.09.27-17.56.44:108][ 55]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Example_Map.Example_Map up for play (max tick rate 0) at 2014.09.27-19.56.44
+[2014.09.27-17.56.44:108][ 55]LogWorld: Bringing up level for play took: 0.001450
+[2014.09.27-17.56.44:110][ 55]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_Example_Map -0.717
+[2014.09.27-17.57.09:259][ 57]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_158) Not registered. Aborting.
+[2014.09.27-17.57.09:273][ 57]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000005F447380
+[2014.09.27-17.57.18:165][602]BlueprintLog: New page: Compile MyCharacter
+[2014.09.27-17.57.18:246][602]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_159) Not registered. Aborting.
+[2014.09.27-17.57.18:292][602]BlueprintEditorCompileResults: Info [5683.14] Compile of MyCharacter successful! [in 28 ms]
+[2014.09.27-17.57.19:100][651]LogPlayLevel: PIE:  No blueprints needed recompiling
+[2014.09.27-17.57.19:100][651]PIE: New page: PIE session: Example_Map (Sep 27, 2014, 9:57:19 PM)
+[2014.09.27-17.57.19:120][651]LogPlayLevel: PIE: StaticDuplicateObject took: (0.019632s)
+[2014.09.27-17.57.19:120][651]LogPlayLevel: PIE: World Init took: (0.000799s)
+[2014.09.27-17.57.19:121][651]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Example_Map.Example_Map to /Game/Maps/UEDPIE_0_Example_Map.Example_Map (0.020710s)
+[2014.09.27-17.57.19:148][651]LogWorld: Game class is 'MyGame_C'
+[2014.09.27-17.57.19:149][651]LogAIModule: Creating AISystem for world Example_Map
+[2014.09.27-17.57.19:150][651]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Example_Map.Example_Map up for play (max tick rate 0) at 2014.09.27-19.57.19
+[2014.09.27-17.57.19:150][651]LogWorld: Bringing up level for play took: 0.001323
+[2014.09.27-17.57.19:152][651]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_Example_Map 0.325
+[2014.09.27-17.57.26:316][234]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_160) Not registered. Aborting.
+[2014.09.27-17.57.26:330][234]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000003BD21C60
+[2014.09.27-17.57.30:665][496]Cmd: MODE GRID=0
+[2014.09.27-17.57.45:613][381]BlueprintLog: New page: Compile MyCharacter
+[2014.09.27-17.57.45:697][381]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_161) Not registered. Aborting.
+[2014.09.27-17.57.45:752][381]BlueprintEditorCompileResults: Info [5710.59] Compile of MyCharacter successful! [in 29 ms]
+[2014.09.27-17.57.46:224][409]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/MyCharacter" FILE="../../../../../../Github/UnrealEngine/First-Game/Content/Blueprints/MyCharacter.uasset" SILENT=true
+[2014.09.27-17.57.46:534][409]LogSavePackage: Save=286.452667ms
+[2014.09.27-17.57.46:534][409]LogSavePackage: Moving '../../../../../../Github/UnrealEngine/First-Game/Saved/MyCharacter6C6707414F632E10798675BA0E8A12EB.tmp' to '../../../../../../Github/UnrealEngine/First-Game/Content/Blueprints/MyCharacter.uasset'
+[2014.09.27-17.57.47:889][490]LogPlayLevel: PIE:  No blueprints needed recompiling
+[2014.09.27-17.57.47:889][490]PIE: New page: PIE session: Example_Map (Sep 27, 2014, 9:57:47 PM)
+[2014.09.27-17.57.47:910][490]LogPlayLevel: PIE: StaticDuplicateObject took: (0.020041s)
+[2014.09.27-17.57.47:910][490]LogPlayLevel: PIE: World Init took: (0.000797s)
+[2014.09.27-17.57.47:911][490]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Example_Map.Example_Map to /Game/Maps/UEDPIE_0_Example_Map.Example_Map (0.021049s)
+[2014.09.27-17.57.47:939][490]LogWorld: Game class is 'MyGame_C'
+[2014.09.27-17.57.47:940][490]LogAIModule: Creating AISystem for world Example_Map
+[2014.09.27-17.57.47:941][490]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Example_Map.Example_Map up for play (max tick rate 0) at 2014.09.27-19.57.47
+[2014.09.27-17.57.47:942][490]LogWorld: Bringing up level for play took: 0.001396
+[2014.09.27-17.57.47:943][490]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_Example_Map -0.884
+[2014.09.27-17.58.39:202][206]LogCharacterMovement: MyCharacter_C_12 is stuck and failed to move!
+[2014.09.27-17.58.39:259][211]LogCharacterMovement: MyCharacter_C_12 is stuck and failed to move!
+[2014.09.27-17.58.39:301][215]LogCharacterMovement: MyCharacter_C_12 is stuck and failed to move!
+[2014.09.27-17.58.39:343][219]LogCharacterMovement: MyCharacter_C_12 is stuck and failed to move!
+[2014.09.27-17.58.39:867][268]LogCharacterMovement: MyCharacter_C_12 is stuck and failed to move!
+[2014.09.27-17.58.39:877][269]LogCharacterMovement: MyCharacter_C_12 is stuck and failed to move!
+[2014.09.27-17.58.39:887][270]LogCharacterMovement: MyCharacter_C_12 is stuck and failed to move!
+[2014.09.27-17.58.39:898][271]LogCharacterMovement: MyCharacter_C_12 is stuck and failed to move!
+[2014.09.27-17.58.39:908][272]LogCharacterMovement: MyCharacter_C_12 is stuck and failed to move!
+[2014.09.27-17.58.39:919][273]LogCharacterMovement: MyCharacter_C_12 is stuck and failed to move!
+[2014.09.27-17.58.39:928][274]LogCharacterMovement: MyCharacter_C_12 is stuck and failed to move!
+[2014.09.27-17.58.39:939][275]LogCharacterMovement: MyCharacter_C_12 is stuck and failed to move!
+[2014.09.27-17.58.39:949][276]LogCharacterMovement: MyCharacter_C_12 is stuck and failed to move!
+[2014.09.27-17.58.39:960][277]LogCharacterMovement: MyCharacter_C_12 is stuck and failed to move!
+[2014.09.27-17.58.39:971][278]LogCharacterMovement: MyCharacter_C_12 is stuck and failed to move!
+[2014.09.27-17.58.39:982][279]LogCharacterMovement: MyCharacter_C_12 is stuck and failed to move!
+[2014.09.27-17.58.39:993][280]LogCharacterMovement: MyCharacter_C_12 is stuck and failed to move!
+[2014.09.27-17.58.40:004][281]LogCharacterMovement: MyCharacter_C_12 is stuck and failed to move!
+[2014.09.27-17.58.40:015][282]LogCharacterMovement: MyCharacter_C_12 is stuck and failed to move!
+[2014.09.27-17.58.40:025][283]LogCharacterMovement: MyCharacter_C_12 is stuck and failed to move!
+[2014.09.27-17.58.40:036][284]LogCharacterMovement: MyCharacter_C_12 is stuck and failed to move!
+[2014.09.27-17.58.40:047][285]LogCharacterMovement: MyCharacter_C_12 is stuck and failed to move!
+[2014.09.27-17.58.40:057][286]LogCharacterMovement: MyCharacter_C_12 is stuck and failed to move!
+[2014.09.27-17.58.40:067][287]LogCharacterMovement: MyCharacter_C_12 is stuck and failed to move!
+[2014.09.27-17.58.40:078][288]LogCharacterMovement: MyCharacter_C_12 is stuck and failed to move!
+[2014.09.27-17.58.40:089][289]LogCharacterMovement: MyCharacter_C_12 is stuck and failed to move!
+[2014.09.27-17.58.40:100][290]LogCharacterMovement: MyCharacter_C_12 is stuck and failed to move!
+[2014.09.27-17.58.40:111][291]LogCharacterMovement: MyCharacter_C_12 is stuck and failed to move!
+[2014.09.27-17.58.40:122][292]LogCharacterMovement: MyCharacter_C_12 is stuck and failed to move!
+[2014.09.27-17.58.40:132][293]LogCharacterMovement: MyCharacter_C_12 is stuck and failed to move!
+[2014.09.27-17.58.40:142][294]LogCharacterMovement: MyCharacter_C_12 is stuck and failed to move!
+[2014.09.27-17.58.40:152][295]LogCharacterMovement: MyCharacter_C_12 is stuck and failed to move!
+[2014.09.27-17.58.40:164][296]LogCharacterMovement: MyCharacter_C_12 is stuck and failed to move!
+[2014.09.27-17.58.40:174][297]LogCharacterMovement: MyCharacter_C_12 is stuck and failed to move!
+[2014.09.27-17.58.40:185][298]LogCharacterMovement: MyCharacter_C_12 is stuck and failed to move!
+[2014.09.27-17.58.40:196][299]LogCharacterMovement: MyCharacter_C_12 is stuck and failed to move!
+[2014.09.27-17.58.40:208][300]LogCharacterMovement: MyCharacter_C_12 is stuck and failed to move!
+[2014.09.27-17.58.40:220][301]LogCharacterMovement: MyCharacter_C_12 is stuck and failed to move!
+[2014.09.27-17.58.40:232][302]LogCharacterMovement: MyCharacter_C_12 is stuck and failed to move!
+[2014.09.27-17.58.40:243][303]LogCharacterMovement: MyCharacter_C_12 is stuck and failed to move!
+[2014.09.27-17.58.40:253][304]LogCharacterMovement: MyCharacter_C_12 is stuck and failed to move!
+[2014.09.27-17.58.40:264][305]LogCharacterMovement: MyCharacter_C_12 is stuck and failed to move!
+[2014.09.27-17.58.40:274][306]LogCharacterMovement: MyCharacter_C_12 is stuck and failed to move!
+[2014.09.27-17.58.40:285][307]LogCharacterMovement: MyCharacter_C_12 is stuck and failed to move!
+[2014.09.27-17.58.40:296][308]LogCharacterMovement: MyCharacter_C_12 is stuck and failed to move!
+[2014.09.27-17.58.40:306][309]LogCharacterMovement: MyCharacter_C_12 is stuck and failed to move!
+[2014.09.27-17.58.40:317][310]LogCharacterMovement: MyCharacter_C_12 is stuck and failed to move!
+[2014.09.27-17.58.40:328][311]LogCharacterMovement: MyCharacter_C_12 is stuck and failed to move!
+[2014.09.27-17.58.40:338][312]LogCharacterMovement: MyCharacter_C_12 is stuck and failed to move!
+[2014.09.27-17.58.40:347][313]LogCharacterMovement: MyCharacter_C_12 is stuck and failed to move!
+[2014.09.27-17.58.40:358][314]LogCharacterMovement: MyCharacter_C_12 is stuck and failed to move!
+[2014.09.27-17.58.40:368][315]LogCharacterMovement: MyCharacter_C_12 is stuck and failed to move!
+[2014.09.27-17.58.40:378][316]LogCharacterMovement: MyCharacter_C_12 is stuck and failed to move!
+[2014.09.27-17.58.40:389][317]LogCharacterMovement: MyCharacter_C_12 is stuck and failed to move!
+[2014.09.27-17.58.40:399][318]LogCharacterMovement: MyCharacter_C_12 is stuck and failed to move!
+[2014.09.27-17.58.40:410][319]LogCharacterMovement: MyCharacter_C_12 is stuck and failed to move!
+[2014.09.27-17.58.40:420][320]LogCharacterMovement: MyCharacter_C_12 is stuck and failed to move!
+[2014.09.27-17.58.40:429][321]LogCharacterMovement: MyCharacter_C_12 is stuck and failed to move!
+[2014.09.27-17.58.40:440][322]LogCharacterMovement: MyCharacter_C_12 is stuck and failed to move!
+[2014.09.27-17.58.40:450][323]LogCharacterMovement: MyCharacter_C_12 is stuck and failed to move!
+[2014.09.27-17.58.40:459][324]LogCharacterMovement: MyCharacter_C_12 is stuck and failed to move!
+[2014.09.27-17.58.40:469][325]LogCharacterMovement: MyCharacter_C_12 is stuck and failed to move!
+[2014.09.27-17.58.40:479][326]LogCharacterMovement: MyCharacter_C_12 is stuck and failed to move!
+[2014.09.27-17.58.40:489][327]LogCharacterMovement: MyCharacter_C_12 is stuck and failed to move!
+[2014.09.27-17.58.40:500][328]LogCharacterMovement: MyCharacter_C_12 is stuck and failed to move!
+[2014.09.27-17.58.40:511][329]LogCharacterMovement: MyCharacter_C_12 is stuck and failed to move!
+[2014.09.27-17.58.40:522][330]LogCharacterMovement: MyCharacter_C_12 is stuck and failed to move!
+[2014.09.27-17.58.40:533][331]LogCharacterMovement: MyCharacter_C_12 is stuck and failed to move!
+[2014.09.27-17.58.40:544][332]LogCharacterMovement: MyCharacter_C_12 is stuck and failed to move!
+[2014.09.27-17.58.40:554][333]LogCharacterMovement: MyCharacter_C_12 is stuck and failed to move!
+[2014.09.27-17.58.40:566][334]LogCharacterMovement: MyCharacter_C_12 is stuck and failed to move!
+[2014.09.27-17.58.40:577][335]LogCharacterMovement: MyCharacter_C_12 is stuck and failed to move!
+[2014.09.27-17.58.40:588][336]LogCharacterMovement: MyCharacter_C_12 is stuck and failed to move!
+[2014.09.27-17.58.40:598][337]LogCharacterMovement: MyCharacter_C_12 is stuck and failed to move!
+[2014.09.27-17.58.40:609][338]LogCharacterMovement: MyCharacter_C_12 is stuck and failed to move!
+[2014.09.27-17.58.40:620][339]LogCharacterMovement: MyCharacter_C_12 is stuck and failed to move!
+[2014.09.27-17.58.40:631][340]LogCharacterMovement: MyCharacter_C_12 is stuck and failed to move!
+[2014.09.27-17.58.40:642][341]LogCharacterMovement: MyCharacter_C_12 is stuck and failed to move!
+[2014.09.27-17.58.40:652][342]LogCharacterMovement: MyCharacter_C_12 is stuck and failed to move!
+[2014.09.27-17.58.40:662][343]LogCharacterMovement: MyCharacter_C_12 is stuck and failed to move!
+[2014.09.27-17.58.40:673][344]LogCharacterMovement: MyCharacter_C_12 is stuck and failed to move!
+[2014.09.27-17.58.40:684][345]LogCharacterMovement: MyCharacter_C_12 is stuck and failed to move!
+[2014.09.27-17.58.40:694][346]LogCharacterMovement: MyCharacter_C_12 is stuck and failed to move!
+[2014.09.27-17.58.40:705][347]LogCharacterMovement: MyCharacter_C_12 is stuck and failed to move!
+[2014.09.27-17.58.40:716][348]LogCharacterMovement: MyCharacter_C_12 is stuck and failed to move!
+[2014.09.27-17.58.40:726][349]LogCharacterMovement: MyCharacter_C_12 is stuck and failed to move!
+[2014.09.27-17.58.40:737][350]LogCharacterMovement: MyCharacter_C_12 is stuck and failed to move!
+[2014.09.27-17.58.40:748][351]LogCharacterMovement: MyCharacter_C_12 is stuck and failed to move!
+[2014.09.27-17.58.40:758][352]LogCharacterMovement: MyCharacter_C_12 is stuck and failed to move!
+[2014.09.27-17.58.40:769][353]LogCharacterMovement: MyCharacter_C_12 is stuck and failed to move!
+[2014.09.27-17.58.40:780][354]LogCharacterMovement: MyCharacter_C_12 is stuck and failed to move!
+[2014.09.27-17.58.40:791][355]LogCharacterMovement: MyCharacter_C_12 is stuck and failed to move!
+[2014.09.27-17.58.40:802][356]LogCharacterMovement: MyCharacter_C_12 is stuck and failed to move!
+[2014.09.27-17.58.40:811][357]LogCharacterMovement: MyCharacter_C_12 is stuck and failed to move!
+[2014.09.27-17.58.40:822][358]LogCharacterMovement: MyCharacter_C_12 is stuck and failed to move!
+[2014.09.27-17.58.40:834][359]LogCharacterMovement: MyCharacter_C_12 is stuck and failed to move!
+[2014.09.27-17.58.40:844][360]LogCharacterMovement: MyCharacter_C_12 is stuck and failed to move!
+[2014.09.27-17.58.40:855][361]LogCharacterMovement: MyCharacter_C_12 is stuck and failed to move!
+[2014.09.27-17.58.40:866][362]LogCharacterMovement: MyCharacter_C_12 is stuck and failed to move!
+[2014.09.27-17.58.40:877][363]LogCharacterMovement: MyCharacter_C_12 is stuck and failed to move!
+[2014.09.27-17.58.40:887][364]LogCharacterMovement: MyCharacter_C_12 is stuck and failed to move!
+[2014.09.27-17.58.40:898][365]LogCharacterMovement: MyCharacter_C_12 is stuck and failed to move!
+[2014.09.27-17.58.40:908][366]LogCharacterMovement: MyCharacter_C_12 is stuck and failed to move!
+[2014.09.27-17.58.40:918][367]LogCharacterMovement: MyCharacter_C_12 is stuck and failed to move!
+[2014.09.27-17.58.40:929][368]LogCharacterMovement: MyCharacter_C_12 is stuck and failed to move!
+[2014.09.27-17.58.40:940][369]LogCharacterMovement: MyCharacter_C_12 is stuck and failed to move!
+[2014.09.27-17.58.40:950][370]LogCharacterMovement: MyCharacter_C_12 is stuck and failed to move!
+[2014.09.27-17.58.40:960][371]LogCharacterMovement: MyCharacter_C_12 is stuck and failed to move!
+[2014.09.27-17.58.40:972][372]LogCharacterMovement: MyCharacter_C_12 is stuck and failed to move!
+[2014.09.27-17.58.40:982][373]LogCharacterMovement: MyCharacter_C_12 is stuck and failed to move!
+[2014.09.27-17.58.40:993][374]LogCharacterMovement: MyCharacter_C_12 is stuck and failed to move!
+[2014.09.27-17.58.41:003][375]LogCharacterMovement: MyCharacter_C_12 is stuck and failed to move!
+[2014.09.27-17.58.41:014][376]LogCharacterMovement: MyCharacter_C_12 is stuck and failed to move!
+[2014.09.27-17.58.41:025][377]LogCharacterMovement: MyCharacter_C_12 is stuck and failed to move!
+[2014.09.27-17.58.41:036][378]LogCharacterMovement: MyCharacter_C_12 is stuck and failed to move!
+[2014.09.27-17.58.41:047][379]LogCharacterMovement: MyCharacter_C_12 is stuck and failed to move!
+[2014.09.27-17.58.41:057][380]LogCharacterMovement: MyCharacter_C_12 is stuck and failed to move!
+[2014.09.27-17.58.41:068][381]LogCharacterMovement: MyCharacter_C_12 is stuck and failed to move!
+[2014.09.27-17.58.41:078][382]LogCharacterMovement: MyCharacter_C_12 is stuck and failed to move!
+[2014.09.27-17.58.41:090][383]LogCharacterMovement: MyCharacter_C_12 is stuck and failed to move!
+[2014.09.27-17.58.41:100][384]LogCharacterMovement: MyCharacter_C_12 is stuck and failed to move!
+[2014.09.27-17.58.41:110][385]LogCharacterMovement: MyCharacter_C_12 is stuck and failed to move!
+[2014.09.27-17.58.41:121][386]LogCharacterMovement: MyCharacter_C_12 is stuck and failed to move!
+[2014.09.27-17.58.41:131][387]LogCharacterMovement: MyCharacter_C_12 is stuck and failed to move!
+[2014.09.27-17.58.41:142][388]LogCharacterMovement: MyCharacter_C_12 is stuck and failed to move!
+[2014.09.27-17.58.41:152][389]LogCharacterMovement: MyCharacter_C_12 is stuck and failed to move!
+[2014.09.27-17.58.41:163][390]LogCharacterMovement: MyCharacter_C_12 is stuck and failed to move!
+[2014.09.27-17.58.41:174][391]LogCharacterMovement: MyCharacter_C_12 is stuck and failed to move!
+[2014.09.27-17.58.41:186][392]LogCharacterMovement: MyCharacter_C_12 is stuck and failed to move!
+[2014.09.27-17.58.41:197][393]LogCharacterMovement: MyCharacter_C_12 is stuck and failed to move!
+[2014.09.27-17.58.41:208][394]LogCharacterMovement: MyCharacter_C_12 is stuck and failed to move!
+[2014.09.27-17.58.41:220][395]LogCharacterMovement: MyCharacter_C_12 is stuck and failed to move!
+[2014.09.27-17.58.41:231][396]LogCharacterMovement: MyCharacter_C_12 is stuck and failed to move!
+[2014.09.27-17.58.41:243][397]LogCharacterMovement: MyCharacter_C_12 is stuck and failed to move!
+[2014.09.27-17.58.41:253][398]LogCharacterMovement: MyCharacter_C_12 is stuck and failed to move!
+[2014.09.27-17.58.41:262][399]LogCharacterMovement: MyCharacter_C_12 is stuck and failed to move!
+[2014.09.27-17.58.41:273][400]LogCharacterMovement: MyCharacter_C_12 is stuck and failed to move!
+[2014.09.27-17.58.41:283][401]LogCharacterMovement: MyCharacter_C_12 is stuck and failed to move!
+[2014.09.27-17.58.41:293][402]LogCharacterMovement: MyCharacter_C_12 is stuck and failed to move!
+[2014.09.27-17.58.41:303][403]LogCharacterMovement: MyCharacter_C_12 is stuck and failed to move!
+[2014.09.27-17.58.41:313][404]LogCharacterMovement: MyCharacter_C_12 is stuck and failed to move!
+[2014.09.27-17.58.41:323][405]LogCharacterMovement: MyCharacter_C_12 is stuck and failed to move!
+[2014.09.27-17.58.41:335][406]LogCharacterMovement: MyCharacter_C_12 is stuck and failed to move!
+[2014.09.27-17.58.41:345][407]LogCharacterMovement: MyCharacter_C_12 is stuck and failed to move!
+[2014.09.27-17.58.41:356][408]LogCharacterMovement: MyCharacter_C_12 is stuck and failed to move!
+[2014.09.27-17.58.41:367][409]LogCharacterMovement: MyCharacter_C_12 is stuck and failed to move!
+[2014.09.27-17.58.41:378][410]LogCharacterMovement: MyCharacter_C_12 is stuck and failed to move!
+[2014.09.27-17.58.41:389][411]LogCharacterMovement: MyCharacter_C_12 is stuck and failed to move!
+[2014.09.27-17.58.41:400][412]LogCharacterMovement: MyCharacter_C_12 is stuck and failed to move!
+[2014.09.27-17.58.41:410][413]LogCharacterMovement: MyCharacter_C_12 is stuck and failed to move!
+[2014.09.27-17.58.41:422][414]LogCharacterMovement: MyCharacter_C_12 is stuck and failed to move!
+[2014.09.27-17.58.41:432][415]LogCharacterMovement: MyCharacter_C_12 is stuck and failed to move!
+[2014.09.27-17.58.41:443][416]LogCharacterMovement: MyCharacter_C_12 is stuck and failed to move!
+[2014.09.27-17.58.41:453][417]LogCharacterMovement: MyCharacter_C_12 is stuck and failed to move!
+[2014.09.27-17.58.41:464][418]LogCharacterMovement: MyCharacter_C_12 is stuck and failed to move!
+[2014.09.27-17.58.41:475][419]LogCharacterMovement: MyCharacter_C_12 is stuck and failed to move!
+[2014.09.27-17.58.41:487][420]LogCharacterMovement: MyCharacter_C_12 is stuck and failed to move!
+[2014.09.27-17.58.41:498][421]LogCharacterMovement: MyCharacter_C_12 is stuck and failed to move!
+[2014.09.27-17.58.41:510][422]LogCharacterMovement: MyCharacter_C_12 is stuck and failed to move!
+[2014.09.27-17.58.41:521][423]LogCharacterMovement: MyCharacter_C_12 is stuck and failed to move!
+[2014.09.27-17.58.41:532][424]LogCharacterMovement: MyCharacter_C_12 is stuck and failed to move!
+[2014.09.27-17.58.41:543][425]LogCharacterMovement: MyCharacter_C_12 is stuck and failed to move!
+[2014.09.27-17.58.41:554][426]LogCharacterMovement: MyCharacter_C_12 is stuck and failed to move!
+[2014.09.27-17.58.41:566][427]LogCharacterMovement: MyCharacter_C_12 is stuck and failed to move!
+[2014.09.27-17.58.41:579][428]LogCharacterMovement: MyCharacter_C_12 is stuck and failed to move!
+[2014.09.27-17.58.41:591][429]LogCharacterMovement: MyCharacter_C_12 is stuck and failed to move!
+[2014.09.27-17.58.41:602][430]LogCharacterMovement: MyCharacter_C_12 is stuck and failed to move!
+[2014.09.27-17.58.41:614][431]LogCharacterMovement: MyCharacter_C_12 is stuck and failed to move!
+[2014.09.27-17.58.41:625][432]LogCharacterMovement: MyCharacter_C_12 is stuck and failed to move!
+[2014.09.27-17.58.41:635][433]LogCharacterMovement: MyCharacter_C_12 is stuck and failed to move!
+[2014.09.27-17.58.41:645][434]LogCharacterMovement: MyCharacter_C_12 is stuck and failed to move!
+[2014.09.27-17.58.41:656][435]LogCharacterMovement: MyCharacter_C_12 is stuck and failed to move!
+[2014.09.27-17.58.41:667][436]LogCharacterMovement: MyCharacter_C_12 is stuck and failed to move!
+[2014.09.27-17.58.41:677][437]LogCharacterMovement: MyCharacter_C_12 is stuck and failed to move!
+[2014.09.27-17.58.41:687][438]LogCharacterMovement: MyCharacter_C_12 is stuck and failed to move!
+[2014.09.27-17.58.41:698][439]LogCharacterMovement: MyCharacter_C_12 is stuck and failed to move!
+[2014.09.27-17.58.41:709][440]LogCharacterMovement: MyCharacter_C_12 is stuck and failed to move!
+[2014.09.27-17.58.41:720][441]LogCharacterMovement: MyCharacter_C_12 is stuck and failed to move!
+[2014.09.27-17.58.41:732][442]LogCharacterMovement: MyCharacter_C_12 is stuck and failed to move!
+[2014.09.27-17.58.41:742][443]LogCharacterMovement: MyCharacter_C_12 is stuck and failed to move!
+[2014.09.27-17.58.41:753][444]LogCharacterMovement: MyCharacter_C_12 is stuck and failed to move!
+[2014.09.27-17.58.41:764][445]LogCharacterMovement: MyCharacter_C_12 is stuck and failed to move!
+[2014.09.27-17.58.41:775][446]LogCharacterMovement: MyCharacter_C_12 is stuck and failed to move!
+[2014.09.27-17.58.41:786][447]LogCharacterMovement: MyCharacter_C_12 is stuck and failed to move!
+[2014.09.27-17.58.41:798][448]LogCharacterMovement: MyCharacter_C_12 is stuck and failed to move!
+[2014.09.27-17.58.41:808][449]LogCharacterMovement: MyCharacter_C_12 is stuck and failed to move!
+[2014.09.27-17.58.41:820][450]LogCharacterMovement: MyCharacter_C_12 is stuck and failed to move!
+[2014.09.27-17.58.41:831][451]LogCharacterMovement: MyCharacter_C_12 is stuck and failed to move!
+[2014.09.27-17.58.41:841][452]LogCharacterMovement: MyCharacter_C_12 is stuck and failed to move!
+[2014.09.27-17.58.41:853][453]LogCharacterMovement: MyCharacter_C_12 is stuck and failed to move!
+[2014.09.27-17.58.41:863][454]LogCharacterMovement: MyCharacter_C_12 is stuck and failed to move!
+[2014.09.27-17.58.41:875][455]LogCharacterMovement: MyCharacter_C_12 is stuck and failed to move!
+[2014.09.27-17.58.41:886][456]LogCharacterMovement: MyCharacter_C_12 is stuck and failed to move!
+[2014.09.27-17.58.41:896][457]LogCharacterMovement: MyCharacter_C_12 is stuck and failed to move!
+[2014.09.27-17.58.41:908][458]LogCharacterMovement: MyCharacter_C_12 is stuck and failed to move!
+[2014.09.27-17.58.41:918][459]LogCharacterMovement: MyCharacter_C_12 is stuck and failed to move!
+[2014.09.27-17.58.41:929][460]LogCharacterMovement: MyCharacter_C_12 is stuck and failed to move!
+[2014.09.27-17.58.41:941][461]LogCharacterMovement: MyCharacter_C_12 is stuck and failed to move!
+[2014.09.27-17.58.41:952][462]LogCharacterMovement: MyCharacter_C_12 is stuck and failed to move!
+[2014.09.27-17.58.41:963][463]LogCharacterMovement: MyCharacter_C_12 is stuck and failed to move!
+[2014.09.27-17.58.41:974][464]LogCharacterMovement: MyCharacter_C_12 is stuck and failed to move!
+[2014.09.27-17.58.41:986][465]LogCharacterMovement: MyCharacter_C_12 is stuck and failed to move!
+[2014.09.27-17.58.41:998][466]LogCharacterMovement: MyCharacter_C_12 is stuck and failed to move!
+[2014.09.27-17.58.42:009][467]LogCharacterMovement: MyCharacter_C_12 is stuck and failed to move!
+[2014.09.27-17.58.42:020][468]LogCharacterMovement: MyCharacter_C_12 is stuck and failed to move!
+[2014.09.27-17.58.42:032][469]LogCharacterMovement: MyCharacter_C_12 is stuck and failed to move!
+[2014.09.27-17.58.42:043][470]LogCharacterMovement: MyCharacter_C_12 is stuck and failed to move!
+[2014.09.27-17.58.42:054][471]LogCharacterMovement: MyCharacter_C_12 is stuck and failed to move!
+[2014.09.27-17.58.42:065][472]LogCharacterMovement: MyCharacter_C_12 is stuck and failed to move!
+[2014.09.27-17.58.42:076][473]LogCharacterMovement: MyCharacter_C_12 is stuck and failed to move!
+[2014.09.27-17.58.42:087][474]LogCharacterMovement: MyCharacter_C_12 is stuck and failed to move!
+[2014.09.27-17.58.42:098][475]LogCharacterMovement: MyCharacter_C_12 is stuck and failed to move!
+[2014.09.27-17.58.42:110][476]LogCharacterMovement: MyCharacter_C_12 is stuck and failed to move!
+[2014.09.27-17.58.42:122][477]LogCharacterMovement: MyCharacter_C_12 is stuck and failed to move!
+[2014.09.27-17.58.42:133][478]LogCharacterMovement: MyCharacter_C_12 is stuck and failed to move!
+[2014.09.27-17.58.42:145][479]LogCharacterMovement: MyCharacter_C_12 is stuck and failed to move!
+[2014.09.27-17.58.42:156][480]LogCharacterMovement: MyCharacter_C_12 is stuck and failed to move!
+[2014.09.27-17.58.42:168][481]LogCharacterMovement: MyCharacter_C_12 is stuck and failed to move!
+[2014.09.27-17.58.42:178][482]LogCharacterMovement: MyCharacter_C_12 is stuck and failed to move!
+[2014.09.27-17.58.42:190][483]LogCharacterMovement: MyCharacter_C_12 is stuck and failed to move!
+[2014.09.27-17.58.42:202][484]LogCharacterMovement: MyCharacter_C_12 is stuck and failed to move!
+[2014.09.27-17.58.42:214][485]LogCharacterMovement: MyCharacter_C_12 is stuck and failed to move!
+[2014.09.27-17.58.42:226][486]LogCharacterMovement: MyCharacter_C_12 is stuck and failed to move!
+[2014.09.27-17.58.42:237][487]LogCharacterMovement: MyCharacter_C_12 is stuck and failed to move!
+[2014.09.27-17.58.42:248][488]LogCharacterMovement: MyCharacter_C_12 is stuck and failed to move!
+[2014.09.27-17.58.42:258][489]LogCharacterMovement: MyCharacter_C_12 is stuck and failed to move!
+[2014.09.27-17.58.42:268][490]LogCharacterMovement: MyCharacter_C_12 is stuck and failed to move!
+[2014.09.27-17.58.42:278][491]LogCharacterMovement: MyCharacter_C_12 is stuck and failed to move!
+[2014.09.27-17.58.42:288][492]LogCharacterMovement: MyCharacter_C_12 is stuck and failed to move!
+[2014.09.27-17.58.42:298][493]LogCharacterMovement: MyCharacter_C_12 is stuck and failed to move!
+[2014.09.27-17.58.42:309][494]LogCharacterMovement: MyCharacter_C_12 is stuck and failed to move!
+[2014.09.27-17.58.42:320][495]LogCharacterMovement: MyCharacter_C_12 is stuck and failed to move!
+[2014.09.27-17.58.42:330][496]LogCharacterMovement: MyCharacter_C_12 is stuck and failed to move!
+[2014.09.27-17.58.42:340][497]LogCharacterMovement: MyCharacter_C_12 is stuck and failed to move!
+[2014.09.27-17.58.42:350][498]LogCharacterMovement: MyCharacter_C_12 is stuck and failed to move!
+[2014.09.27-17.58.42:360][499]LogCharacterMovement: MyCharacter_C_12 is stuck and failed to move!
+[2014.09.27-17.58.42:371][500]LogCharacterMovement: MyCharacter_C_12 is stuck and failed to move!
+[2014.09.27-17.58.42:382][501]LogCharacterMovement: MyCharacter_C_12 is stuck and failed to move!
+[2014.09.27-17.58.42:393][502]LogCharacterMovement: MyCharacter_C_12 is stuck and failed to move!
+[2014.09.27-17.58.42:404][503]LogCharacterMovement: MyCharacter_C_12 is stuck and failed to move!
+[2014.09.27-17.58.42:415][504]LogCharacterMovement: MyCharacter_C_12 is stuck and failed to move!
+[2014.09.27-17.58.42:425][505]LogCharacterMovement: MyCharacter_C_12 is stuck and failed to move!
+[2014.09.27-17.58.42:436][506]LogCharacterMovement: MyCharacter_C_12 is stuck and failed to move!
+[2014.09.27-17.58.42:446][507]LogCharacterMovement: MyCharacter_C_12 is stuck and failed to move!
+[2014.09.27-17.58.42:457][508]LogCharacterMovement: MyCharacter_C_12 is stuck and failed to move!
+[2014.09.27-17.58.42:467][509]LogCharacterMovement: MyCharacter_C_12 is stuck and failed to move!
+[2014.09.27-17.58.42:478][510]LogCharacterMovement: MyCharacter_C_12 is stuck and failed to move!
+[2014.09.27-17.58.42:488][511]LogCharacterMovement: MyCharacter_C_12 is stuck and failed to move!
+[2014.09.27-17.58.42:499][512]LogCharacterMovement: MyCharacter_C_12 is stuck and failed to move!
+[2014.09.27-17.58.42:510][513]LogCharacterMovement: MyCharacter_C_12 is stuck and failed to move!
+[2014.09.27-17.58.42:521][514]LogCharacterMovement: MyCharacter_C_12 is stuck and failed to move!
+[2014.09.27-17.58.42:532][515]LogCharacterMovement: MyCharacter_C_12 is stuck and failed to move!
+[2014.09.27-17.58.42:543][516]LogCharacterMovement: MyCharacter_C_12 is stuck and failed to move!
+[2014.09.27-17.58.42:554][517]LogCharacterMovement: MyCharacter_C_12 is stuck and failed to move!
+[2014.09.27-17.58.42:565][518]LogCharacterMovement: MyCharacter_C_12 is stuck and failed to move!
+[2014.09.27-17.58.42:577][519]LogCharacterMovement: MyCharacter_C_12 is stuck and failed to move!
+[2014.09.27-17.58.42:588][520]LogCharacterMovement: MyCharacter_C_12 is stuck and failed to move!
+[2014.09.27-17.58.42:600][521]LogCharacterMovement: MyCharacter_C_12 is stuck and failed to move!
+[2014.09.27-17.58.42:611][522]LogCharacterMovement: MyCharacter_C_12 is stuck and failed to move!
+[2014.09.27-17.58.42:622][523]LogCharacterMovement: MyCharacter_C_12 is stuck and failed to move!
+[2014.09.27-17.58.42:633][524]LogCharacterMovement: MyCharacter_C_12 is stuck and failed to move!
+[2014.09.27-17.58.42:644][525]LogCharacterMovement: MyCharacter_C_12 is stuck and failed to move!
+[2014.09.27-17.58.42:655][526]LogCharacterMovement: MyCharacter_C_12 is stuck and failed to move!
+[2014.09.27-17.58.42:666][527]LogCharacterMovement: MyCharacter_C_12 is stuck and failed to move!
+[2014.09.27-17.58.42:677][528]LogCharacterMovement: MyCharacter_C_12 is stuck and failed to move!
+[2014.09.27-17.58.42:689][529]LogCharacterMovement: MyCharacter_C_12 is stuck and failed to move!
+[2014.09.27-17.58.42:700][530]LogCharacterMovement: MyCharacter_C_12 is stuck and failed to move!
+[2014.09.27-17.58.42:711][531]LogCharacterMovement: MyCharacter_C_12 is stuck and failed to move!
+[2014.09.27-17.58.42:722][532]LogCharacterMovement: MyCharacter_C_12 is stuck and failed to move!
+[2014.09.27-17.58.42:733][533]LogCharacterMovement: MyCharacter_C_12 is stuck and failed to move!
+[2014.09.27-17.58.42:744][534]LogCharacterMovement: MyCharacter_C_12 is stuck and failed to move!
+[2014.09.27-17.58.42:755][535]LogCharacterMovement: MyCharacter_C_12 is stuck and failed to move!
+[2014.09.27-17.58.42:766][536]LogCharacterMovement: MyCharacter_C_12 is stuck and failed to move!
+[2014.09.27-17.58.42:777][537]LogCharacterMovement: MyCharacter_C_12 is stuck and failed to move!
+[2014.09.27-17.58.42:788][538]LogCharacterMovement: MyCharacter_C_12 is stuck and failed to move!
+[2014.09.27-17.58.42:800][539]LogCharacterMovement: MyCharacter_C_12 is stuck and failed to move!
+[2014.09.27-17.58.42:811][540]LogCharacterMovement: MyCharacter_C_12 is stuck and failed to move!
+[2014.09.27-17.58.42:822][541]LogCharacterMovement: MyCharacter_C_12 is stuck and failed to move!
+[2014.09.27-17.58.42:833][542]LogCharacterMovement: MyCharacter_C_12 is stuck and failed to move!
+[2014.09.27-17.58.42:843][543]LogCharacterMovement: MyCharacter_C_12 is stuck and failed to move!
+[2014.09.27-17.58.42:854][544]LogCharacterMovement: MyCharacter_C_12 is stuck and failed to move!
+[2014.09.27-17.58.42:865][545]LogCharacterMovement: MyCharacter_C_12 is stuck and failed to move!
+[2014.09.27-17.58.42:876][546]LogCharacterMovement: MyCharacter_C_12 is stuck and failed to move!
+[2014.09.27-17.58.42:888][547]LogCharacterMovement: MyCharacter_C_12 is stuck and failed to move!
+[2014.09.27-17.58.42:899][548]LogCharacterMovement: MyCharacter_C_12 is stuck and failed to move!
+[2014.09.27-17.58.42:910][549]LogCharacterMovement: MyCharacter_C_12 is stuck and failed to move!
+[2014.09.27-17.58.42:921][550]LogCharacterMovement: MyCharacter_C_12 is stuck and failed to move!
+[2014.09.27-17.58.42:932][551]LogCharacterMovement: MyCharacter_C_12 is stuck and failed to move!
+[2014.09.27-17.58.42:943][552]LogCharacterMovement: MyCharacter_C_12 is stuck and failed to move!
+[2014.09.27-17.58.42:953][553]LogCharacterMovement: MyCharacter_C_12 is stuck and failed to move!
+[2014.09.27-17.58.42:964][554]LogCharacterMovement: MyCharacter_C_12 is stuck and failed to move!
+[2014.09.27-17.58.42:974][555]LogCharacterMovement: MyCharacter_C_12 is stuck and failed to move!
+[2014.09.27-17.58.42:985][556]LogCharacterMovement: MyCharacter_C_12 is stuck and failed to move!
+[2014.09.27-17.58.42:997][557]LogCharacterMovement: MyCharacter_C_12 is stuck and failed to move!
+[2014.09.27-17.58.43:007][558]LogCharacterMovement: MyCharacter_C_12 is stuck and failed to move!
+[2014.09.27-17.58.43:018][559]LogCharacterMovement: MyCharacter_C_12 is stuck and failed to move!
+[2014.09.27-17.58.43:029][560]LogCharacterMovement: MyCharacter_C_12 is stuck and failed to move!
+[2014.09.27-17.58.43:039][561]LogCharacterMovement: MyCharacter_C_12 is stuck and failed to move!
+[2014.09.27-17.58.47:864][  3]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_162) Not registered. Aborting.
+[2014.09.27-17.59.00:788][171]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000003F997A60
+[2014.09.27-17.59.13:936][940]BlueprintLog: New page: Compile MyCharacter
+[2014.09.27-17.59.14:011][940]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_163) Not registered. Aborting.
+[2014.09.27-17.59.14:062][940]BlueprintEditorCompileResults: Info [5798.91] Compile of MyCharacter successful! [in 26 ms]
+[2014.09.27-17.59.14:509][966]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/MyCharacter" FILE="../../../../../../Github/UnrealEngine/First-Game/Content/Blueprints/MyCharacter.uasset" SILENT=true
+[2014.09.27-17.59.14:811][966]LogSavePackage: Save=289.708038ms
+[2014.09.27-17.59.14:811][966]LogSavePackage: Moving '../../../../../../Github/UnrealEngine/First-Game/Saved/MyCharacterA2973E3F4831680508DAE3B4C4B7ED82.tmp' to '../../../../../../Github/UnrealEngine/First-Game/Content/Blueprints/MyCharacter.uasset'
+[2014.09.27-17.59.16:349][ 55]LogPlayLevel: PIE:  No blueprints needed recompiling
+[2014.09.27-17.59.16:349][ 55]PIE: New page: PIE session: Example_Map (Sep 27, 2014, 9:59:16 PM)
+[2014.09.27-17.59.16:369][ 55]LogPlayLevel: PIE: StaticDuplicateObject took: (0.020074s)
+[2014.09.27-17.59.16:370][ 55]LogPlayLevel: PIE: World Init took: (0.000753s)
+[2014.09.27-17.59.16:370][ 55]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Example_Map.Example_Map to /Game/Maps/UEDPIE_0_Example_Map.Example_Map (0.021056s)
+[2014.09.27-17.59.16:400][ 55]LogWorld: Game class is 'MyGame_C'
+[2014.09.27-17.59.16:401][ 55]LogAIModule: Creating AISystem for world Example_Map
+[2014.09.27-17.59.16:402][ 55]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Example_Map.Example_Map up for play (max tick rate 0) at 2014.09.27-19.59.16
+[2014.09.27-17.59.16:403][ 55]LogWorld: Bringing up level for play took: 0.001691
+[2014.09.27-17.59.16:404][ 55]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_Example_Map -0.424
+[2014.09.27-18.00.16:323][361]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_164) Not registered. Aborting.
+[2014.09.27-18.00.25:452][321]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000046928CC0
+[2014.09.27-18.00.29:976][592]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_165) Not registered. Aborting.
+[2014.09.27-18.00.33:551][699]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/MyCharacter" FILE="../../../../../../Github/UnrealEngine/First-Game/Content/Blueprints/MyCharacter.uasset" SILENT=true
+[2014.09.27-18.00.33:619][699]LogSavePackage: Save=23.197556ms
+[2014.09.27-18.00.33:619][699]LogSavePackage: Moving '../../../../../../Github/UnrealEngine/First-Game/Saved/MyCharacter3761159D4D4A4E5D8337C5A95440B732.tmp' to '../../../../../../Github/UnrealEngine/First-Game/Content/Blueprints/MyCharacter.uasset'
+[2014.09.27-18.00.34:337][700]Cmd: QUIT_EDITOR
+[2014.09.27-18.00.34:551][700]LogWindowsTextInputMethodSystem:Error: Terminating failed while unadvising the language notification sink from the TSF source.
+[2014.09.27-18.00.34:605][700]LogExit: Preparing to exit.
+[2014.09.27-18.00.35:928][700]LogExit: Editor shut down
+[2014.09.27-18.00.35:928][700]LogExit: Transaction tracking system shut down
+[2014.09.27-18.00.35:929][700]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000000111DCE00
+[2014.09.27-18.00.35:929][700]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000018D899E0
+[2014.09.27-18.00.35:929][700]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000000289ACE00
+[2014.09.27-18.00.35:929][700]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000049757100
+[2014.09.27-18.00.35:929][700]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000000288C4F40
+[2014.09.27-18.00.35:929][700]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000006E7B2E0
+[2014.09.27-18.00.35:929][700]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000000261D2CA0
+[2014.09.27-18.00.35:929][700]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000001A3F68E0
+[2014.09.27-18.00.36:829][700]LogExit: Object subsystem successfully closed.
+[2014.09.27-18.00.38:007][700]LogModuleManager: Shutting down and abandoning module ExternalImagePicker (163)
+[2014.09.27-18.00.38:007][700]LogModuleManager: Shutting down and abandoning module Merge (162)
+[2014.09.27-18.00.38:007][700]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (161)
+[2014.09.27-18.00.38:017][700]LogModuleManager: Shutting down and abandoning module HTTP (160)
+[2014.09.27-18.00.38:017][700]LogModuleManager: Shutting down and abandoning module CrashTracker (159)
+[2014.09.27-18.00.38:017][700]LogModuleManager: Shutting down and abandoning module SuperSearch (158)
+[2014.09.27-18.00.38:024][700]LogModuleManager: Shutting down and abandoning module SceneOutliner (157)
+[2014.09.27-18.00.38:024][700]LogModuleManager: Shutting down and abandoning module EditorWidgets (156)
+[2014.09.27-18.00.38:024][700]LogModuleManager: Shutting down and abandoning module CollectionManager (155)
+[2014.09.27-18.00.38:034][700]LogModuleManager: Shutting down and abandoning module StatsViewer (154)
+[2014.09.27-18.00.38:049][700]LogModuleManager: Shutting down and abandoning module FoliageEdit (153)
+[2014.09.27-18.00.38:049][700]LogModuleManager: Shutting down and abandoning module LandscapeEditor (152)
+[2014.09.27-18.00.38:091][700]LogModuleManager: Shutting down and abandoning module MeshPaint (151)
+[2014.09.27-18.00.38:091][700]LogModuleManager: Shutting down and abandoning module ActorPickerMode (150)
+[2014.09.27-18.00.38:091][700]LogModuleManager: Shutting down and abandoning module GeometryMode (149)
+[2014.09.27-18.00.38:091][700]LogModuleManager: Shutting down and abandoning module TextureAlignMode (148)
+[2014.09.27-18.00.38:091][700]LogModuleManager: Shutting down and abandoning module BspMode (147)
+[2014.09.27-18.00.38:091][700]LogModuleManager: Shutting down and abandoning module PlacementMode (146)
+[2014.09.27-18.00.38:091][700]LogModuleManager: Shutting down and abandoning module DesktopPlatform (145)
+[2014.09.27-18.00.38:173][700]LogModuleManager: Shutting down and abandoning module AutomationWorker (144)
+[2014.09.27-18.00.38:173][700]LogModuleManager: Shutting down and abandoning module EditorLiveStreaming (143)
+[2014.09.27-18.00.38:197][700]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (142)
+[2014.09.27-18.00.38:296][700]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (141)
+[2014.09.27-18.00.38:296][700]LogModuleManager: Shutting down and abandoning module UndoHistory (140)
+[2014.09.27-18.00.38:296][700]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (139)
+[2014.09.27-18.00.38:296][700]LogModuleManager: Shutting down and abandoning module UserFeedback (138)
+[2014.09.27-18.00.38:296][700]LogModuleManager: Shutting down and abandoning module XmlParser (137)
+[2014.09.27-18.00.38:305][700]LogModuleManager: Shutting down and abandoning module Blutility (136)
+[2014.09.27-18.00.38:359][700]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (135)
+[2014.09.27-18.00.38:359][700]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (134)
+[2014.09.27-18.00.38:359][700]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (133)
+[2014.09.27-18.00.38:359][700]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (132)
+[2014.09.27-18.00.38:359][700]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (131)
+[2014.09.27-18.00.38:373][700]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (130)
+[2014.09.27-18.00.38:373][700]LogModuleManager: Shutting down and abandoning module InputBindingEditor (129)
+[2014.09.27-18.00.38:400][700]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (128)
+[2014.09.27-18.00.38:400][700]LogModuleManager: Shutting down and abandoning module SettingsEditor (127)
+[2014.09.27-18.00.38:400][700]LogModuleManager: Shutting down and abandoning module SessionLauncher (126)
+[2014.09.27-18.00.38:412][700]LogModuleManager: Shutting down and abandoning module SessionFrontend (125)
+[2014.09.27-18.00.38:430][700]LogModuleManager: Shutting down and abandoning module ProfilerClient (124)
+[2014.09.27-18.00.38:434][700]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (123)
+[2014.09.27-18.00.38:434][700]LogModuleManager: Shutting down and abandoning module DeviceManager (122)
+[2014.09.27-18.00.38:437][700]LogModuleManager: Shutting down and abandoning module AutomationController (121)
+[2014.09.27-18.00.38:444][700]LogModuleManager: Shutting down and abandoning module AutomationWindow (120)
+[2014.09.27-18.00.38:446][700]LogModuleManager: Shutting down and abandoning module Layers (119)
+[2014.09.27-18.00.38:446][700]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (118)
+[2014.09.27-18.00.38:446][700]LogModuleManager: Shutting down and abandoning module DetailCustomizations (117)
+[2014.09.27-18.00.38:448][700]LogModuleManager: Shutting down and abandoning module PackagesDialog (116)
+[2014.09.27-18.00.38:449][700]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (115)
+[2014.09.27-18.00.38:449][700]LogModuleManager: Shutting down and abandoning module AssetRegistry (114)
+[2014.09.27-18.00.38:546][700]LogModuleManager: Shutting down and abandoning module Persona (113)
+[2014.09.27-18.00.38:587][700]LogModuleManager: Shutting down and abandoning module GraphEditor (112)
+[2014.09.27-18.00.38:587][700]LogModuleManager: Shutting down and abandoning module ClassViewer (111)
+[2014.09.27-18.00.38:587][700]LogModuleManager: Shutting down and abandoning module Toolbox (110)
+[2014.09.27-18.00.38:587][700]LogModuleManager: Shutting down and abandoning module ModuleUI (109)
+[2014.09.27-18.00.38:616][700]LogModuleManager: Shutting down and abandoning module MovieSceneTools (108)
+[2014.09.27-18.00.38:658][700]LogModuleManager: Shutting down and abandoning module OutputLog (107)
+[2014.09.27-18.00.38:658][700]LogModuleManager: Shutting down and abandoning module GammaUI (106)
+[2014.09.27-18.00.38:666][700]LogModuleManager: Shutting down and abandoning module Documentation (105)
+[2014.09.27-18.00.38:666][700]LogModuleManager: Shutting down and abandoning module GameLiveStreaming (104)
+[2014.09.27-18.00.38:666][700]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (103)
+[2014.09.27-18.00.38:669][700]LogModuleManager: Shutting down and abandoning module AnalyticsET (102)
+[2014.09.27-18.00.38:669][700]LogModuleManager: Shutting down and abandoning module Analytics (101)
+[2014.09.27-18.00.38:669][700]LogModuleManager: Shutting down and abandoning module GameplayDebugger (100)
+[2014.09.27-18.00.38:669][700]LogModuleManager: Shutting down and abandoning module AIModule (99)
+[2014.09.27-18.00.38:677][700]LogModuleManager: Shutting down and abandoning module ProfilerService (98)
+[2014.09.27-18.00.38:869][700]LogModuleManager: Shutting down and abandoning module TaskGraph (97)
+[2014.09.27-18.00.38:874][700]LogModuleManager: Shutting down and abandoning module SlateRemote (96)
+[2014.09.27-18.00.38:874][700]LogModuleManager: Shutting down and abandoning module ScriptEditorPlugin (95)
+[2014.09.27-18.00.38:874][700]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (94)
+[2014.09.27-18.00.38:874][700]LogModuleManager: Shutting down and abandoning module CableComponent (93)
+[2014.09.27-18.00.38:874][700]LogModuleManager: Shutting down and abandoning module MessagingDebugger (92)
+[2014.09.27-18.00.38:981][700]LogModuleManager: Shutting down and abandoning module ViewportSnapping (91)
+[2014.09.27-18.00.38:981][700]LogModuleManager: Shutting down and abandoning module SmartSnapping (90)
+[2014.09.27-18.00.38:981][700]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (89)
+[2014.09.27-18.00.38:981][700]LogModuleManager: Shutting down and abandoning module PaperJsonImporter (88)
+[2014.09.27-18.00.38:981][700]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (87)
+[2014.09.27-18.00.38:981][700]LogModuleManager: Shutting down and abandoning module Matinee (86)
+[2014.09.27-18.00.38:994][700]LogModuleManager: Shutting down and abandoning module Kismet (85)
+[2014.09.27-18.00.39:013][700]LogModuleManager: Shutting down and abandoning module SlateReflector (84)
+[2014.09.27-18.00.39:029][700]LogModuleManager: Shutting down and abandoning module LevelEditor (83)
+[2014.09.27-18.00.39:044][700]LogModuleManager: Shutting down and abandoning module IntroTutorials (82)
+[2014.09.27-18.00.39:061][700]LogModuleManager: Shutting down and abandoning module ContentBrowser (81)
+[2014.09.27-18.00.39:061][700]LogModuleManager: Shutting down and abandoning module PropertyEditor (80)
+[2014.09.27-18.00.39:066][700]LogModuleManager: Shutting down and abandoning module Paper2DEditor (79)
+[2014.09.27-18.00.39:134][700]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (78)
+[2014.09.27-18.00.39:134][700]LogModuleManager: Shutting down and abandoning module PluginsEditor (77)
+[2014.09.27-18.00.39:185][700]LogModuleManager: Shutting down and abandoning module MainFrame (76)
+[2014.09.27-18.00.39:185][700]LogModuleManager: Shutting down and abandoning module EpicSurvey (75)
+[2014.09.27-18.00.39:209][700]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (74)
+[2014.09.27-18.00.39:261][700]LogModuleManager: Shutting down and abandoning module UObjectPlugin (73)
+[2014.09.27-18.00.39:261][700]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (72)
+[2014.09.27-18.00.39:315][700]LogModuleManager: Shutting down and abandoning module SourceControl (71)
+[2014.09.27-18.00.39:332][700]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (70)
+[2014.09.27-18.00.39:505][700]LogModuleManager: Shutting down and abandoning module BlankPlugin (69)
+[2014.09.27-18.00.39:505][700]LogModuleManager: Shutting down and abandoning module ScriptPlugin (68)
+[2014.09.27-18.00.39:524][700]LogModuleManager: Shutting down and abandoning module UdpMessaging (67)
+[2014.09.27-18.00.39:624][700]LogModuleManager: Shutting down and abandoning module Paper2D (66)
+[2014.09.27-18.00.39:663][700]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (65)
+[2014.09.27-18.00.39:747][700]LogModuleManager: Shutting down and abandoning module ImageWrapper (64)
+[2014.09.27-18.00.39:747][700]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (63)
+[2014.09.27-18.00.39:747][700]LogModuleManager: Shutting down and abandoning module FunctionalTesting (62)
+[2014.09.27-18.00.39:797][700]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (61)
+[2014.09.27-18.00.39:928][700]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (60)
+[2014.09.27-18.00.39:929][700]LogModuleManager: Shutting down and abandoning module MessageLog (59)
+[2014.09.27-18.00.39:929][700]LogModuleManager: Shutting down and abandoning module Sequencer (58)
+[2014.09.27-18.00.40:068][700]LogModuleManager: Shutting down and abandoning module AssetTools (57)
+[2014.09.27-18.00.40:167][700]LogModuleManager: Shutting down and abandoning module UMGEditor (56)
+[2014.09.27-18.00.40:278][700]LogModuleManager: Shutting down and abandoning module UMG (55)
+[2014.09.27-18.00.40:378][700]LogModuleManager: Shutting down and abandoning module Slate (54)
+[2014.09.27-18.00.40:378][700]LogModuleManager: Shutting down and abandoning module EditorStyle (53)
+[2014.09.27-18.00.40:388][700]LogModuleManager: Shutting down and abandoning module SessionServices (52)
+[2014.09.27-18.00.40:388][700]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (51)
+[2014.09.27-18.00.40:388][700]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (50)
+[2014.09.27-18.00.40:388][700]LogModuleManager: Shutting down and abandoning module XAudio2 (49)
+[2014.09.27-18.00.40:388][700]LogModuleManager: Shutting down and abandoning module Networking (47)
+[2014.09.27-18.00.40:388][700]LogModuleManager: Shutting down and abandoning module Core (46)
+[2014.09.27-18.00.40:388][700]LogModuleManager: Shutting down and abandoning module KismetCompiler (45)
+[2014.09.27-18.00.40:388][700]LogModuleManager: Shutting down and abandoning module PhysXFormats (44)
+[2014.09.27-18.00.40:388][700]LogModuleManager: Shutting down and abandoning module MeshUtilities (43)
+[2014.09.27-18.00.40:539][700]LogModuleManager: Shutting down and abandoning module DerivedDataCache (42)
+[2014.09.27-18.00.40:595][700]LogDerivedDataCache: Shutdown
+[2014.09.27-18.00.40:595][700]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (41)
+[2014.09.27-18.00.40:640][700]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (40)
+[2014.09.27-18.00.40:657][700]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (39)
+[2014.09.27-18.00.40:705][700]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (38)
+[2014.09.27-18.00.40:705][700]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (37)
+[2014.09.27-18.00.40:705][700]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (36)
+[2014.09.27-18.00.40:717][700]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (35)
+[2014.09.27-18.00.40:717][700]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (34)
+[2014.09.27-18.00.40:756][700]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (33)
+[2014.09.27-18.00.40:756][700]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (32)
+[2014.09.27-18.00.40:756][700]LogModuleManager: Shutting down and abandoning module Messaging (31)
+[2014.09.27-18.00.40:756][700]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (30)
+[2014.09.27-18.00.40:756][700]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (29)
+[2014.09.27-18.00.40:756][700]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (28)
+[2014.09.27-18.00.40:756][700]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (27)
+[2014.09.27-18.00.40:756][700]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (26)
+[2014.09.27-18.00.40:756][700]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (25)
+[2014.09.27-18.00.40:756][700]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (24)
+[2014.09.27-18.00.40:756][700]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (23)
+[2014.09.27-18.00.40:756][700]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (22)
+[2014.09.27-18.00.40:756][700]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (21)
+[2014.09.27-18.00.40:756][700]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (20)
+[2014.09.27-18.00.40:756][700]LogModuleManager: Shutting down and abandoning module TargetPlatform (19)
+[2014.09.27-18.00.40:756][700]LogModuleManager: Shutting down and abandoning module InputCore (18)
+[2014.09.27-18.00.40:756][700]LogModuleManager: Shutting down and abandoning module Settings (17)
+[2014.09.27-18.00.40:756][700]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (14)
+[2014.09.27-18.00.40:756][700]LogModuleManager: Shutting down and abandoning module OculusRift (13)
+[2014.09.27-18.00.40:790][700]LogModuleManager: Shutting down and abandoning module TextureCompressor (12)
+[2014.09.27-18.00.40:824][700]LogModuleManager: Shutting down and abandoning module ShaderCore (11)
+[2014.09.27-18.00.40:825][700]LogModuleManager: Shutting down and abandoning module OpenGLDrv (10)
+[2014.09.27-18.00.40:825][700]LogModuleManager: Shutting down and abandoning module D3D11RHI (9)
+[2014.09.27-18.00.40:825][700]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (8)
+[2014.09.27-18.00.40:825][700]LogModuleManager: Shutting down and abandoning module Renderer (7)
+[2014.09.27-18.00.40:825][700]LogModuleManager: Shutting down and abandoning module Engine (6)
+[2014.09.27-18.00.40:825][700]LogModuleManager: Shutting down and abandoning module CoreUObject (5)
+[2014.09.27-18.00.40:825][700]LogModuleManager: Shutting down and abandoning module NetworkFile (4)
+[2014.09.27-18.00.40:825][700]LogModuleManager: Shutting down and abandoning module StreamingFile (3)
+[2014.09.27-18.00.40:825][700]LogModuleManager: Shutting down and abandoning module SandboxFile (2)
+[2014.09.27-18.00.40:888][700]LogModuleManager: Shutting down and abandoning module PakFile (1)
+[2014.09.27-18.00.40:944][700]LogExit: Exiting.
+[2014.09.27-18.00.40:956][700]Log file closed, 09/27/14 20:00:40
