@@ -1,0 +1,552 @@
+Log file open, 09/29/14 19:41:46
+LogInit:Display: Running engine for game: FirstGame
+LogInit: Version: 4.4.3-2296771+++depot+UE4-Releases+4.4
+LogInit: API Version: 2255576
+LogInit: Compiled (64-bit): Sep 13 2014 22:30:58
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++depot+UE4-Releases+4.4
+LogInit: Command line:  
+LogInit: Base directory: D:/Programme/Unreal Engine/4.4/Engine/Binaries/Win64/
+LogInit: Rocket: 1
+[2014.09.29-17.41.46:486][  0]LogTaskGraph: Started task graph with 3 named threads and 4 total threads.
+[2014.09.29-17.41.46:510][  0]LogOnline:Warning: No default platform service specified for OnlineSubsystem
+[2014.09.29-17.41.46:514][  0]LogInit: Presizing for 0 objects not considered by GC, pre-allocating 0 bytes.
+[2014.09.29-17.41.46:519][  0]LogInit: Object subsystem initialized
+[2014.09.29-17.41.46:520][  0]LogInit: Selected Device Profile: [Windows]
+[2014.09.29-17.41.46:520][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2014.09.29-17.41.46:522][  0]LogInit: Computer: MASTERPC
+[2014.09.29-17.41.46:522][  0]LogInit: User: Endero
+[2014.09.29-17.41.46:523][  0]LogInit: CPU Page size=4096, Cores=4
+[2014.09.29-17.41.46:523][  0]LogInit: High frequency timer resolution =3.513623 MHz
+[2014.09.29-17.41.46:523][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx) Virtual=8192.0GB
+[2014.09.29-17.41.46:524][  0]LogMemory: Platform Memory Stats for Windows
+[2014.09.29-17.41.46:524][  0]LogMemory: Process Physical Memory: 62.59 MB used, 62.59 MB peak
+[2014.09.29-17.41.46:524][  0]LogMemory: Process Virtual Memory: 38.33 MB used, 41.59 MB peak
+[2014.09.29-17.41.46:524][  0]LogMemory: Physical Memory: 5420.55 MB used, 16321.48 MB total
+[2014.09.29-17.41.46:524][  0]LogMemory: Virtual Memory: 261.26 MB used, 8388608.00 MB total
+[2014.09.29-17.41.46:539][  0]LogD3D11RHI: Found D3D11 adapter 0: AMD Radeon R9 200 Series (Feature Level 11_0)
+[2014.09.29-17.41.46:539][  0]LogD3D11RHI: Adapter has 2022MB of dedicated video memory, 0MB of dedicated system memory, and 7904MB of shared system memory, 2 output[s]
+[2014.09.29-17.41.46:539][  0]LogD3D11RHI: Chosen D3D11 Adapter Id = 0
+[2014.09.29-17.41.46:543][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2014.09.29-17.41.46:546][  0]LogD3D11RHI: Async texture creation disabled: no driver support
+[2014.09.29-17.41.46:580][  0]LogTextLocalizationManager:Warning: The selected culture 'de_CH' is not available; falling back to 'en'
+[2014.09.29-17.41.46:631][  0]LogContentStreaming: Texture pool size is 0.000000MB
+[2014.09.29-17.41.47:615][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2014.09.29-17.41.47:862][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2014.09.29-17.41.47:884][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2014.09.29-17.41.47:915][  0]LogDerivedDataCache: Loaded boot cache 0.03s 39MB C:/Users/Endero/AppData/Local/UnrealEngine/4.4/DerivedDataCache/Boot.ddc.
+[2014.09.29-17.41.47:915][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/Endero/AppData/Local/UnrealEngine/4.4/DerivedDataCache/Boot.ddc
+[2014.09.29-17.41.47:915][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Github/UnrealEngine/First-Game/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2014.09.29-17.41.47:915][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2014.09.29-17.41.47:928][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/DDC.ddp.
+[2014.09.29-17.41.47:939][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Endero/AppData/Local/UnrealEngine/4.4/DerivedDataCache: Writable
+[2014.09.29-17.41.48:036][  0]LogMeshUtilities: No automatic mesh reduction module available
+[2014.09.29-17.41.48:036][  0]LogMeshUtilities: No automatic mesh merging module available
+[2014.09.29-17.41.48:246][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2014.09.29-17.41.48:708][  0]LogStats:Warning: MetaData mismatch. Did you assign a stat to two groups? New //STATGROUP_Threads//FMonitoredProcess///Thread_728_0///////STATCAT_Advanced//// old //STATGROUP_Threads//FMonitoredProcess///Thread_b54_0///////STATCAT_Advanced////
+[2014.09.29-17.41.48:708][  0]UdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2014.09.29-17.41.48:784][  0]SourceControl: Info Source control is disabled
+[2014.09.29-17.41.48:784][  0]SourceControl: Info Source control is disabled
+[2014.09.29-17.41.48:787][  0]SourceControl: Info Source control is disabled
+[2014.09.29-17.41.48:876][  0]BlueprintLog: New page: Editor Load
+[2014.09.29-17.41.48:925][  0]LogObj: 21438 objects as part of root set at end of initial load.
+[2014.09.29-17.41.48:925][  0]LogUObjectAllocator: 4218656 out of 0 bytes used by permanent object pool.
+[2014.09.29-17.41.49:073][  0]LogEngine: Initializing Engine...
+[2014.09.29-17.41.49:137][  0]LogInit: XAudio2 using 'Lautsprecher (2- Wireless Stereo Headset)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2014.09.29-17.41.49:143][  0]LogInit: FAudioDevice initialized.
+[2014.09.29-17.41.49:152][  0]LogAIModule: Creating AISystem for world NewWorld
+[2014.09.29-17.41.49:172][  0]LogDerivedDataCache: Saved boot cache 0.02s 39MB C:/Users/Endero/AppData/Local/UnrealEngine/4.4/DerivedDataCache/Boot.ddc.
+[2014.09.29-17.41.49:176][  0]LogInit: Texture streaming: Enabled
+[2014.09.29-17.41.49:193][  0]LogInit: Transaction tracking system initialized
+[2014.09.29-17.41.49:250][  0]LogAssetRegistry: FAssetRegistry took 0.0100 seconds to start up
+[2014.09.29-17.41.49:514][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2014.09.29-17.41.49:716][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2014.09.29-17.41.49:779][  0]LogConsoleResponse:Display: 
+[2014.09.29-17.41.49:868][  0]LogStats:Warning: MetaData mismatch. Did you assign a stat to two groups? New //STATGROUP_Threads//FMonitoredProcess///Thread_176c_0///////STATCAT_Advanced//// old //STATGROUP_Threads//FMonitoredProcess///Thread_b54_0///////STATCAT_Advanced////
+[2014.09.29-17.41.49:868][  0]LogStats:Warning: MetaData mismatch. Did you assign a stat to two groups? New //STATGROUP_Threads//FMonitoredProcess///Thread_2048_0///////STATCAT_Advanced//// old //STATGROUP_Threads//FMonitoredProcess///Thread_b54_0///////STATCAT_Advanced////
+[2014.09.29-17.41.49:868][  0]SourceControl: Info Source control is disabled
+[2014.09.29-17.41.49:868][  0]Cmd: MAP LOAD FILE="../../../../../../Github/UnrealEngine/First-Game/Content/Maps/Example_Map.umap" TEMPLATE=0 SHOWPROGRESS=1
+[2014.09.29-17.41.49:869][  0]LightingResults: New page: Lighting Build
+[2014.09.29-17.41.49:872][  0]MapCheck: New page: Map Check
+[2014.09.29-17.41.49:872][  0]LightingResults: New page: Lighting Build
+[2014.09.29-17.41.49:882][  0]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000000128B0680
+[2014.09.29-17.41.50:102][  0]BlueprintLog:Warning: Warning Blueprint MyGame has been migrated and requires re-saving to avoid import errors
+[2014.09.29-17.41.50:105][  0]BlueprintLog:Warning: Warning Blueprint MyHUD has been migrated and requires re-saving to avoid import errors
+[2014.09.29-17.41.50:124][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2014.09.29-17.41.50:124][  0]LogAIModule: Creating AISystem for world Example_Map
+[2014.09.29-17.41.50:124][  0]Cmd: MAP CHECKDEP
+[2014.09.29-17.41.50:124][  0]MapCheck: New page: Example_Map - Sep 29, 2014, 9:41:50 PM
+[2014.09.29-17.41.50:158][  0]MapCheck: Info ========== Map Check: 0 Error(s), 0 Warning(s), [33.917ms] ==========
+[2014.09.29-17.41.50:158][  0]LogFileHelpers: Loading map 'Example_Map' took 0.290
+[2014.09.29-17.41.50:249][  0]LogCollectionManager: Loaded 0 collections in 0.000589 seconds
+[2014.09.29-17.41.50:343][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2014.09.29-17.41.50:386][  0]LogLoad: Full Startup: 5.36 seconds (BP compile: 0.10 seconds)
+[2014.09.29-17.41.50:400][  0]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Animations/Mycharacter'
+[2014.09.29-17.41.50:519][  0]LogRenderer:Warning: Reallocating scene render targets to support 960x912.
+[2014.09.29-17.41.50:729][  1]LogAssetRegistry: Asset discovery search completed in 1.4891 seconds
+[2014.09.29-17.55.14:488][580]LogSkeletalMesh: InitArticulated: Bodies already created (/Engine/Transient.DebugSkelMeshComponent_0) - call TermArticulated first.
+[2014.09.29-17.55.14:599][580]LogContentBrowser:Verbose: The majority of assets in the view are of type: AnimSequence
+[2014.09.29-17.56.06:685][228]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Blueprints'
+[2014.09.29-17.56.18:417][692]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_0) Not registered. Aborting.
+[2014.09.29-17.56.18:450][692]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000000177914E0
+[2014.09.29-17.56.18:450][692]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000001DEB6B60
+[2014.09.29-17.56.18:481][692]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/Example_Map' took 0.065
+[2014.09.29-17.56.18:502][692]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Blueprints/MyCharacter] ([1] browsable assets)...
+[2014.09.29-17.56.18:570][692]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/Blueprints/MyCharacter.MyCharacter]
+[2014.09.29-17.56.18:570][692]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/MyCharacter]
+[2014.09.29-17.56.18:573][692]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/MyCharacter" FILE="../../../../../../Github/UnrealEngine/First-Game/Saved/Autosaves/Game/Blueprints/MyCharacter_Auto1.uasset" SILENT=false AUTOSAVING=true
+[2014.09.29-17.56.18:953][692]LogSavePackage: Save=326.751892ms
+[2014.09.29-17.56.18:953][692]LogSavePackage: Moving '../../../../../../Github/UnrealEngine/First-Game/Saved/MyCharacter_Auto19CAD102E443379F7A662EA9357E9456B.tmp' to '../../../../../../Github/UnrealEngine/First-Game/Saved/Autosaves/Game/Blueprints/MyCharacter_Auto1.uasset'
+[2014.09.29-17.56.18:971][692]LogFileHelpers: Auto-saving content packages took 0.490
+[2014.09.29-17.56.28:812][231]LogPropertyNode:Warning: UI Min (0) >= UI Max () for Ranged Numeric
+[2014.09.29-17.56.28:812][231]LogPropertyNode:Warning: UI Min (0) >= UI Max () for Ranged Numeric
+[2014.09.29-17.56.28:984][241]LogPropertyNode:Warning: UI Min (0) >= UI Max () for Ranged Numeric
+[2014.09.29-17.56.29:047][245]LogPropertyNode:Warning: UI Min (0) >= UI Max () for Ranged Numeric
+[2014.09.29-17.56.29:482][271]LogPropertyNode:Warning: UI Min (0) >= UI Max () for Ranged Numeric
+[2014.09.29-17.56.29:483][271]LogPropertyNode:Warning: UI Min (0) >= UI Max () for Ranged Numeric
+[2014.09.29-17.56.29:500][272]LogPropertyNode:Warning: UI Min (0) >= UI Max () for Ranged Numeric
+[2014.09.29-17.56.29:516][273]LogPropertyNode:Warning: UI Min (0) >= UI Max () for Ranged Numeric
+[2014.09.29-17.56.29:516][273]LogPropertyNode:Warning: UI Min (0) >= UI Max () for Ranged Numeric
+[2014.09.29-17.56.29:533][274]LogPropertyNode:Warning: UI Min (0) >= UI Max () for Ranged Numeric
+[2014.09.29-17.56.29:549][275]LogPropertyNode:Warning: UI Min (0) >= UI Max () for Ranged Numeric
+[2014.09.29-17.56.29:569][276]LogPropertyNode:Warning: UI Min (0) >= UI Max () for Ranged Numeric
+[2014.09.29-17.56.29:569][276]LogPropertyNode:Warning: UI Min (0) >= UI Max () for Ranged Numeric
+[2014.09.29-17.56.29:883][295]LogPropertyNode:Warning: UI Min (0) >= UI Max () for Ranged Numeric
+[2014.09.29-17.56.29:916][297]LogPropertyNode:Warning: UI Min (0) >= UI Max () for Ranged Numeric
+[2014.09.29-17.56.29:916][297]LogPropertyNode:Warning: UI Min (0) >= UI Max () for Ranged Numeric
+[2014.09.29-17.56.30:267][318]LogPropertyNode:Warning: UI Min (0) >= UI Max () for Ranged Numeric
+[2014.09.29-17.56.37:333][737]LogPropertyNode:Warning: UI Min (0) >= UI Max () for Ranged Numeric
+[2014.09.29-17.57.19:867][224]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Animations/Blueprints'
+[2014.09.29-17.57.21:236][258]LogSkeletalMesh: InitArticulated: Bodies already created (/Engine/Transient.DebugSkelMeshComponent_2) - call TermArticulated first.
+[2014.09.29-17.57.31:768][662]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Blueprints'
+[2014.09.29-18.01.12:277][517]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Weapons'
+[2014.09.29-18.01.14:023][629]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Weapons/MilitaryWeapSilver'
+[2014.09.29-18.01.16:096][762]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Weapons/MilitaryWeapSilver/FX'
+[2014.09.29-18.01.17:570][781]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Weapons/MilitaryWeapSilver/Weapons'
+[2014.09.29-18.01.24:637][155]LogSkeletalMesh: InitArticulated: Bodies already created (/Engine/Transient.DebugSkelMeshComponent_4) - call TermArticulated first.
+[2014.09.29-18.01.39:497][768]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Weapons'
+[2014.09.29-18.01.42:339][ 10]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Blueprints'
+[2014.09.29-18.01.44:702][195]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Blueprints/NewFolder'
+[2014.09.29-18.01.47:543][375]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Blueprints/Weapons'
+[2014.09.29-18.02.30:958][ 74]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Blueprints/Weapons'
+[2014.09.29-18.02.37:054][449]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Weapons/MilitaryWeapSilver/Weapons'
+[2014.09.29-18.02.40:943][628]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Blueprints'
+[2014.09.29-18.02.41:350][650]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Blueprints/Weapons'
+[2014.09.29-18.02.46:949][979]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_1) Not registered. Aborting.
+[2014.09.29-18.02.46:966][979]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000000256A5300
+[2014.09.29-18.02.46:966][979]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000000172F68E0
+[2014.09.29-18.02.46:966][979]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000001E1FAD40
+[2014.09.29-18.02.46:966][979]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000001A1245E0
+[2014.09.29-18.02.46:968][979]LogMetaData: Removing '/Game/Blueprints/Weapons/Assault_Rifle_A_BP.SKEL_Assault_Rifle_A_BP_C' ref from Metadata '/Game/Blueprints/Weapons/Rifle.PackageMetaData'
+[2014.09.29-18.02.46:968][979]LogMetaData: Removing '/Game/Blueprints/Weapons/Assault_Rifle_A_BP.Assault_Rifle_A_BP_C' ref from Metadata '/Game/Blueprints/Weapons/Rifle.PackageMetaData'
+[2014.09.29-18.02.47:040][979]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Weapons/Assault_Rifle_A_BP" FILE="../../../../../../Github/UnrealEngine/First-Game/Content/Blueprints/Weapons/Assault_Rifle_A_BP.uasset" SILENT=true
+[2014.09.29-18.02.47:082][979]LogSavePackage: Save=40.803467ms
+[2014.09.29-18.02.47:082][979]LogSavePackage: Moving '../../../../../../Github/UnrealEngine/First-Game/Saved/Assault_Rifle_A_BP761342A1484A2E7A1402EB981B7E1519.tmp' to '../../../../../../Github/UnrealEngine/First-Game/Content/Blueprints/Weapons/Assault_Rifle_A_BP.uasset'
+[2014.09.29-18.02.51:038][191]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.09.29-18.02.51:038][191]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.09.29-18.02.51:195][191]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.09.29-18.02.51:195][191]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.09.29-18.02.51:195][191]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.09.29-18.02.51:195][191]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.09.29-18.02.51:195][191]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.09.29-18.02.51:195][191]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.09.29-18.02.51:195][191]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.09.29-18.02.51:195][191]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.09.29-18.02.51:195][191]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.09.29-18.02.51:195][191]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.09.29-18.02.51:195][191]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.09.29-18.02.51:195][191]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.09.29-18.02.51:195][191]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.09.29-18.02.51:195][191]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.09.29-18.02.51:195][191]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.09.29-18.02.51:195][191]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.09.29-18.03.08:963][695]LogRenderer:Warning: Reallocating scene render targets to support 1392x912.
+[2014.09.29-18.04.26:048][809]LogSlate:Warning: Prevented a slow task dialog from being summoned while a context menu was open
+[2014.09.29-18.04.32:782][235]BlueprintLog: New page: Compile Assault_Rifle_A_BP
+[2014.09.29-18.04.32:871][235]BlueprintEditorCompileResults: Info [1367.75] Compile of Assault_Rifle_A_BP successful! [in 0 ms]
+[2014.09.29-18.04.34:777][287]LogSlate:Warning: Prevented a slow task dialog from being summoned while a context menu was open
+[2014.09.29-18.04.36:787][401]BlueprintLog: New page: Compile Assault_Rifle_A_BP
+[2014.09.29-18.04.36:850][401]BlueprintEditorCompileResults: Info [1371.75] Compile of Assault_Rifle_A_BP successful! [in 0 ms]
+[2014.09.29-18.04.38:373][446]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Weapons/Assault_Rifle_A_BP" FILE="../../../../../../Github/UnrealEngine/First-Game/Content/Blueprints/Weapons/Assault_Rifle_A_BP.uasset" SILENT=true
+[2014.09.29-18.04.38:729][446]LogSavePackage: Save=340.392517ms
+[2014.09.29-18.04.38:729][446]LogSavePackage: Moving '../../../../../../Github/UnrealEngine/First-Game/Saved/Assault_Rifle_A_BP9A1E2BC044EA59E216CB06AA663D0265.tmp' to '../../../../../../Github/UnrealEngine/First-Game/Content/Blueprints/Weapons/Assault_Rifle_A_BP.uasset'
+[2014.09.29-18.05.42:558][239]BlueprintLog: New page: Compile Assault_Rifle_A_BP
+[2014.09.29-18.05.42:617][239]BlueprintEditorCompileResults: Info [1437.52] Compile of Assault_Rifle_A_BP successful! [in 0 ms]
+[2014.09.29-18.06.20:037][718]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/Example_Map' took 0.015
+[2014.09.29-18.06.20:099][718]LogSavePackage: Save=15.964149ms
+[2014.09.29-18.06.20:099][718]LogSavePackage: Moving '../../../../../../Github/UnrealEngine/First-Game/Saved/Rifle_Auto23991ADB848A8B3B4ED0BB5AF19EE548E.tmp' to '../../../../../../Github/UnrealEngine/First-Game/Saved/Autosaves/Game/Blueprints/Weapons/Rifle_Auto2.uasset'
+[2014.09.29-18.06.20:137][718]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Blueprints/Weapons/Assault_Rifle_A_BP] ([1] browsable assets)...
+[2014.09.29-18.06.20:200][718]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/Blueprints/Weapons/Assault_Rifle_A_BP.Assault_Rifle_A_BP]
+[2014.09.29-18.06.20:200][718]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/Weapons/Assault_Rifle_A_BP]
+[2014.09.29-18.06.20:595][718]LogSavePackage: Save=341.782837ms
+[2014.09.29-18.06.20:595][718]LogSavePackage: Moving '../../../../../../Github/UnrealEngine/First-Game/Saved/Assault_Rifle_A_BP_Auto263F2A45A484E95FABE0FF69FDC59B055.tmp' to '../../../../../../Github/UnrealEngine/First-Game/Saved/Autosaves/Game/Blueprints/Weapons/Assault_Rifle_A_BP_Auto2.uasset'
+[2014.09.29-18.06.20:617][718]LogFileHelpers: Auto-saving content packages took 0.580
+[2014.09.29-18.08.18:253][858]BlueprintLog: New page: Compile Assault_Rifle_A_BP
+[2014.09.29-18.08.18:312][858]BlueprintEditorCompileResults: Info [1593.21] Compile of Assault_Rifle_A_BP successful! [in 0 ms]
+[2014.09.29-18.08.18:914][877]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Weapons/Assault_Rifle_A_BP" FILE="../../../../../../Github/UnrealEngine/First-Game/Content/Blueprints/Weapons/Assault_Rifle_A_BP.uasset" SILENT=true
+[2014.09.29-18.08.19:268][877]LogSavePackage: Save=340.452576ms
+[2014.09.29-18.08.19:268][877]LogSavePackage: Moving '../../../../../../Github/UnrealEngine/First-Game/Saved/Assault_Rifle_A_BP50FC98AF4F1735B4EF92D7A03D509794.tmp' to '../../../../../../Github/UnrealEngine/First-Game/Content/Blueprints/Weapons/Assault_Rifle_A_BP.uasset'
+[2014.09.29-18.10.40:288][743]BlueprintLog: New page: Compile Assault_Rifle_A_BP
+[2014.09.29-18.10.40:356][743]BlueprintEditorCompileResults: Info [1735.25] Compile of Assault_Rifle_A_BP successful! [in 0 ms]
+[2014.09.29-18.10.40:965][763]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Weapons/Assault_Rifle_A_BP" FILE="../../../../../../Github/UnrealEngine/First-Game/Content/Blueprints/Weapons/Assault_Rifle_A_BP.uasset" SILENT=true
+[2014.09.29-18.10.41:343][763]LogSavePackage: Save=361.720947ms
+[2014.09.29-18.10.41:343][763]LogSavePackage: Moving '../../../../../../Github/UnrealEngine/First-Game/Saved/Assault_Rifle_A_BP0FEFCA634A4DDF0BCF6977A01997F430.tmp' to '../../../../../../Github/UnrealEngine/First-Game/Content/Blueprints/Weapons/Assault_Rifle_A_BP.uasset'
+[2014.09.29-18.11.00:581][789]BlueprintLog: New page: Compile Assault_Rifle_A_BP
+[2014.09.29-18.11.00:650][789]BlueprintEditorCompileResults: Info [1755.54] Compile of Assault_Rifle_A_BP successful! [in 0 ms]
+[2014.09.29-18.13.53:578][531]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.09.29-18.13.53:578][531]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.09.29-18.13.53:578][531]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.09.29-18.13.53:578][531]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.09.29-18.14.10:675][178]BlueprintLog: New page: Compile Assault_Rifle_A_BP
+[2014.09.29-18.14.10:734][178]BlueprintEditorCompileResults: Info [1945.64] Compile of Assault_Rifle_A_BP successful! [in 0 ms]
+[2014.09.29-18.14.11:302][221]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Weapons/Assault_Rifle_A_BP" FILE="../../../../../../Github/UnrealEngine/First-Game/Content/Blueprints/Weapons/Assault_Rifle_A_BP.uasset" SILENT=true
+[2014.09.29-18.14.11:618][221]LogSavePackage: Save=304.059937ms
+[2014.09.29-18.14.11:618][221]LogSavePackage: Moving '../../../../../../Github/UnrealEngine/First-Game/Saved/Assault_Rifle_A_BP5080F9464818B5B9878215A832337297.tmp' to '../../../../../../Github/UnrealEngine/First-Game/Content/Blueprints/Weapons/Assault_Rifle_A_BP.uasset'
+[2014.09.29-18.14.18:317][873]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Animations/Blueprints'
+[2014.09.29-18.14.19:774][991]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Audio'
+[2014.09.29-18.14.20:257][997]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Blueprints'
+[2014.09.29-18.14.39:700][417]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_2) Not registered. Aborting.
+[2014.09.29-18.14.50:452][151]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.09.29-18.14.50:452][151]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.09.29-18.14.50:452][151]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.09.29-18.14.50:452][151]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.09.29-18.14.50:452][151]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.09.29-18.15.17:541][ 33]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.09.29-18.15.17:541][ 33]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.09.29-18.15.17:541][ 33]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.09.29-18.15.17:541][ 33]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.09.29-18.16.07:599][335]BlueprintLog: New page: Compile MyCharacter
+[2014.09.29-18.16.07:701][335]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_3) Not registered. Aborting.
+[2014.09.29-18.16.07:722][335]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000001E44F560
+[2014.09.29-18.16.07:756][335]BlueprintEditorCompileResults: Info [2062.61] Compile of MyCharacter successful! [in 31 ms]
+[2014.09.29-18.16.30:130][898]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_4) Not registered. Aborting.
+[2014.09.29-18.16.30:147][898]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/Example_Map' took 0.018
+[2014.09.29-18.16.30:163][898]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Blueprints/MyCharacter] ([1] browsable assets)...
+[2014.09.29-18.16.30:192][898]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/Blueprints/MyCharacter.MyCharacter]
+[2014.09.29-18.16.30:192][898]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/MyCharacter]
+[2014.09.29-18.16.30:195][898]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/MyCharacter" FILE="../../../../../../Github/UnrealEngine/First-Game/Saved/Autosaves/Game/Blueprints/MyCharacter_Auto3.uasset" SILENT=false AUTOSAVING=true
+[2014.09.29-18.16.30:532][898]LogSavePackage: Save=290.772217ms
+[2014.09.29-18.16.30:532][898]LogSavePackage: Moving '../../../../../../Github/UnrealEngine/First-Game/Saved/MyCharacter_Auto3AE62C23E4453AC910F3B319092D4266C.tmp' to '../../../../../../Github/UnrealEngine/First-Game/Saved/Autosaves/Game/Blueprints/MyCharacter_Auto3.uasset'
+[2014.09.29-18.16.31:008][898]LogFileHelpers: Auto-saving content packages took 0.861
+[2014.09.29-18.16.31:462][931]BlueprintLog: New page: Compile MyCharacter
+[2014.09.29-18.16.31:546][931]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_5) Not registered. Aborting.
+[2014.09.29-18.16.31:595][931]BlueprintEditorCompileResults: Info [2086.47] Compile of MyCharacter successful! [in 31 ms]
+[2014.09.29-18.16.36:666][206]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Blueprints/Weapons'
+[2014.09.29-18.16.48:452][286]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_6) Not registered. Aborting.
+[2014.09.29-18.16.59:125][346]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/MyCharacter" FILE="../../../../../../Github/UnrealEngine/First-Game/Content/Blueprints/MyCharacter.uasset" SILENT=true
+[2014.09.29-18.16.59:423][346]LogSavePackage: Save=285.709076ms
+[2014.09.29-18.16.59:423][346]LogSavePackage: Moving '../../../../../../Github/UnrealEngine/First-Game/Saved/MyCharacterAC440D744EB9BB50F164E08E69E19C43.tmp' to '../../../../../../Github/UnrealEngine/First-Game/Content/Blueprints/MyCharacter.uasset'
+[2014.09.29-18.16.59:451][346]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Weapons/Rifle" FILE="../../../../../../Github/UnrealEngine/First-Game/Content/Blueprints/Weapons/Rifle.uasset" SILENT=true
+[2014.09.29-18.16.59:455][346]LogSavePackage: Save=2.852326ms
+[2014.09.29-18.16.59:455][346]LogSavePackage: Moving '../../../../../../Github/UnrealEngine/First-Game/Saved/Rifle1D226CFA4DCBC42EBB7F098E1FBF7399.tmp' to '../../../../../../Github/UnrealEngine/First-Game/Content/Blueprints/Weapons/Rifle.uasset'
+[2014.09.29-18.16.59:471][346]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Weapons/Assault_Rifle_A_BP" FILE="../../../../../../Github/UnrealEngine/First-Game/Content/Blueprints/Weapons/Assault_Rifle_A_BP.uasset" SILENT=true
+[2014.09.29-18.16.59:800][346]LogSavePackage: Save=292.394501ms
+[2014.09.29-18.16.59:800][346]LogSavePackage: Moving '../../../../../../Github/UnrealEngine/First-Game/Saved/Assault_Rifle_A_BP965CD29F49A55C58AF2818A9B8AFF5D3.tmp' to '../../../../../../Github/UnrealEngine/First-Game/Content/Blueprints/Weapons/Assault_Rifle_A_BP.uasset'
+[2014.09.29-18.17.00:566][424]BlueprintLog: New page: Compile Assault_Rifle_A_BP
+[2014.09.29-18.17.00:596][424]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_7) Not registered. Aborting.
+[2014.09.29-18.17.00:612][424]BlueprintEditorCompileResults: Info [2115.52] Compile of Assault_Rifle_A_BP successful! [in 0 ms]
+[2014.09.29-18.17.10:194][340]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Blueprints'
+[2014.09.29-18.17.18:224][817]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Animations/Blueprints'
+[2014.09.29-18.17.20:439][959]LogSkeletalMesh: InitArticulated: Bodies already created (/Engine/Transient.DebugSkelMeshComponent_5) - call TermArticulated first.
+[2014.09.29-18.17.21:856][ 41]LogContentBrowser:Verbose: The majority of assets in the view are of type: AnimSequence
+[2014.09.29-18.17.21:900][ 42]LogRenderer:Warning: Reallocating scene render targets to support 1392x936.
+[2014.09.29-18.17.44:246][650]BlueprintLog: New page: Compile MyCharacter
+[2014.09.29-18.17.44:332][650]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_8) Not registered. Aborting.
+[2014.09.29-18.17.44:352][650]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000003085B880
+[2014.09.29-18.17.44:352][650]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000002DA9AB60
+[2014.09.29-18.17.44:353][650]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000000309CC5E0
+[2014.09.29-18.17.44:353][650]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000025932DE0
+[2014.09.29-18.17.44:354][650]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000000309CF600
+[2014.09.29-18.17.44:392][650]BlueprintEditorCompileResults: Info [2159.25] Compile of MyCharacter successful! [in 28 ms]
+[2014.09.29-18.17.45:025][675]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/MyCharacter" FILE="../../../../../../Github/UnrealEngine/First-Game/Content/Blueprints/MyCharacter.uasset" SILENT=true
+[2014.09.29-18.17.45:330][675]LogSavePackage: Save=292.053528ms
+[2014.09.29-18.17.45:330][675]LogSavePackage: Moving '../../../../../../Github/UnrealEngine/First-Game/Saved/MyCharacter8C3EDD244B26F826BC8A9A98BF4846C7.tmp' to '../../../../../../Github/UnrealEngine/First-Game/Content/Blueprints/MyCharacter.uasset'
+[2014.09.29-18.17.50:705][ 36]LogPlayLevel: PIE:  No blueprints needed recompiling
+[2014.09.29-18.17.50:705][ 36]PIE: New page: PIE session: Example_Map (Sep 29, 2014, 10:17:50 PM)
+[2014.09.29-18.17.50:746][ 36]LogPlayLevel: PIE: StaticDuplicateObject took: (0.040952s)
+[2014.09.29-18.17.50:763][ 36]LogPlayLevel: PIE: World Init took: (0.000371s)
+[2014.09.29-18.17.50:763][ 36]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Example_Map.Example_Map to /Game/Maps/UEDPIE_0_Example_Map.Example_Map (0.057962s)
+[2014.09.29-18.17.50:883][ 36]LogWorld: Game class is 'MyGame_C'
+[2014.09.29-18.17.50:884][ 36]LogAIModule: Creating AISystem for world Example_Map
+[2014.09.29-18.17.50:885][ 36]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Example_Map.Example_Map up for play (max tick rate 0) at 2014.09.29-20.17.50
+[2014.09.29-18.17.50:885][ 36]LogWorld: Bringing up level for play took: 0.001472
+[2014.09.29-18.17.50:967][ 36]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_Example_Map 1.186
+[2014.09.29-18.17.53:489][313]Set new viewmode: Unlit
+[2014.09.29-18.17.54:272][407]Set new viewmode: Unlit
+[2014.09.29-18.17.55:472][551]Set new viewmode: Wireframe
+[2014.09.29-18.17.56:140][631]Set new viewmode: Lit
+[2014.09.29-18.17.56:531][678]Error: view mode not recognized: detaillighting
+[2014.09.29-18.17.57:215][760]Set new viewmode: Lit
+[2014.09.29-18.18.04:750][652]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_9) Not registered. Aborting.
+[2014.09.29-18.18.04:766][652]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000016253740
+[2014.09.29-18.18.04:767][652]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000000179B7600
+[2014.09.29-18.18.06:309][779]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Blueprints/Weapons'
+[2014.09.29-18.18.07:200][851]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Character'
+[2014.09.29-18.18.07:697][906]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Blueprints'
+[2014.09.29-18.18.08:451][966]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Animations/Mycharacter'
+[2014.09.29-18.18.10:273][ 64]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Animations/Blueprints'
+[2014.09.29-18.18.10:987][104]LogSkeletalMesh: InitArticulated: Bodies already created (/Engine/Transient.DebugSkelMeshComponent_8) - call TermArticulated first.
+[2014.09.29-18.18.44:436][612]BlueprintLog: New page: Compile MyCharacter
+[2014.09.29-18.18.44:518][612]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_10) Not registered. Aborting.
+[2014.09.29-18.18.44:534][612]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000003311EB60
+[2014.09.29-18.18.44:535][612]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000002F570CC0
+[2014.09.29-18.18.44:568][612]BlueprintEditorCompileResults: Info [2219.44] Compile of MyCharacter successful! [in 30 ms]
+[2014.09.29-18.18.45:110][631]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/MyCharacter" FILE="../../../../../../Github/UnrealEngine/First-Game/Content/Blueprints/MyCharacter.uasset" SILENT=true
+[2014.09.29-18.18.45:410][631]LogSavePackage: Save=286.932892ms
+[2014.09.29-18.18.45:410][631]LogSavePackage: Moving '../../../../../../Github/UnrealEngine/First-Game/Saved/MyCharacter5C5E54A44F82D1C0F2F5B79BEE131A70.tmp' to '../../../../../../Github/UnrealEngine/First-Game/Content/Blueprints/MyCharacter.uasset'
+[2014.09.29-18.18.47:876][720]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_11) Not registered. Aborting.
+[2014.09.29-18.18.48:953][777]LogPlayLevel: PIE:  No blueprints needed recompiling
+[2014.09.29-18.18.48:953][777]PIE: New page: PIE session: Example_Map (Sep 29, 2014, 10:18:48 PM)
+[2014.09.29-18.18.48:984][777]LogPlayLevel: PIE: StaticDuplicateObject took: (0.030496s)
+[2014.09.29-18.18.48:984][777]LogPlayLevel: PIE: World Init took: (0.000845s)
+[2014.09.29-18.18.48:985][777]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Example_Map.Example_Map to /Game/Maps/UEDPIE_0_Example_Map.Example_Map (0.031598s)
+[2014.09.29-18.18.49:014][777]LogWorld: Game class is 'MyGame_C'
+[2014.09.29-18.18.49:015][777]LogAIModule: Creating AISystem for world Example_Map
+[2014.09.29-18.18.49:016][777]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Example_Map.Example_Map up for play (max tick rate 0) at 2014.09.29-20.18.49
+[2014.09.29-18.18.49:016][777]LogWorld: Bringing up level for play took: 0.001347
+[2014.09.29-18.18.49:018][777]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_Example_Map -0.764
+[2014.09.29-18.18.57:787][472]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000001F6BA5C0
+[2014.09.29-18.20.59:620][ 23]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Blueprints/Weapons'
+[2014.09.29-18.21.49:265][866]BlueprintLog: New page: Compile Assault_Rifle_A_BP
+[2014.09.29-18.21.49:378][866]BlueprintEditorCompileResults: Info [2404.26] Compile of Assault_Rifle_A_BP successful! [in 41 ms]
+[2014.09.29-18.21.49:865][896]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Weapons/Assault_Rifle_A_BP" FILE="../../../../../../Github/UnrealEngine/First-Game/Content/Blueprints/Weapons/Assault_Rifle_A_BP.uasset" SILENT=true
+[2014.09.29-18.21.50:163][896]LogSavePackage: Save=285.693146ms
+[2014.09.29-18.21.50:163][896]LogSavePackage: Moving '../../../../../../Github/UnrealEngine/First-Game/Saved/Assault_Rifle_A_BP229BE0404A46899E88002EA5A61B8815.tmp' to '../../../../../../Github/UnrealEngine/First-Game/Content/Blueprints/Weapons/Assault_Rifle_A_BP.uasset'
+[2014.09.29-18.22.08:305][167]LogContentBrowser:Verbose: The content browser source was changed by the sources view to 'None'
+[2014.09.29-18.22.08:305][167]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Character/Mycharacter'
+[2014.09.29-18.22.13:826][361]LogSkeletalMesh: InitArticulated: Bodies already created (/Engine/Transient.DebugSkelMeshComponent_10) - call TermArticulated first.
+[2014.09.29-18.22.31:151][179]LogContentBrowser:Verbose: The majority of assets in the view are of type: AnimSequence
+[2014.09.29-18.22.45:153][  5]BlueprintLog: New page: Compile MyCharacter
+[2014.09.29-18.22.45:271][  5]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000031C3B560
+[2014.09.29-18.22.45:272][  5]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000033113600
+[2014.09.29-18.22.45:272][  5]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000003176B2E0
+[2014.09.29-18.22.45:309][  5]BlueprintEditorCompileResults: Info [2460.17] Compile of MyCharacter successful! [in 45 ms]
+[2014.09.29-18.22.45:319][  5]LogPropertyNode: Object is invalid Tags
+[2014.09.29-18.23.42:343][383]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Blueprints/Weapons'
+[2014.09.29-18.24.08:811][247]BlueprintLog: New page: Compile Assault_Rifle_A_BP
+[2014.09.29-18.24.08:923][247]BlueprintEditorCompileResults: Info [2543.80] Compile of Assault_Rifle_A_BP successful! [in 33 ms]
+[2014.09.29-18.24.09:353][275]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Weapons/Assault_Rifle_A_BP" FILE="../../../../../../Github/UnrealEngine/First-Game/Content/Blueprints/Weapons/Assault_Rifle_A_BP.uasset" SILENT=true
+[2014.09.29-18.24.09:653][275]LogSavePackage: Save=285.871033ms
+[2014.09.29-18.24.09:653][275]LogSavePackage: Moving '../../../../../../Github/UnrealEngine/First-Game/Saved/Assault_Rifle_A_BPF197A578455F77D455E5C493FE4E1BA4.tmp' to '../../../../../../Github/UnrealEngine/First-Game/Content/Blueprints/Weapons/Assault_Rifle_A_BP.uasset'
+[2014.09.29-18.24.12:015][464]BlueprintLog: New page: Pre-PIE auto-recompile
+[2014.09.29-18.24.12:015][464]LogPlayLevel: [PIE] Compiling MyCharacter before PIE...
+[2014.09.29-18.24.12:076][464]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000003AFCB600
+[2014.09.29-18.24.12:076][464]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000030336D40
+[2014.09.29-18.24.12:078][464]LogPlayLevel: PIE:  Blueprint regeneration took 63 ms (1 blueprints)
+[2014.09.29-18.24.12:078][464]PIE: New page: PIE session: Example_Map (Sep 29, 2014, 10:24:12 PM)
+[2014.09.29-18.24.12:112][464]LogPlayLevel: PIE: StaticDuplicateObject took: (0.033670s)
+[2014.09.29-18.24.12:113][464]LogPlayLevel: PIE: World Init took: (0.000877s)
+[2014.09.29-18.24.12:113][464]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Example_Map.Example_Map to /Game/Maps/UEDPIE_0_Example_Map.Example_Map (0.034733s)
+[2014.09.29-18.24.12:139][464]LogWorld: Game class is 'MyGame_C'
+[2014.09.29-18.24.12:140][464]LogAIModule: Creating AISystem for world Example_Map
+[2014.09.29-18.24.12:141][464]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Example_Map.Example_Map up for play (max tick rate 0) at 2014.09.29-20.24.12
+[2014.09.29-18.24.12:142][464]LogWorld: Bringing up level for play took: 0.001262
+[2014.09.29-18.24.12:143][464]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_Example_Map 0.359
+[2014.09.29-18.24.44:980][380]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000016252D40
+[2014.09.29-18.24.48:549][691]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Architecture'
+[2014.09.29-18.24.49:559][783]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Animations/Mycharacter'
+[2014.09.29-18.24.53:197][980]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Blueprints'
+[2014.09.29-18.27.26:912][766]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_12) Not registered. Aborting.
+[2014.09.29-18.27.26:931][766]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/Example_Map' took 0.019
+[2014.09.29-18.27.26:947][766]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Blueprints/MyCharacter] ([1] browsable assets)...
+[2014.09.29-18.27.26:977][766]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/Blueprints/MyCharacter.MyCharacter]
+[2014.09.29-18.27.26:977][766]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/MyCharacter]
+[2014.09.29-18.27.26:980][766]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/MyCharacter" FILE="../../../../../../Github/UnrealEngine/First-Game/Saved/Autosaves/Game/Blueprints/MyCharacter_Auto4.uasset" SILENT=false AUTOSAVING=true
+[2014.09.29-18.27.27:301][766]LogSavePackage: Save=285.562805ms
+[2014.09.29-18.27.27:301][766]LogSavePackage: Moving '../../../../../../Github/UnrealEngine/First-Game/Saved/MyCharacter_Auto4F970ED5D4E8B5049B09D5D858CE777E2.tmp' to '../../../../../../Github/UnrealEngine/First-Game/Saved/Autosaves/Game/Blueprints/MyCharacter_Auto4.uasset'
+[2014.09.29-18.27.27:324][766]LogFileHelpers: Auto-saving content packages took 0.393
+[2014.09.29-18.27.50:139][ 53]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_13) Not registered. Aborting.
+[2014.09.29-18.37.27:391][832]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_14) Not registered. Aborting.
+[2014.09.29-18.37.27:404][832]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/Example_Map' took 0.013
+[2014.09.29-18.37.27:422][832]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Blueprints/MyCharacter] ([1] browsable assets)...
+[2014.09.29-18.37.27:447][832]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/Blueprints/MyCharacter.MyCharacter]
+[2014.09.29-18.37.27:447][832]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/MyCharacter]
+[2014.09.29-18.37.27:450][832]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/MyCharacter" FILE="../../../../../../Github/UnrealEngine/First-Game/Saved/Autosaves/Game/Blueprints/MyCharacter_Auto5.uasset" SILENT=false AUTOSAVING=true
+[2014.09.29-18.37.27:781][832]LogSavePackage: Save=286.180969ms
+[2014.09.29-18.37.27:781][832]LogSavePackage: Moving '../../../../../../Github/UnrealEngine/First-Game/Saved/MyCharacter_Auto549FECA8C4D584592A1A114A45FD83A34.tmp' to '../../../../../../Github/UnrealEngine/First-Game/Saved/Autosaves/Game/Blueprints/MyCharacter_Auto5.uasset'
+[2014.09.29-18.37.27:835][832]LogFileHelpers: Auto-saving content packages took 0.431
+[2014.09.29-18.39.56:367][303]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_15) Not registered. Aborting.
+[2014.09.29-18.39.56:404][303]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/MyCharacter" FILE="../../../../../../Github/UnrealEngine/First-Game/Content/Blueprints/MyCharacter.uasset" SILENT=true
+[2014.09.29-18.39.56:442][303]LogSavePackage: Save=25.503305ms
+[2014.09.29-18.39.56:442][303]LogSavePackage: Moving '../../../../../../Github/UnrealEngine/First-Game/Saved/MyCharacter9031AEC548FC197533DA95AF476FF666.tmp' to '../../../../../../Github/UnrealEngine/First-Game/Content/Blueprints/MyCharacter.uasset'
+[2014.09.29-18.39.57:776][390]BlueprintLog: New page: Compile MyCharacter
+[2014.09.29-18.39.57:891][390]BlueprintEditorCompileResults: Info [3492.76] Compile of MyCharacter successful! [in 28 ms]
+[2014.09.29-18.39.58:598][416]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/MyCharacter" FILE="../../../../../../Github/UnrealEngine/First-Game/Content/Blueprints/MyCharacter.uasset" SILENT=true
+[2014.09.29-18.39.58:898][416]LogSavePackage: Save=288.004150ms
+[2014.09.29-18.39.58:899][416]LogSavePackage: Moving '../../../../../../Github/UnrealEngine/First-Game/Saved/MyCharacter9BB48DF449AA92DB2987949C03699A7E.tmp' to '../../../../../../Github/UnrealEngine/First-Game/Content/Blueprints/MyCharacter.uasset'
+[2014.09.29-18.40.02:914][797]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_16) Not registered. Aborting.
+[2014.09.29-18.40.02:929][797]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000000115C6D40
+[2014.09.29-18.40.03:355][798]Cmd: QUIT_EDITOR
+[2014.09.29-18.40.03:442][798]LogWindowsTextInputMethodSystem:Error: Terminating failed while unadvising the language notification sink from the TSF source.
+[2014.09.29-18.40.03:444][798]LogExit: Preparing to exit.
+[2014.09.29-18.40.04:014][798]LogExit: Editor shut down
+[2014.09.29-18.40.04:015][798]LogExit: Transaction tracking system shut down
+[2014.09.29-18.40.04:015][798]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000000D11AB60
+[2014.09.29-18.40.04:016][798]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000000D623F60
+[2014.09.29-18.40.04:016][798]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000000D622C00
+[2014.09.29-18.40.04:016][798]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000001D031B20
+[2014.09.29-18.40.04:016][798]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000001D0322A0
+[2014.09.29-18.40.04:016][798]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000001A126D40
+[2014.09.29-18.40.04:016][798]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000001FEAC7C0
+[2014.09.29-18.40.04:032][798]LogExit: Object subsystem successfully closed.
+[2014.09.29-18.40.04:049][798]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (161)
+[2014.09.29-18.40.04:049][798]LogModuleManager: Shutting down and abandoning module HTTP (160)
+[2014.09.29-18.40.04:049][798]LogModuleManager: Shutting down and abandoning module CrashTracker (159)
+[2014.09.29-18.40.04:049][798]LogModuleManager: Shutting down and abandoning module SuperSearch (158)
+[2014.09.29-18.40.04:049][798]LogModuleManager: Shutting down and abandoning module SceneOutliner (157)
+[2014.09.29-18.40.04:049][798]LogModuleManager: Shutting down and abandoning module EditorWidgets (156)
+[2014.09.29-18.40.04:049][798]LogModuleManager: Shutting down and abandoning module CollectionManager (155)
+[2014.09.29-18.40.04:049][798]LogModuleManager: Shutting down and abandoning module StatsViewer (154)
+[2014.09.29-18.40.04:049][798]LogModuleManager: Shutting down and abandoning module FoliageEdit (153)
+[2014.09.29-18.40.04:049][798]LogModuleManager: Shutting down and abandoning module LandscapeEditor (152)
+[2014.09.29-18.40.04:049][798]LogModuleManager: Shutting down and abandoning module MeshPaint (151)
+[2014.09.29-18.40.04:049][798]LogModuleManager: Shutting down and abandoning module ActorPickerMode (150)
+[2014.09.29-18.40.04:049][798]LogModuleManager: Shutting down and abandoning module GeometryMode (149)
+[2014.09.29-18.40.04:049][798]LogModuleManager: Shutting down and abandoning module TextureAlignMode (148)
+[2014.09.29-18.40.04:049][798]LogModuleManager: Shutting down and abandoning module BspMode (147)
+[2014.09.29-18.40.04:049][798]LogModuleManager: Shutting down and abandoning module PlacementMode (146)
+[2014.09.29-18.40.04:049][798]LogModuleManager: Shutting down and abandoning module DesktopPlatform (145)
+[2014.09.29-18.40.04:049][798]LogModuleManager: Shutting down and abandoning module AutomationWorker (144)
+[2014.09.29-18.40.04:049][798]LogModuleManager: Shutting down and abandoning module EditorLiveStreaming (143)
+[2014.09.29-18.40.04:049][798]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (142)
+[2014.09.29-18.40.04:049][798]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (141)
+[2014.09.29-18.40.04:049][798]LogModuleManager: Shutting down and abandoning module UndoHistory (140)
+[2014.09.29-18.40.04:049][798]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (139)
+[2014.09.29-18.40.04:049][798]LogModuleManager: Shutting down and abandoning module UserFeedback (138)
+[2014.09.29-18.40.04:049][798]LogModuleManager: Shutting down and abandoning module XmlParser (137)
+[2014.09.29-18.40.04:049][798]LogModuleManager: Shutting down and abandoning module Blutility (136)
+[2014.09.29-18.40.04:049][798]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (135)
+[2014.09.29-18.40.04:049][798]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (134)
+[2014.09.29-18.40.04:049][798]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (133)
+[2014.09.29-18.40.04:049][798]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (132)
+[2014.09.29-18.40.04:049][798]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (131)
+[2014.09.29-18.40.04:049][798]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (130)
+[2014.09.29-18.40.04:049][798]LogModuleManager: Shutting down and abandoning module InputBindingEditor (129)
+[2014.09.29-18.40.04:049][798]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (128)
+[2014.09.29-18.40.04:049][798]LogModuleManager: Shutting down and abandoning module SettingsEditor (127)
+[2014.09.29-18.40.04:049][798]LogModuleManager: Shutting down and abandoning module SessionLauncher (126)
+[2014.09.29-18.40.04:049][798]LogModuleManager: Shutting down and abandoning module SessionFrontend (125)
+[2014.09.29-18.40.04:049][798]LogModuleManager: Shutting down and abandoning module ProfilerClient (124)
+[2014.09.29-18.40.04:049][798]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (123)
+[2014.09.29-18.40.04:049][798]LogModuleManager: Shutting down and abandoning module DeviceManager (122)
+[2014.09.29-18.40.04:049][798]LogModuleManager: Shutting down and abandoning module AutomationController (121)
+[2014.09.29-18.40.04:049][798]LogModuleManager: Shutting down and abandoning module AutomationWindow (120)
+[2014.09.29-18.40.04:049][798]LogModuleManager: Shutting down and abandoning module Layers (119)
+[2014.09.29-18.40.04:049][798]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (118)
+[2014.09.29-18.40.04:049][798]LogModuleManager: Shutting down and abandoning module DetailCustomizations (117)
+[2014.09.29-18.40.04:049][798]LogModuleManager: Shutting down and abandoning module PackagesDialog (116)
+[2014.09.29-18.40.04:050][798]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (115)
+[2014.09.29-18.40.04:050][798]LogModuleManager: Shutting down and abandoning module AssetRegistry (114)
+[2014.09.29-18.40.04:069][798]LogModuleManager: Shutting down and abandoning module Persona (113)
+[2014.09.29-18.40.04:069][798]LogModuleManager: Shutting down and abandoning module GraphEditor (112)
+[2014.09.29-18.40.04:069][798]LogModuleManager: Shutting down and abandoning module ClassViewer (111)
+[2014.09.29-18.40.04:069][798]LogModuleManager: Shutting down and abandoning module Toolbox (110)
+[2014.09.29-18.40.04:069][798]LogModuleManager: Shutting down and abandoning module ModuleUI (109)
+[2014.09.29-18.40.04:069][798]LogModuleManager: Shutting down and abandoning module MovieSceneTools (108)
+[2014.09.29-18.40.04:069][798]LogModuleManager: Shutting down and abandoning module OutputLog (107)
+[2014.09.29-18.40.04:069][798]LogModuleManager: Shutting down and abandoning module GammaUI (106)
+[2014.09.29-18.40.04:069][798]LogModuleManager: Shutting down and abandoning module Documentation (105)
+[2014.09.29-18.40.04:069][798]LogModuleManager: Shutting down and abandoning module GameLiveStreaming (104)
+[2014.09.29-18.40.04:069][798]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (103)
+[2014.09.29-18.40.04:069][798]LogModuleManager: Shutting down and abandoning module AnalyticsET (102)
+[2014.09.29-18.40.04:070][798]LogModuleManager: Shutting down and abandoning module Analytics (101)
+[2014.09.29-18.40.04:070][798]LogModuleManager: Shutting down and abandoning module GameplayDebugger (100)
+[2014.09.29-18.40.04:070][798]LogModuleManager: Shutting down and abandoning module AIModule (99)
+[2014.09.29-18.40.04:070][798]LogModuleManager: Shutting down and abandoning module ProfilerService (98)
+[2014.09.29-18.40.04:231][798]LogModuleManager: Shutting down and abandoning module TaskGraph (97)
+[2014.09.29-18.40.04:231][798]LogModuleManager: Shutting down and abandoning module SlateRemote (96)
+[2014.09.29-18.40.04:231][798]LogModuleManager: Shutting down and abandoning module ScriptEditorPlugin (95)
+[2014.09.29-18.40.04:231][798]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (94)
+[2014.09.29-18.40.04:231][798]LogModuleManager: Shutting down and abandoning module CableComponent (93)
+[2014.09.29-18.40.04:231][798]LogModuleManager: Shutting down and abandoning module MessagingDebugger (92)
+[2014.09.29-18.40.04:231][798]LogModuleManager: Shutting down and abandoning module ViewportSnapping (91)
+[2014.09.29-18.40.04:231][798]LogModuleManager: Shutting down and abandoning module SmartSnapping (90)
+[2014.09.29-18.40.04:231][798]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (89)
+[2014.09.29-18.40.04:231][798]LogModuleManager: Shutting down and abandoning module PaperJsonImporter (88)
+[2014.09.29-18.40.04:231][798]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (87)
+[2014.09.29-18.40.04:231][798]LogModuleManager: Shutting down and abandoning module Matinee (86)
+[2014.09.29-18.40.04:231][798]LogModuleManager: Shutting down and abandoning module Kismet (85)
+[2014.09.29-18.40.04:231][798]LogModuleManager: Shutting down and abandoning module SlateReflector (84)
+[2014.09.29-18.40.04:231][798]LogModuleManager: Shutting down and abandoning module LevelEditor (83)
+[2014.09.29-18.40.04:232][798]LogModuleManager: Shutting down and abandoning module IntroTutorials (82)
+[2014.09.29-18.40.04:232][798]LogModuleManager: Shutting down and abandoning module ContentBrowser (81)
+[2014.09.29-18.40.04:232][798]LogModuleManager: Shutting down and abandoning module PropertyEditor (80)
+[2014.09.29-18.40.04:232][798]LogModuleManager: Shutting down and abandoning module Paper2DEditor (79)
+[2014.09.29-18.40.04:232][798]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (78)
+[2014.09.29-18.40.04:232][798]LogModuleManager: Shutting down and abandoning module PluginsEditor (77)
+[2014.09.29-18.40.04:232][798]LogModuleManager: Shutting down and abandoning module MainFrame (76)
+[2014.09.29-18.40.04:232][798]LogModuleManager: Shutting down and abandoning module EpicSurvey (75)
+[2014.09.29-18.40.04:232][798]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (74)
+[2014.09.29-18.40.04:232][798]LogModuleManager: Shutting down and abandoning module UObjectPlugin (73)
+[2014.09.29-18.40.04:232][798]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (72)
+[2014.09.29-18.40.04:232][798]LogModuleManager: Shutting down and abandoning module SourceControl (71)
+[2014.09.29-18.40.04:232][798]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (70)
+[2014.09.29-18.40.04:232][798]LogModuleManager: Shutting down and abandoning module BlankPlugin (69)
+[2014.09.29-18.40.04:232][798]LogModuleManager: Shutting down and abandoning module ScriptPlugin (68)
+[2014.09.29-18.40.04:232][798]LogModuleManager: Shutting down and abandoning module UdpMessaging (67)
+[2014.09.29-18.40.04:332][798]LogModuleManager: Shutting down and abandoning module Paper2D (66)
+[2014.09.29-18.40.04:332][798]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (65)
+[2014.09.29-18.40.04:334][798]LogModuleManager: Shutting down and abandoning module ImageWrapper (64)
+[2014.09.29-18.40.04:334][798]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (63)
+[2014.09.29-18.40.04:334][798]LogModuleManager: Shutting down and abandoning module FunctionalTesting (62)
+[2014.09.29-18.40.04:334][798]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (61)
+[2014.09.29-18.40.04:334][798]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (60)
+[2014.09.29-18.40.04:335][798]LogModuleManager: Shutting down and abandoning module MessageLog (59)
+[2014.09.29-18.40.04:335][798]LogModuleManager: Shutting down and abandoning module Sequencer (58)
+[2014.09.29-18.40.04:335][798]LogModuleManager: Shutting down and abandoning module AssetTools (57)
+[2014.09.29-18.40.04:335][798]LogModuleManager: Shutting down and abandoning module UMGEditor (56)
+[2014.09.29-18.40.04:335][798]LogModuleManager: Shutting down and abandoning module UMG (55)
+[2014.09.29-18.40.04:335][798]LogModuleManager: Shutting down and abandoning module Slate (54)
+[2014.09.29-18.40.04:335][798]LogModuleManager: Shutting down and abandoning module EditorStyle (53)
+[2014.09.29-18.40.04:336][798]LogModuleManager: Shutting down and abandoning module SessionServices (52)
+[2014.09.29-18.40.04:336][798]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (51)
+[2014.09.29-18.40.04:336][798]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (50)
+[2014.09.29-18.40.04:336][798]LogModuleManager: Shutting down and abandoning module XAudio2 (49)
+[2014.09.29-18.40.04:336][798]LogModuleManager: Shutting down and abandoning module Networking (47)
+[2014.09.29-18.40.04:336][798]LogModuleManager: Shutting down and abandoning module Core (46)
+[2014.09.29-18.40.04:336][798]LogModuleManager: Shutting down and abandoning module KismetCompiler (45)
+[2014.09.29-18.40.04:336][798]LogModuleManager: Shutting down and abandoning module PhysXFormats (44)
+[2014.09.29-18.40.04:336][798]LogModuleManager: Shutting down and abandoning module MeshUtilities (43)
+[2014.09.29-18.40.04:336][798]LogModuleManager: Shutting down and abandoning module DerivedDataCache (42)
+[2014.09.29-18.40.04:349][798]LogDerivedDataCache: Shutdown
+[2014.09.29-18.40.04:349][798]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (41)
+[2014.09.29-18.40.04:349][798]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (40)
+[2014.09.29-18.40.04:349][798]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (39)
+[2014.09.29-18.40.04:349][798]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (38)
+[2014.09.29-18.40.04:349][798]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (37)
+[2014.09.29-18.40.04:349][798]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (36)
+[2014.09.29-18.40.04:349][798]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (35)
+[2014.09.29-18.40.04:349][798]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (34)
+[2014.09.29-18.40.04:349][798]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (33)
+[2014.09.29-18.40.04:349][798]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (32)
+[2014.09.29-18.40.04:349][798]LogModuleManager: Shutting down and abandoning module Messaging (31)
+[2014.09.29-18.40.04:349][798]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (30)
+[2014.09.29-18.40.04:349][798]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (29)
+[2014.09.29-18.40.04:349][798]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (28)
+[2014.09.29-18.40.04:349][798]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (27)
+[2014.09.29-18.40.04:349][798]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (26)
+[2014.09.29-18.40.04:349][798]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (25)
+[2014.09.29-18.40.04:349][798]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (24)
+[2014.09.29-18.40.04:349][798]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (23)
+[2014.09.29-18.40.04:349][798]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (22)
+[2014.09.29-18.40.04:349][798]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (21)
+[2014.09.29-18.40.04:349][798]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (20)
+[2014.09.29-18.40.04:349][798]LogModuleManager: Shutting down and abandoning module TargetPlatform (19)
+[2014.09.29-18.40.04:349][798]LogModuleManager: Shutting down and abandoning module InputCore (18)
+[2014.09.29-18.40.04:349][798]LogModuleManager: Shutting down and abandoning module Settings (17)
+[2014.09.29-18.40.04:349][798]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (14)
+[2014.09.29-18.40.04:349][798]LogModuleManager: Shutting down and abandoning module OculusRift (13)
+[2014.09.29-18.40.04:349][798]LogModuleManager: Shutting down and abandoning module TextureCompressor (12)
+[2014.09.29-18.40.04:349][798]LogModuleManager: Shutting down and abandoning module ShaderCore (11)
+[2014.09.29-18.40.04:349][798]LogModuleManager: Shutting down and abandoning module OpenGLDrv (10)
+[2014.09.29-18.40.04:349][798]LogModuleManager: Shutting down and abandoning module D3D11RHI (9)
+[2014.09.29-18.40.04:349][798]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (8)
+[2014.09.29-18.40.04:349][798]LogModuleManager: Shutting down and abandoning module Renderer (7)
+[2014.09.29-18.40.04:349][798]LogModuleManager: Shutting down and abandoning module Engine (6)
+[2014.09.29-18.40.04:349][798]LogModuleManager: Shutting down and abandoning module CoreUObject (5)
+[2014.09.29-18.40.04:349][798]LogModuleManager: Shutting down and abandoning module NetworkFile (4)
+[2014.09.29-18.40.04:349][798]LogModuleManager: Shutting down and abandoning module StreamingFile (3)
+[2014.09.29-18.40.04:349][798]LogModuleManager: Shutting down and abandoning module SandboxFile (2)
+[2014.09.29-18.40.04:349][798]LogModuleManager: Shutting down and abandoning module PakFile (1)
+[2014.09.29-18.40.04:349][798]LogExit: Exiting.
+[2014.09.29-18.40.04:351][798]Log file closed, 09/29/14 20:40:04
