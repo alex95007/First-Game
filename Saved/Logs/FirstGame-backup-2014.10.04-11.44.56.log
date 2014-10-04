@@ -1,0 +1,207 @@
+Log file open, 10/04/14 11:11:53
+LogInit:Display: Running engine for game: FirstGame
+LogInit: Version: 4.4.3-2296771+++depot+UE4-Releases+4.4
+LogInit: API Version: 2255576
+LogInit: Compiled (64-bit): Sep 13 2014 22:30:58
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++depot+UE4-Releases+4.4
+LogInit: Command line:  
+LogInit: Base directory: D:/Programme/Unreal Engine/4.4/Engine/Binaries/Win64/
+LogInit: Rocket: 1
+[2014.10.04-09.11.53:695][  0]LogTaskGraph: Started task graph with 3 named threads and 4 total threads.
+[2014.10.04-09.11.53:735][  0]LogOnline:Warning: No default platform service specified for OnlineSubsystem
+[2014.10.04-09.11.54:872][  0]LogInit: Presizing for 0 objects not considered by GC, pre-allocating 0 bytes.
+[2014.10.04-09.11.55:452][  0]LogInit: Object subsystem initialized
+[2014.10.04-09.11.55:898][  0]LogInit: Selected Device Profile: [Windows]
+[2014.10.04-09.11.55:898][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2014.10.04-09.11.56:250][  0]LogInit: Computer: MASTERPC
+[2014.10.04-09.11.56:250][  0]LogInit: User: Endero
+[2014.10.04-09.11.56:251][  0]LogInit: CPU Page size=4096, Cores=4
+[2014.10.04-09.11.56:251][  0]LogInit: High frequency timer resolution =3.513613 MHz
+[2014.10.04-09.11.56:251][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx) Virtual=8192.0GB
+[2014.10.04-09.11.56:251][  0]LogMemory: Platform Memory Stats for Windows
+[2014.10.04-09.11.56:251][  0]LogMemory: Process Physical Memory: 62.66 MB used, 62.66 MB peak
+[2014.10.04-09.11.56:251][  0]LogMemory: Process Virtual Memory: 38.48 MB used, 41.73 MB peak
+[2014.10.04-09.11.56:251][  0]LogMemory: Physical Memory: 5904.27 MB used, 16321.48 MB total
+[2014.10.04-09.11.56:251][  0]LogMemory: Virtual Memory: 261.26 MB used, 8388608.00 MB total
+[2014.10.04-09.11.56:556][  0]LogD3D11RHI: Found D3D11 adapter 0: AMD Radeon R9 200 Series (Feature Level 11_0)
+[2014.10.04-09.11.56:556][  0]LogD3D11RHI: Adapter has 2030MB of dedicated video memory, 0MB of dedicated system memory, and 3840MB of shared system memory, 2 output[s]
+[2014.10.04-09.11.56:556][  0]LogD3D11RHI: Chosen D3D11 Adapter Id = 0
+[2014.10.04-09.11.56:784][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2014.10.04-09.11.56:894][  0]LogD3D11RHI: Async texture creation disabled: no driver support
+[2014.10.04-09.12.01:393][  0]LogTextLocalizationManager:Warning: The selected culture 'de_CH' is not available; falling back to 'en'
+[2014.10.04-09.12.01:775][  0]LogContentStreaming: Texture pool size is 0.000000MB
+[2014.10.04-09.12.06:360][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2014.10.04-09.12.07:409][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2014.10.04-09.12.07:571][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2014.10.04-09.12.07:700][  0]LogDerivedDataCache: Loaded boot cache 0.12s 39MB C:/Users/Endero/AppData/Local/UnrealEngine/4.4/DerivedDataCache/Boot.ddc.
+[2014.10.04-09.12.07:700][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/Endero/AppData/Local/UnrealEngine/4.4/DerivedDataCache/Boot.ddc
+[2014.10.04-09.12.07:701][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Github/UnrealEngine/First-Game/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2014.10.04-09.12.07:701][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2014.10.04-09.12.07:885][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/DDC.ddp.
+[2014.10.04-09.12.07:897][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Endero/AppData/Local/UnrealEngine/4.4/DerivedDataCache: Writable
+[2014.10.04-09.12.15:576][  0]LogMeshUtilities: No automatic mesh reduction module available
+[2014.10.04-09.12.15:576][  0]LogMeshUtilities: No automatic mesh merging module available
+[2014.10.04-09.12.19:831][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2014.10.04-09.12.29:875][  0]LogStats:Warning: MetaData mismatch. Did you assign a stat to two groups? New //STATGROUP_Threads//FMonitoredProcess///Thread_21e8_0///////STATCAT_Advanced//// old //STATGROUP_Threads//FMonitoredProcess///Thread_171c_0///////STATCAT_Advanced////
+[2014.10.04-09.12.29:875][  0]UdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2014.10.04-09.12.30:266][  0]SourceControl: Info Source control is disabled
+[2014.10.04-09.12.30:266][  0]SourceControl: Info Source control is disabled
+[2014.10.04-09.12.30:270][  0]SourceControl: Info Source control is disabled
+[2014.10.04-09.12.32:554][  0]BlueprintLog: New page: Editor Load
+[2014.10.04-09.12.33:269][  0]LogObj: 21438 objects as part of root set at end of initial load.
+[2014.10.04-09.12.33:269][  0]LogUObjectAllocator: 4218656 out of 0 bytes used by permanent object pool.
+[2014.10.04-09.12.34:760][  0]LogAutomationTest:Warning: Smoke tests took > 1s to run: 1.32s
+[2014.10.04-09.12.34:813][  0]LogEngine: Initializing Engine...
+[2014.10.04-09.12.35:983][  0]LogInit: XAudio2 using 'Lautsprecher (2- Wireless Stereo Headset)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2014.10.04-09.12.35:990][  0]LogInit: FAudioDevice initialized.
+[2014.10.04-09.12.36:533][  0]LogAIModule: Creating AISystem for world NewWorld
+[2014.10.04-09.12.36:622][  0]LogDerivedDataCache: Saved boot cache 0.02s 39MB C:/Users/Endero/AppData/Local/UnrealEngine/4.4/DerivedDataCache/Boot.ddc.
+[2014.10.04-09.12.36:626][  0]LogInit: Texture streaming: Enabled
+[2014.10.04-09.12.36:690][  0]LogInit: Transaction tracking system initialized
+[2014.10.04-09.12.37:390][  0]LogAssetRegistry: FAssetRegistry took 0.0874 seconds to start up
+[2014.10.04-09.12.40:309][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2014.10.04-09.12.40:523][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2014.10.04-09.12.41:292][  0]LogConsoleResponse:Display: 
+[2014.10.04-09.12.43:587][  0]LogStats:Warning: MetaData mismatch. Did you assign a stat to two groups? New //STATGROUP_Threads//FMonitoredProcess///Thread_1a70_0///////STATCAT_Advanced//// old //STATGROUP_Threads//FMonitoredProcess///Thread_171c_0///////STATCAT_Advanced////
+[2014.10.04-09.12.43:587][  0]LogStats:Warning: MetaData mismatch. Did you assign a stat to two groups? New //STATGROUP_Threads//FMonitoredProcess///Thread_21a4_0///////STATCAT_Advanced//// old //STATGROUP_Threads//FMonitoredProcess///Thread_171c_0///////STATCAT_Advanced////
+[2014.10.04-09.12.43:587][  0]SourceControl: Info Source control is disabled
+[2014.10.04-09.12.43:643][  0]Cmd: MAP LOAD FILE="../../../../../../Github/UnrealEngine/First-Game/Content/Maps/Example_Map.umap" TEMPLATE=0 SHOWPROGRESS=1
+[2014.10.04-09.12.43:709][  0]LightingResults: New page: Lighting Build
+[2014.10.04-09.12.43:837][  0]MapCheck: New page: Map Check
+[2014.10.04-09.12.43:837][  0]LightingResults: New page: Lighting Build
+[2014.10.04-09.12.43:899][  0]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000000114E8680
+[2014.10.04-09.12.49:226][  0]BlueprintLog:Warning: Warning Blueprint MyHUD has been migrated and requires re-saving to avoid import errors
+[2014.10.04-09.12.49:519][  0]BlueprintLog:Warning: Warning Blueprint MyGame has been migrated and requires re-saving to avoid import errors
+[2014.10.04-09.12.49:824][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2014.10.04-09.12.49:841][  0]LogAIModule: Creating AISystem for world Example_Map
+[2014.10.04-09.12.49:898][  0]Cmd: MAP CHECKDEP
+[2014.10.04-09.12.49:898][  0]MapCheck: New page: Example_Map - Oct 4, 2014, 1:12:49 PM
+[2014.10.04-09.12.49:941][  0]MapCheck: Info ========== Map Check: 0 Error(s), 0 Warning(s), [43.508ms] ==========
+[2014.10.04-09.12.49:941][  0]LogFileHelpers: Loading map 'Example_Map' took 6.311
+[2014.10.04-09.12.51:065][  0]LogCollectionManager: Loaded 0 collections in 0.010791 seconds
+[2014.10.04-09.12.53:083][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2014.10.04-09.12.53:462][  0]LogLoad: Full Startup: 72.11 seconds (BP compile: 0.84 seconds)
+[2014.10.04-09.12.53:487][  0]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Blueprints'
+[2014.10.04-09.12.54:296][  0]LogRenderer:Warning: Reallocating scene render targets to support 960x912.
+[2014.10.04-09.12.54:686][  2]LogAssetRegistry: Asset discovery search completed in 17.3584 seconds
+[2014.10.04-09.39.39:500][731]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Blueprints/Weapons'
+[2014.10.04-09.39.44:635][ 46]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Textures'
+[2014.10.04-09.39.45:183][ 59]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Weapons'
+[2014.10.04-09.39.46:415][204]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Weapons/MilitaryWeapSilver'
+[2014.10.04-09.39.47:725][361]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Weapons/MilitaryWeapSilver/Weapons'
+[2014.10.04-09.40.02:866][357]LogEnum:Warning: Enum Text WeaponType::NewEnumerator6 for Enum WeaponType failed to resolve to any value
+[2014.10.04-09.40.08:188][866]LogEnum:Warning: Enum Text WeaponType::NewEnumerator7 for Enum WeaponType failed to resolve to any value
+[2014.10.04-09.40.12:110][143]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_0) Not registered. Aborting.
+[2014.10.04-09.40.12:110][143]LogActorComponent: UnregisterComponent: (/Engine/Transient.ProjectileMovementComponent_0) Not registered. Aborting.
+[2014.10.04-09.40.12:110][143]LogActorComponent: UnregisterComponent: (/Engine/Transient.ProjectileMovementComponent_1) Not registered. Aborting.
+[2014.10.04-09.40.12:264][143]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/Example_Map' took 0.154
+[2014.10.04-09.40.12:280][143]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Blueprints/MyCharacter] ([1] browsable assets)...
+[2014.10.04-09.40.12:316][143]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/Blueprints/MyCharacter.MyCharacter]
+[2014.10.04-09.40.12:316][143]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/MyCharacter]
+[2014.10.04-09.40.12:319][143]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/MyCharacter" FILE="../../../../../../Github/UnrealEngine/First-Game/Saved/Autosaves/Game/Blueprints/MyCharacter_Auto1.uasset" SILENT=false AUTOSAVING=true
+[2014.10.04-09.40.12:721][143]LogSavePackage: Save=307.170135ms
+[2014.10.04-09.40.12:721][143]LogSavePackage: Moving '../../../../../../Github/UnrealEngine/First-Game/Saved/MyCharacter_Auto1319EEDA24A1085A4A2ED2FAAC0D65A53.tmp' to '../../../../../../Github/UnrealEngine/First-Game/Saved/Autosaves/Game/Blueprints/MyCharacter_Auto1.uasset'
+[2014.10.04-09.40.12:740][143]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Weapons/MilitaryWeapSilver/Weapons/WeaponType] ([1] browsable assets)...
+[2014.10.04-09.40.12:749][143]OBJ SavePackage: Finished generating thumbnails for package [/Game/Weapons/MilitaryWeapSilver/Weapons/WeaponType]
+[2014.10.04-09.40.12:806][143]LogSavePackage: Save=6.078643ms
+[2014.10.04-09.40.12:806][143]LogSavePackage: Moving '../../../../../../Github/UnrealEngine/First-Game/Saved/WeaponType_Auto1A0A94C9548D9BBC129C4DD8F6AA4336B.tmp' to '../../../../../../Github/UnrealEngine/First-Game/Saved/Autosaves/Game/Weapons/MilitaryWeapSilver/Weapons/WeaponType_Auto1.uasset'
+[2014.10.04-09.40.12:810][143]LogFileHelpers: Auto-saving content packages took 0.547
+[2014.10.04-09.40.24:139][382]LogEnum:Warning: Enum Text WeaponType::NewEnumerator8 for Enum WeaponType failed to resolve to any value
+[2014.10.04-09.40.34:672][540]LogEnum:Warning: Enum Text WeaponType::NewEnumerator9 for Enum WeaponType failed to resolve to any value
+[2014.10.04-09.40.44:114][471]LogEnum:Warning: Enum Text WeaponType::NewEnumerator10 for Enum WeaponType failed to resolve to any value
+[2014.10.04-09.40.54:486][621]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_1) Not registered. Aborting.
+[2014.10.04-09.40.54:615][621]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/MyCharacter" FILE="../../../../../../Github/UnrealEngine/First-Game/Content/Blueprints/MyCharacter.uasset" SILENT=true
+[2014.10.04-09.40.54:925][621]LogSavePackage: Save=292.206635ms
+[2014.10.04-09.40.54:925][621]LogSavePackage: Moving '../../../../../../Github/UnrealEngine/First-Game/Saved/MyCharacter863C384847805B1D526FBA8DC79468E0.tmp' to '../../../../../../Github/UnrealEngine/First-Game/Content/Blueprints/MyCharacter.uasset'
+[2014.10.04-09.40.54:949][621]LogSavePackage: Save=5.017627ms
+[2014.10.04-09.40.54:949][621]LogSavePackage: Moving '../../../../../../Github/UnrealEngine/First-Game/Saved/WeaponTypeAA6F7D414350477032F53C8128200D17.tmp' to '../../../../../../Github/UnrealEngine/First-Game/Content/Weapons/MilitaryWeapSilver/Weapons/WeaponType.uasset'
+[2014.10.04-09.41.12:509][ 67]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Character'
+[2014.10.04-09.41.15:125][377]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Character/Mycharacter'
+[2014.10.04-09.41.18:363][533]LogSkeletalMesh: InitArticulated: Bodies already created (/Engine/Transient.DebugSkelMeshComponent_0) - call TermArticulated first.
+[2014.10.04-09.41.28:400][ 92]LogContentBrowser:Verbose: The majority of assets in the view are of type: AnimSequence
+[2014.10.04-09.43.46:871][963]Cmd: MODE GRID=0
+[2014.10.04-09.44.02:991][ 66]Cmd: MODE GRID=1
+[2014.10.04-09.44.04:215][153]Cmd: MODE ROTGRID=0
+[2014.10.04-09.44.06:313][283]Cmd: MODE ROTGRID=1
+[2014.10.04-09.44.13:495][795]Cmd: MODE GRID=0
+[2014.10.04-09.44.21:365][322]Cmd: MODE GRID=1
+[2014.10.04-09.44.22:091][374]Cmd: MODE ROTGRID=0
+[2014.10.04-09.44.26:976][699]Cmd: MODE ROTGRID=1
+[2014.10.04-09.44.31:409][992]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Character/Mycharacter/t-pose_5_Skeleton" FILE="../../../../../../Github/UnrealEngine/First-Game/Content/Character/Mycharacter/t-pose_5_Skeleton.uasset" SILENT=true
+[2014.10.04-09.44.31:442][992]LogSavePackage: Save=6.004645ms
+[2014.10.04-09.44.31:442][992]LogSavePackage: Moving '../../../../../../Github/UnrealEngine/First-Game/Saved/t-pose_5_Skeleton26420D0E450467643824858A2D8D13B5.tmp' to '../../../../../../Github/UnrealEngine/First-Game/Content/Character/Mycharacter/t-pose_5_Skeleton.uasset'
+[2014.10.04-09.44.45:079][919]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_2) Not registered. Aborting.
+[2014.10.04-09.44.45:108][919]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000016D5A340
+[2014.10.04-09.44.45:108][919]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000016E28180
+[2014.10.04-09.44.45:153][919]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Character/Mycharacter/t-pose_5" FILE="../../../../../../Github/UnrealEngine/First-Game/Content/Character/Mycharacter/t-pose_5.uasset" SILENT=true
+[2014.10.04-09.44.45:204][919]LogWindows:Error: appError called: Illegal call to StaticFindObject() while serializing object data!
+[2014.10.04-09.44.45:204][919]LogWindows:Error: Windows GetLastError: Der Vorgang wurde erfolgreich beendet. (0)
+[2014.10.04-09.44.45:618][919]LogCrashTracker: 
+
+
+[2014.10.04-09.44.46:599][919]LogCrashTracker: 
+
+
+[2014.10.04-09.44.46:599][919]LogWindows: === Critical error: ===
+Unhandled Exception: 0x00000001
+
+[2014.10.04-09.44.46:599][919]LogWindows: Illegal call to StaticFindObject() while serializing object data!
+
+Address = 0xfd80940d (filename not found) [in C:\Windows\system32\KERNELBASE.dll]
+Address = 0xd4203afc (filename not found) [in D:\Programme\Unreal Engine\4.4\Engine\Binaries\Win64\UE4Editor-Core.dll]
+Address = 0xd40a5b2a (filename not found) [in D:\Programme\Unreal Engine\4.4\Engine\Binaries\Win64\UE4Editor-Core.dll]
+Address = 0xd3d8ee97 (filename not found) [in D:\Programme\Unreal Engine\4.4\Engine\Binaries\Win64\UE4Editor-CoreUObject.dll]
+Address = 0xc59d7410 (filename not found) [in D:\Programme\Unreal Engine\4.4\Engine\Binaries\Win64\UE4Editor-DetailCustomizations.dll]
+Address = 0xc59a2f5e (filename not found) [in D:\Programme\Unreal Engine\4.4\Engine\Binaries\Win64\UE4Editor-DetailCustomizations.dll]
+Address = 0xce1b27a4 (filename not found) [in D:\Programme\Unreal Engine\4.4\Engine\Binaries\Win64\UE4Editor-PropertyEditor.dll]
+Address = 0xce18a2c6 (filename not found) [in D:\Programme\Unreal Engine\4.4\Engine\Binaries\Win64\UE4Editor-PropertyEditor.dll]
+Address = 0xd0ed405a (filename not found) [in D:\Programme\Unreal Engine\4.4\Engine\Binaries\Win64\UE4Editor-Slate.dll]
+Address = 0xd0edb478 (filename not found) [in D:\Programme\Unreal Engine\4.4\Engine\Binaries\Win64\UE4Editor-Slate.dll]
+Address = 0xd113f9b7 (filename not found) [in D:\Programme\Unreal Engine\4.4\Engine\Binaries\Win64\UE4Editor-Slate.dll]
+Address = 0xd14f45a7 (filename not found) [in D:\Programme\Unreal Engine\4.4\Engine\Binaries\Win64\UE4Editor-SlateCore.dll]
+Address = 0xd14f45a7 (filename not found) [in D:\Programme\Unreal Engine\4.4\Engine\Binaries\Win64\UE4Editor-SlateCore.dll]
+Address = 0xd14f45a7 (filename not found) [in D:\Programme\Unreal Engine\4.4\Engine\Binaries\Win64\UE4Editor-SlateCore.dll]
+Address = 0xd0ed14df (filename not found) [in D:\Programme\Unreal Engine\4.4\Engine\Binaries\Win64\UE4Editor-Slate.dll]
+Address = 0xd0ed0b64 (filename not found) [in D:\Programme\Unreal Engine\4.4\Engine\Binaries\Win64\UE4Editor-Slate.dll]
+Address = 0xd0f0ee41 (filename not found) [in D:\Programme\Unreal Engine\4.4\Engine\Binaries\Win64\UE4Editor-Slate.dll]
+Address = 0xd0f2c0f8 (filename not found) [in D:\Programme\Unreal Engine\4.4\Engine\Binaries\Win64\UE4Editor-Slate.dll]
+Address = 0xcfc870de (filename not found) [in D:\Programme\Unreal Engine\4.4\Engine\Binaries\Win64\UE4Editor-UnrealEd.dll]
+Address = 0xcfc8a328 (filename not found) [in D:\Programme\Unreal Engine\4.4\Engine\Binaries\Win64\UE4Editor-UnrealEd.dll]
+Address = 0xd3d85a37 (filename not found) [in D:\Programme\Unreal Engine\4.4\Engine\Binaries\Win64\UE4Editor-CoreUObject.dll]
+Address = 0xcfb56d5b (filename not found) [in D:\Programme\Unreal Engine\4.4\Engine\Binaries\Win64\UE4Editor-UnrealEd.dll]
+Address = 0xcfbfd545 (filename not found) [in D:\Programme\Unreal Engine\4.4\Engine\Binaries\Win64\UE4Editor-UnrealEd.dll]
+Address = 0xcfbfa3fc (filename not found) [in D:\Programme\Unreal Engine\4.4\Engine\Binaries\Win64\UE4Editor-UnrealEd.dll]
+Address = 0xcfeff0f0 (filename not found) [in D:\Programme\Unreal Engine\4.4\Engine\Binaries\Win64\UE4Editor-UnrealEd.dll]
+Address = 0xcfc6eb94 (filename not found) [in D:\Programme\Unreal Engine\4.4\Engine\Binaries\Win64\UE4Editor-UnrealEd.dll]
+Address = 0xcfc7b6f5 (filename not found) [in D:\Programme\Unreal Engine\4.4\Engine\Binaries\Win64\UE4Editor-UnrealEd.dll]
+Address = 0xcfc6f01c (filename not found) [in D:\Programme\Unreal Engine\4.4\Engine\Binaries\Win64\UE4Editor-UnrealEd.dll]
+Address = 0xcfc82e9a (filename not found) [in D:\Programme\Unreal Engine\4.4\Engine\Binaries\Win64\UE4Editor-UnrealEd.dll]
+Address = 0xc7c206c4 (filename not found) [in D:\Programme\Unreal Engine\4.4\Engine\Binaries\Win64\UE4Editor-MainFrame.dll]
+Address = 0xc7c0775a (filename not found) [in D:\Programme\Unreal Engine\4.4\Engine\Binaries\Win64\UE4Editor-MainFrame.dll]
+Address = 0xd0ec59bf (filename not found) [in D:\Programme\Unreal Engine\4.4\Engine\Binaries\Win64\UE4Editor-Slate.dll]
+Address = 0xd0f0f4ac (filename not found) [in D:\Programme\Unreal Engine\4.4\Engine\Binaries\Win64\UE4Editor-Slate.dll]
+Address = 0xc7c19cd2 (filename not found) [in D:\Programme\Unreal Engine\4.4\Engine\Binaries\Win64\UE4Editor-MainFrame.dll]
+Address = 0xc7c0753f (filename not found) [in D:\Programme\Unreal Engine\4.4\Engine\Binaries\Win64\UE4Editor-MainFrame.dll]
+Address = 0xd0ed414a (filename not found) [in D:\Programme\Unreal Engine\4.4\Engine\Binaries\Win64\UE4Editor-Slate.dll]
+Address = 0xd0f106cd (filename not found) [in D:\Programme\Unreal Engine\4.4\Engine\Binaries\Win64\UE4Editor-Slate.dll]
+Address = 0xd0f00453 (filename not found) [in D:\Programme\Unreal Engine\4.4\Engine\Binaries\Win64\UE4Editor-Slate.dll]
+Address = 0xd41731aa (filename not found) [in D:\Programme\Unreal Engine\4.4\Engine\Binaries\Win64\UE4Editor-Core.dll]
+Address = 0xd415f871 (filename not found) [in D:\Programme\Unreal Engine\4.4\Engine\Binaries\Win64\UE4Editor-Core.dll]
+Address = 0xd417461e (filename not found) [in D:\Programme\Unreal Engine\4.4\Engine\Binaries\Win64\UE4Editor-Core.dll]
+Address = 0xd415c6e2 (filename not found) [in D:\Programme\Unreal Engine\4.4\Engine\Binaries\Win64\UE4Editor-Core.dll]
+Address = 0x777c9bd1 (filename not found) [in C:\Windows\system32\USER32.dll]
+Address = 0x777c98da (filename not found) [in C:\Windows\system32\USER32.dll]
+Address = 0xd4174ac6 (filename not found) [in D:\Programme\Unreal Engine\4.4\Engine\Binaries\Win64\UE4Editor-Core.dll]
+FEngineLoop::Tick() 0x3f7e708d + 8 bytes [File=d:\buildfarm\buildmachine_++depot+ue4-releases+4.4\engine\source\runtime\launch\private\launchengineloop.cpp:2080] [in D:\Programme\Unreal Engine\4.4\Engine\Binaries\Win64\UE4Editor.exe]
+GuardedMain() 0x3f7dca3c + 0 bytes [File=d:\buildfarm\buildmachine_++depot+ue4-releases+4.4\engine\source\runtime\launch\private\launch.cpp:133] [in D:\Programme\Unreal Engine\4.4\Engine\Binaries\Win64\UE4Editor.exe]
+GuardedMainWrapper() 0x3f7dcaaa + 5 bytes [File=d:\buildfarm\buildmachine_++depot+ue4-releases+4.4\engine\source\runtime\launch\private\windows\launchwindows.cpp:125] [in D:\Programme\Unreal Engine\4.4\Engine\Binaries\Win64\UE4Editor.exe]
+WinMain() 0x3f7e88c9 + 17 bytes [File=d:\buildfarm\buildmachine_++depot+ue4-releases+4.4\engine\source\runtime\launch\private\windows\launchwindows.cpp:201] [in D:\Programme\Unreal Engine\4.4\Engine\Binaries\Win64\UE4Editor.exe]
+__tmainCRTStartup() 0x3f7e96f9 + 21 bytes [File=f:\dd\vctools\crt\crtw32\dllstuff\crtexe.c:618] [in D:\Programme\Unreal Engine\4.4\Engine\Binaries\Win64\UE4Editor.exe]
+Address = 0x778c59ed (filename not found) [in C:\Windows\system32\kernel32.dll]
+Address = 0x779fc541 (filename not found) [in C:\Windows\SYSTEM32\ntdll.dll]
+Address = 0x779fc541 (filename not found) [in C:\Windows\SYSTEM32\ntdll.dll]
+
+[2014.10.04-09.44.46:636][919]LogExit: Executing StaticShutdownAfterError
+[2014.10.04-09.44.46:759][919]LogWindows: FPlatformMisc::RequestExit(1)
+[2014.10.04-09.44.46:759][919]Log file closed, 10/04/14 11:44:46
