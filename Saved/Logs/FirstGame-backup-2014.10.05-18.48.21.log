@@ -1,0 +1,84 @@
+Log file open, 10/04/14 17:12:17
+LogInit:Display: Running engine for game: FirstGame
+LogInit: Version: 4.4.3-2296771+++depot+UE4-Releases+4.4
+LogInit: API Version: 2255576
+LogInit: Compiled (64-bit): Sep 13 2014 22:30:58
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++depot+UE4-Releases+4.4
+LogInit: Command line:  
+LogInit: Base directory: M:/UDK/Unreal Engine/4.4/Engine/Binaries/Win64/
+LogInit: Rocket: 1
+[2014.10.04-15.12.17:808][  0]LogTaskGraph: Started task graph with 3 named threads and 4 total threads.
+[2014.10.04-15.12.17:845][  0]LogOnline:Warning: No default platform service specified for OnlineSubsystem
+[2014.10.04-15.12.17:867][  0]LogInit: Presizing for 0 objects not considered by GC, pre-allocating 0 bytes.
+[2014.10.04-15.12.17:886][  0]LogInit: Object subsystem initialized
+[2014.10.04-15.12.17:893][  0]LogInit: Selected Device Profile: [Windows]
+[2014.10.04-15.12.17:893][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2014.10.04-15.12.17:913][  0]LogInit: Computer: ADMIN-PC
+[2014.10.04-15.12.17:914][  0]LogInit: User: admin
+[2014.10.04-15.12.17:916][  0]LogInit: CPU Page size=4096, Cores=4
+[2014.10.04-15.12.17:916][  0]LogInit: High frequency timer resolution =3.326103 MHz
+[2014.10.04-15.12.17:916][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx) Virtual=8192.0GB
+[2014.10.04-15.12.17:916][  0]LogMemory: Platform Memory Stats for Windows
+[2014.10.04-15.12.17:916][  0]LogMemory: Process Physical Memory: 62.55 MB used, 62.55 MB peak
+[2014.10.04-15.12.17:917][  0]LogMemory: Process Virtual Memory: 38.30 MB used, 41.57 MB peak
+[2014.10.04-15.12.17:917][  0]LogMemory: Physical Memory: 6438.20 MB used, 16320.65 MB total
+[2014.10.04-15.12.17:917][  0]LogMemory: Virtual Memory: 261.25 MB used, 8388608.00 MB total
+[2014.10.04-15.12.18:026][  0]LogD3D11RHI: Found D3D11 adapter 0: NVIDIA GeForce GTX 770 (Feature Level 11_0)
+[2014.10.04-15.12.18:026][  0]LogD3D11RHI: Adapter has 1990MB of dedicated video memory, 0MB of dedicated system memory, and 2048MB of shared system memory, 1 output[s]
+[2014.10.04-15.12.18:026][  0]LogD3D11RHI: Chosen D3D11 Adapter Id = 0
+[2014.10.04-15.12.18:041][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2014.10.04-15.12.18:068][  0]LogD3D11RHI: Async texture creation enabled
+[2014.10.04-15.12.18:146][  0]LogTextLocalizationManager:Warning: The selected culture 'de_DE' is not available; falling back to 'en'
+[2014.10.04-15.12.18:364][  0]LogContentStreaming: Texture pool size is 0.000000MB
+[2014.10.04-15.12.22:962][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2014.10.04-15.12.24:096][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2014.10.04-15.12.24:183][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2014.10.04-15.12.24:276][  0]LogDerivedDataCache: Loaded boot cache 0.09s 39MB C:/Users/admin/AppData/Local/UnrealEngine/4.4/DerivedDataCache/Boot.ddc.
+[2014.10.04-15.12.24:276][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/admin/AppData/Local/UnrealEngine/4.4/DerivedDataCache/Boot.ddc
+[2014.10.04-15.12.24:276][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file N:/UnrealProject/EpicGames/First-Game/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2014.10.04-15.12.24:276][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2014.10.04-15.12.24:330][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/DDC.ddp.
+[2014.10.04-15.12.24:343][  0]LogDerivedDataCache: Using Local data cache path C:/Users/admin/AppData/Local/UnrealEngine/4.4/DerivedDataCache: Writable
+[2014.10.04-15.12.24:803][  0]LogMeshUtilities: No automatic mesh reduction module available
+[2014.10.04-15.12.24:803][  0]LogMeshUtilities: No automatic mesh merging module available
+[2014.10.04-15.12.25:583][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2014.10.04-15.12.29:135][  0]LogStats:Warning: MetaData mismatch. Did you assign a stat to two groups? New //STATGROUP_Threads//FMonitoredProcess///Thread_2750_0///////STATCAT_Advanced//// old //STATGROUP_Threads//FMonitoredProcess///Thread_b04_0///////STATCAT_Advanced////
+[2014.10.04-15.12.29:135][  0]UdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2014.10.04-15.12.29:371][  0]SourceControl: Info Source control is disabled
+[2014.10.04-15.12.29:371][  0]SourceControl: Info Source control is disabled
+[2014.10.04-15.12.29:384][  0]SourceControl: Info Source control is disabled
+[2014.10.04-15.12.29:805][  0]BlueprintLog: New page: Editor Load
+[2014.10.04-15.12.30:039][  0]LogObj: 21438 objects as part of root set at end of initial load.
+[2014.10.04-15.12.30:039][  0]LogUObjectAllocator: 4218656 out of 0 bytes used by permanent object pool.
+[2014.10.04-15.12.30:651][  0]LogEngine: Initializing Engine...
+[2014.10.04-15.12.30:984][  0]LogInit: XAudio2 using 'Philips FTV-4 (NVIDIA High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2014.10.04-15.12.31:013][  0]LogInit: FAudioDevice initialized.
+[2014.10.04-15.12.31:050][  0]LogAIModule: Creating AISystem for world NewWorld
+[2014.10.04-15.12.31:102][  0]LogDerivedDataCache: Saved boot cache 0.05s 39MB C:/Users/admin/AppData/Local/UnrealEngine/4.4/DerivedDataCache/Boot.ddc.
+[2014.10.04-15.12.31:110][  0]LogInit: Texture streaming: Enabled
+[2014.10.04-15.12.31:180][  0]LogInit: Transaction tracking system initialized
+[2014.10.04-15.12.31:394][  0]LogAssetRegistry: FAssetRegistry took 0.0100 seconds to start up
+[2014.10.04-15.12.32:544][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2014.10.04-15.12.33:412][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2014.10.04-15.12.33:706][  0]LogConsoleResponse:Display: 
+[2014.10.04-15.12.34:086][  0]LogStats:Warning: MetaData mismatch. Did you assign a stat to two groups? New //STATGROUP_Threads//FMonitoredProcess///Thread_25e8_0///////STATCAT_Advanced//// old //STATGROUP_Threads//FMonitoredProcess///Thread_b04_0///////STATCAT_Advanced////
+[2014.10.04-15.12.34:086][  0]LogStats:Warning: MetaData mismatch. Did you assign a stat to two groups? New //STATGROUP_Threads//FMonitoredProcess///Thread_2420_0///////STATCAT_Advanced//// old //STATGROUP_Threads//FMonitoredProcess///Thread_b04_0///////STATCAT_Advanced////
+[2014.10.04-15.12.34:086][  0]SourceControl: Info Source control is disabled
+[2014.10.04-15.12.34:087][  0]Cmd: MAP LOAD FILE="N:/UnrealProject/EpicGames/First-Game/Content/Maps/Example_Map.umap" TEMPLATE=0 SHOWPROGRESS=1
+[2014.10.04-15.12.34:088][  0]LightingResults: New page: Lighting Build
+[2014.10.04-15.12.34:110][  0]MapCheck: New page: Map Check
+[2014.10.04-15.12.34:110][  0]LightingResults: New page: Lighting Build
+[2014.10.04-15.12.34:144][  0]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000013318360
+[2014.10.04-15.12.36:312][  0]LogStaticMesh: Building static mesh AssaultRifleA_Ammo...
+[2014.10.04-15.12.36:321][  0]LogStaticMesh: Built static mesh [9.844854ms] /Game/Weapons/MilitaryWeapSilver/Weapons/AssaultRifleA_Ammo.AssaultRifleA_Ammo
+[2014.10.04-15.12.36:417][  0]BlueprintLog:Warning: Warning Blueprint MyHUD has been migrated and requires re-saving to avoid import errors
+[2014.10.04-15.12.36:418][  0]BlueprintLog:Warning: Warning Blueprint MyGame has been migrated and requires re-saving to avoid import errors
+[2014.10.04-15.12.36:478][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2014.10.04-15.12.36:479][  0]LogAIModule: Creating AISystem for world Example_Map
+[2014.10.04-15.12.36:479][  0]Cmd: MAP CHECKDEP
+[2014.10.04-15.12.36:480][  0]MapCheck: New page: Example_Map - Oct 4, 2014, 7:12:36 PM
+[2014.10.04-15.12.36:652][  0]MapCheck: Info ========== Map Check: 0 Error(s), 0 Warning(s), [172.178ms] ==========
+[2014.10.04-15.12.36:652][  0]LogFileHelpers: Loading map 'Example_Map' took 2.565
+[2014.10.04-15.12.36:790][  0]LogCollectionManager: Loaded 0 collections in 0.002298 seconds
+[201
